@@ -1,0 +1,192 @@
+{
+ "A 학습 게임": {
+  "items": 146,
+  "jev-1.13.0": {
+   "scored": 146,
+   "score": 0.154,
+   "accuracy": 0.363
+  },
+  "kev": {
+   "scored": 146,
+   "score": 0.087,
+   "accuracy": 0.308
+  },
+  "semif": {
+   "scored": 146,
+   "score": 0.127,
+   "accuracy": 0.342
+  },
+  "jeff-0.8b": {
+   "scored": 146,
+   "score": 0.096,
+   "accuracy": 0.329
+  },
+  "jeff-0.8b-torch": {
+   "scored": 146,
+   "score": 0.102,
+   "accuracy": 0.329
+  },
+  "jeff-0.8b-board": {
+   "scored": 146,
+   "score": 0.183,
+   "accuracy": 0.404
+  },
+  "tuned_vs_base": {
+   "only_tuned": 39,
+   "only_base": 28,
+   "mcnemar_p": 0.22154872964481115
+  }
+ },
+ "B 새 판 게임": {
+  "items": 137,
+  "jev-1.13.0": {
+   "scored": 137,
+   "score": 0.163,
+   "accuracy": 0.372
+  },
+  "kev": {
+   "scored": 137,
+   "score": 0.166,
+   "accuracy": 0.365
+  },
+  "semif": {
+   "scored": 137,
+   "score": 0.019,
+   "accuracy": 0.255
+  },
+  "jeff-0.8b": {
+   "scored": 137,
+   "score": 0.096,
+   "accuracy": 0.314
+  },
+  "jeff-0.8b-torch": {
+   "scored": 137,
+   "score": 0.079,
+   "accuracy": 0.299
+  },
+  "jeff-0.8b-board": {
+   "scored": 137,
+   "score": 0.057,
+   "accuracy": 0.285
+  },
+  "tuned_vs_base": {
+   "only_tuned": 24,
+   "only_base": 26,
+   "mcnemar_p": 0.887724827340783
+  }
+ },
+ "B' 새 판 게임의 변형": {
+  "items": 34,
+  "jev-1.13.0": {
+   "scored": 34,
+   "score": 0.209,
+   "accuracy": 0.412
+  },
+  "kev": {
+   "scored": 34,
+   "score": 0.242,
+   "accuracy": 0.441
+  },
+  "semif": {
+   "scored": 34,
+   "score": -0.058,
+   "accuracy": 0.206
+  },
+  "jeff-0.8b": {
+   "scored": 34,
+   "score": 0.186,
+   "accuracy": 0.382
+  },
+  "jeff-0.8b-torch": {
+   "scored": 34,
+   "score": 0.12,
+   "accuracy": 0.353
+  },
+  "jeff-0.8b-board": {
+   "scored": 34,
+   "score": 0.305,
+   "accuracy": 0.471
+  },
+  "tuned_vs_base": {
+   "only_tuned": 9,
+   "only_base": 5,
+   "mcnemar_p": 0.4239501953125
+  }
+ },
+ "C (주석) 문항": {
+  "items": 111,
+  "jev-1.13.0": {
+   "scored": 111,
+   "score": 0.511,
+   "accuracy": 0.667
+  },
+  "kev": {
+   "scored": 111,
+   "score": 0.41,
+   "accuracy": 0.568
+  },
+  "semif": {
+   "scored": 111,
+   "score": 0.428,
+   "accuracy": 0.595
+  },
+  "jeff-0.8b": {
+   "scored": 111,
+   "score": 0.075,
+   "accuracy": 0.297
+  },
+  "jeff-0.8b-torch": {
+   "scored": 111,
+   "score": 0.063,
+   "accuracy": 0.288
+  },
+  "jeff-0.8b-board": {
+   "scored": 111,
+   "score": 0.032,
+   "accuracy": 0.252
+  },
+  "tuned_vs_base": {
+   "only_tuned": 16,
+   "only_base": 20,
+   "mcnemar_p": 0.617719317029696
+  }
+ },
+ "D 판 없는 게임": {
+  "items": 670,
+  "jev-1.13.0": {
+   "scored": 670,
+   "score": 0.42,
+   "accuracy": 0.566
+  },
+  "kev": {
+   "scored": 670,
+   "score": 0.215,
+   "accuracy": 0.431
+  },
+  "semif": {
+   "scored": 670,
+   "score": 0.115,
+   "accuracy": 0.36
+  },
+  "jeff-0.8b": {
+   "scored": 670,
+   "score": 0.057,
+   "accuracy": 0.316
+  },
+  "jeff-0.8b-torch": {
+   "scored": 670,
+   "score": 0.057,
+   "accuracy": 0.316
+  },
+  "jeff-0.8b-board": {
+   "scored": 670,
+   "score": -0.003,
+   "accuracy": 0.272
+  },
+  "tuned_vs_base": {
+   "only_tuned": 117,
+   "only_base": 147,
+   "mcnemar_p": 0.07408936428582724
+  }
+ }
+}

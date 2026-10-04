@@ -1,0 +1,122 @@
+{
+ "jev-1.13.0": {
+  "전체": {
+   "n": 100,
+   "per_option": 0.44,
+   "choice": 0.44,
+   "only_per_option": 9,
+   "only_choice": 9,
+   "mcnemar_p": 1.0
+  },
+  "사목": {
+   "n": 50,
+   "per_option": 0.42,
+   "choice": 0.38,
+   "only_per_option": 7,
+   "only_choice": 5,
+   "mcnemar_p": 0.774
+  },
+  "오목": {
+   "n": 50,
+   "per_option": 0.46,
+   "choice": 0.5,
+   "only_per_option": 2,
+   "only_choice": 4,
+   "mcnemar_p": 0.688
+  },
+  "1-판정": {
+   "n": 26,
+   "per_option": 0.385,
+   "choice": 0.462,
+   "only_per_option": 0,
+   "only_choice": 2,
+   "mcnemar_p": 0.5
+  },
+  "2-변형": {
+   "n": 26,
+   "per_option": 0.538,
+   "choice": 0.423,
+   "only_per_option": 4,
+   "only_choice": 1,
+   "mcnemar_p": 0.375
+  },
+  "3-한수(판)": {
+   "n": 24,
+   "per_option": 0.542,
+   "choice": 0.5,
+   "only_per_option": 2,
+   "only_choice": 1,
+   "mcnemar_p": 1.0
+  },
+  "4-앞보기(판)": {
+   "n": 24,
+   "per_option": 0.292,
+   "choice": 0.375,
+   "only_per_option": 3,
+   "only_choice": 5,
+   "mcnemar_p": 0.727
+  },
+  "mean_value": 1.277,
+  "mean_spread": 0.732
+ },
+ "jeff-0.8b-torch": {
+  "전체": {
+   "n": 100,
+   "per_option": 0.33,
+   "choice": 0.31,
+   "only_per_option": 9,
+   "only_choice": 7,
+   "mcnemar_p": 0.804
+  },
+  "사목": {
+   "n": 50,
+   "per_option": 0.36,
+   "choice": 0.32,
+   "only_per_option": 5,
+   "only_choice": 3,
+   "mcnemar_p": 0.727
+  },
+  "오목": {
+   "n": 50,
+   "per_option": 0.3,
+   "choice": 0.3,
+   "only_per_option": 4,
+   "only_choice": 4,
+   "mcnemar_p": 1.0
+  },
+  "1-판정": {
+   "n": 26,
+   "per_option": 0.269,
+   "choice": 0.346,
+   "only_per_option": 0,
+   "only_choice": 2,
+   "mcnemar_p": 0.5
+  },
+  "2-변형": {
+   "n": 26,
+   "per_option": 0.577,
+   "choice": 0.5,
+   "only_per_option": 3,
+   "only_choice": 1,
+   "mcnemar_p": 0.625
+  },
+  "3-한수(판)": {
+   "n": 24,
+   "per_option": 0.208,
+   "choice": 0.208,
+   "only_per_option": 3,
+   "only_choice": 3,
+   "mcnemar_p": 1.0
+  },
+  "4-앞보기(판)": {
+   "n": 24,
+   "per_option": 0.25,
+   "choice": 0.167,
+   "only_per_option": 3,
+   "only_choice": 1,
+   "mcnemar_p": 0.625
+  },
+  "mean_value": 1.706,
+  "mean_spread": 0.352
+ }
+}

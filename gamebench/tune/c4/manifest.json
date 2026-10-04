@@ -1,0 +1,38 @@
+{
+ "game": "connect4",
+ "v1_keys_banned": 1144,
+ "train": 1000,
+ "dev": 100,
+ "test": 500,
+ "near_test": 300,
+ "train_by_stage": {
+  "1-판정": 259,
+  "2-변형": 284,
+  "3-한수(판)": 245,
+  "4-앞보기(판)": 212
+ },
+ "dev_by_stage": {
+  "1-판정": 29,
+  "2-변형": 33,
+  "3-한수(판)": 20,
+  "4-앞보기(판)": 18
+ },
+ "test_by_stage": {
+  "1-판정": 120,
+  "2-변형": 156,
+  "3-한수(판)": 118,
+  "4-앞보기(판)": 106
+ },
+ "near_by_stage": {
+  "1-판정": 80,
+  "2-변형": 77,
+  "3-한수(판)": 73,
+  "4-앞보기(판)": 70
+ },
+ "sha256": {
+  "data/train.jsonl": "d3bb5c6b096b187e6065d3c94161ab6b1ef6b74a0640e7bed28751f063117eb8",
+  "data/dev.jsonl": "00753fd0b2a1370449c72388cb1fb74f3c574fb6efbedd6add83c03ef4680ab0",
+  "test/items.jsonl": "df996080abd238bdcef7ce17be251151dafee4f40689790402682fae341f735b",
+  "test/gold.json": "6619dc8dd164021277eadcce8432f85d455fcdb755c91b2049bfea085877cf2d"
+ }
+}

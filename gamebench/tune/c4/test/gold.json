@@ -1,0 +1,3668 @@
+{
+ "connect4:1-판정:000@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000000": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000000": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000000": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000000": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000000": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000000": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000000": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000000": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000000": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000000": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000000": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:010@3000000": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 3
+ },
+ "connect4:3-한수(판):001@3000000": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000000": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000000": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:2-변형:012@3000000": {
+  "answer": 4,
+  "original_answer": 5,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 5
+ },
+ "connect4:3-한수(판):003@3000000": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000000": {
+  "answer": 1,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000000": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000000": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000000": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:3-한수(판):006@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):007@3000000": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000000": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:3-한수(판):009@3000000": {
+  "answer": 2,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):000@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):001@3000000": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:016@3000000": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):002@3000000": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:2-변형:017@3000000": {
+  "answer": 3,
+  "original_answer": 5,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):003@3000000": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000000": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000000": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000000": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000000": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):008@3000000": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000000": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:000@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000001": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000001": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000001": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000001": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000001": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000001": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000001": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000001": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000001": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:010@3000001": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 4
+ },
+ "connect4:3-한수(판):001@3000001": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000001": {
+  "answer": 1,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000001": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000001": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000001": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000001": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):005@3000001": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):006@3000001": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):007@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):008@3000001": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):009@3000001": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):000@3000001": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000001": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000001": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000001": {
+  "answer": 1,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):002@3000001": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000001": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000001": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000001": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000001": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):007@3000001": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):008@3000001": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000001": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:1-판정:000@3000002": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000002": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000002": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000002": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000002": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000002": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000002": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000002": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000002": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000002": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:010@3000002": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 3
+ },
+ "connect4:3-한수(판):001@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000002": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000002": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:012@3000002": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 4
+ },
+ "connect4:3-한수(판):003@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000002": {
+  "answer": 4,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000002": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000002": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):006@3000002": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:3-한수(판):007@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000002": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):009@3000002": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):000@3000002": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000002": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):001@3000002": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:2-변형:016@3000002": {
+  "answer": 3,
+  "original_answer": 5,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):002@3000002": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:017@3000002": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):003@3000002": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:018@3000002": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000002": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:019@3000002": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):005@3000002": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):006@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000002": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):008@3000002": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000002": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:1-판정:000@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000003": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000003": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000003": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000003": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000003": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000003": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000003": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000003": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:010@3000003": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 3
+ },
+ "connect4:3-한수(판):001@3000003": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000003": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000003": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:012@3000003": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 4
+ },
+ "connect4:3-한수(판):003@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):004@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):005@3000003": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:3-한수(판):006@3000003": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000003": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:3-한수(판):008@3000003": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):009@3000003": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000003": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000003": {
+  "answer": 4,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000003": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000003": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):002@3000003": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000003": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000003": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:016@3000003": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000003": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:2-변형:017@3000003": {
+  "answer": 5,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):005@3000003": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):006@3000003": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):007@3000003": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):008@3000003": {
+  "answer": 4,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):009@3000003": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:1-판정:000@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000004": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000004": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000004": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000004": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000004": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000004": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000004": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000004": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:010@3000004": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 3
+ },
+ "connect4:3-한수(판):001@3000004": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000004": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000004": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000004": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:013@3000004": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 3
+ },
+ "connect4:3-한수(판):004@3000004": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000004": {
+  "answer": 2,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000004": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:3-한수(판):006@3000004": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:3-한수(판):007@3000004": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:3-한수(판):009@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000004": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000004": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):001@3000004": {
+  "answer": 4,
+  "n": 5
+ },
+ "connect4:2-변형:016@3000004": {
+  "answer": 1,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):002@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:017@3000004": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):003@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:018@3000004": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:019@3000004": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):005@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000004": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):008@3000004": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000004": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:000@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000005": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000005": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000005": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000005": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000005": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000005": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000005": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000005": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000005": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000005": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000005": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:2-변형:010@3000005": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 5
+ },
+ "connect4:3-한수(판):001@3000005": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000005": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000005": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000005": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000005": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000005": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000005": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000005": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):006@3000005": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000005": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000005": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):009@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000005": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:015@3000005": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000005": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:016@3000005": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000005": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:018@3000005": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000005": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:019@3000005": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000005": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000005": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000005": {
+  "answer": 2,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):008@3000005": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):009@3000005": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:000@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000006": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000006": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000006": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000006": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000006": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000006": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000006": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000006": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000006": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:010@3000006": {
+  "answer": 4,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 4
+ },
+ "connect4:3-한수(판):001@3000006": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000006": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000006": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:012@3000006": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 4
+ },
+ "connect4:3-한수(판):003@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:013@3000006": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 3
+ },
+ "connect4:3-한수(판):004@3000006": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000006": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000006": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):006@3000006": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000006": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000006": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):009@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000006": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:2-변형:015@3000006": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):001@3000006": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:2-변형:016@3000006": {
+  "answer": 4,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):002@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:017@3000006": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000006": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:018@3000006": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000006": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:019@3000006": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):006@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):007@3000006": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):008@3000006": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000006": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:1-판정:000@3000007": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000007": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000007": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000007": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000007": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000007": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000007": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000007": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000007": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000007": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000007": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000007": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000007": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000007": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000007": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000007": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:010@3000007": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 4
+ },
+ "connect4:3-한수(판):001@3000007": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000007": {
+  "answer": 4,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000007": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000007": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000007": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000007": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):005@3000007": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:3-한수(판):006@3000007": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000007": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):008@3000007": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:3-한수(판):009@3000007": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):000@3000007": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000007": {
+  "answer": 4,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000007": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000007": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):002@3000007": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:015@3000007": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):003@3000007": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:016@3000007": {
+  "answer": 4,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000007": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):006@3000007": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000007": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):008@3000007": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000007": {
+  "answer": 4,
+  "n": 5
+ },
+ "connect4:1-판정:000@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000008": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000008": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000008": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000008": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000008": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000008": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000008": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000008": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000008": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000008": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000008": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000008": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:010@3000008": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 4
+ },
+ "connect4:3-한수(판):001@3000008": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000008": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000008": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000008": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000008": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000008": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):006@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:3-한수(판):008@3000008": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:3-한수(판):009@3000008": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000008": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):002@3000008": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:016@3000008": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000008": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:017@3000008": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:018@3000008": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000008": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000008": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000008": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):008@3000008": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000008": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:1-판정:000@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000009": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000009": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000009": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000009": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000009": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000009": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000009": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000009": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:2-변형:010@3000009": {
+  "answer": 2,
+  "original_answer": 5,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 5
+ },
+ "connect4:3-한수(판):001@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:011@3000009": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 3
+ },
+ "connect4:3-한수(판):002@3000009": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):003@3000009": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):004@3000009": {
+  "answer": 1,
+  "n": 5
+ },
+ "connect4:3-한수(판):005@3000009": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:3-한수(판):006@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):007@3000009": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:3-한수(판):008@3000009": {
+  "answer": 2,
+  "n": 5
+ },
+ "connect4:3-한수(판):009@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000009": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:012@3000009": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):001@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:013@3000009": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):003@3000009": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:015@3000009": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):004@3000009": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:016@3000009": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):005@3000009": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):006@3000009": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000009": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):008@3000009": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):009@3000009": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:1-판정:000@3000010": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000010": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000010": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000010": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000010": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000010": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000010": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000010": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000010": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000010": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:010@3000010": {
+  "answer": 4,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 4
+ },
+ "connect4:3-한수(판):001@3000010": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000010": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000010": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:012@3000010": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 3
+ },
+ "connect4:3-한수(판):003@3000010": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:2-변형:013@3000010": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 5
+ },
+ "connect4:3-한수(판):004@3000010": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000010": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000010": {
+  "answer": 5,
+  "n": 5
+ },
+ "connect4:3-한수(판):006@3000010": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:3-한수(판):007@3000010": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:3-한수(판):008@3000010": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:3-한수(판):009@3000010": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):000@3000010": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:015@3000010": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):000",
+  "n": 3
+ },
+ "connect4:4-앞보기(판):001@3000010": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:016@3000010": {
+  "answer": 4,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):001",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):002@3000010": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:017@3000010": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:4-앞보기(판):002",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):003@3000010": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:2-변형:018@3000010": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:4-앞보기(판):003",
+  "n": 5
+ },
+ "connect4:4-앞보기(판):004@3000010": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:2-변형:019@3000010": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:4-앞보기(판):004",
+  "n": 4
+ },
+ "connect4:4-앞보기(판):005@3000010": {
+  "answer": 1,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):006@3000010": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:4-앞보기(판):007@3000010": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:4-앞보기(판):008@3000010": {
+  "answer": 4,
+  "n": 5
+ },
+ "connect4:4-앞보기(판):009@3000010": {
+  "answer": 3,
+  "n": 5
+ },
+ "connect4:1-판정:000@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:000@3000011": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:000",
+  "n": 3
+ },
+ "connect4:1-판정:001@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:002@3000011": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:2-변형:002@3000011": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "connect4:1-판정:002",
+  "n": 3
+ },
+ "connect4:1-판정:003@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:004@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:004@3000011": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:004",
+  "n": 3
+ },
+ "connect4:1-판정:005@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:1-판정:006@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:2-변형:006@3000011": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "connect4:1-판정:006",
+  "n": 3
+ },
+ "connect4:1-판정:007@3000011": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:1-판정:008@3000011": {
+  "answer": 2,
+  "n": 3
+ },
+ "connect4:2-변형:008@3000011": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:1-판정:008",
+  "n": 3
+ },
+ "connect4:1-판정:009@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "connect4:3-한수(판):000@3000011": {
+  "answer": 2,
+  "n": 5
+ },
+ "connect4:2-변형:010@3000011": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):000",
+  "n": 5
+ },
+ "connect4:3-한수(판):001@3000011": {
+  "answer": 4,
+  "n": 4
+ },
+ "connect4:2-변형:011@3000011": {
+  "answer": 3,
+  "original_answer": 4,
+  "twin_of": "connect4:3-한수(판):001",
+  "n": 4
+ },
+ "connect4:3-한수(판):002@3000011": {
+  "answer": 3,
+  "n": 4
+ },
+ "connect4:2-변형:012@3000011": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "connect4:3-한수(판):002",
+  "n": 4
+ },
+ "connect4:3-한수(판):003@3000011": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:013@3000011": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):003",
+  "n": 4
+ },
+ "connect4:3-한수(판):004@3000011": {
+  "answer": 2,
+  "n": 4
+ },
+ "connect4:2-변형:014@3000011": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "connect4:3-한수(판):004",
+  "n": 4
+ },
+ "connect4:3-한수(판):005@3000011": {
+  "answer": 1,
+  "n": 3
+ },
+ "connect4:3-한수(판):006@3000011": {
+  "answer": 2,
+  "n": 5
+ },
+ "connect4:3-한수(판):007@3000011": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:000@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300000": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300000": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300000": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300000": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300000": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300000": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300000": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300000": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300000": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300000": {
+  "answer": 3,
+  "original_answer": 6,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300000": {
+  "answer": 10,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300000": {
+  "answer": 5,
+  "original_answer": 10,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300000": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300000": {
+  "answer": 10,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300000": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300000": {
+  "answer": 3,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300000": {
+  "answer": 9,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300000": {
+  "answer": 11,
+  "original_answer": 9,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300000": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300000": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300000": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300000": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300000": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300000": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300000": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300000": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300000": {
+  "answer": 10,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300000": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300000": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300000": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300000": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300000": {
+  "answer": 10,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300000": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300001": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300001": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300001": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300001": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300001": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300001": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300001": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300001": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300001": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300001": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300001": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300001": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300001": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300001": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300001": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300001": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300001": {
+  "answer": 11,
+  "original_answer": 3,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300001": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300001": {
+  "answer": 5,
+  "original_answer": 6,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300001": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300001": {
+  "answer": 8,
+  "original_answer": 12,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300001": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300001": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300001": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300001": {
+  "answer": 5,
+  "original_answer": 3,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300001": {
+  "answer": 1,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300001": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300001": {
+  "answer": 1,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300001": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300001": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300001": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300001": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300001": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300001": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300001": {
+  "answer": 5,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300001": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300001": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300001": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300001": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300001": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300002": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300002": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300002": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300002": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300002": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300002": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300002": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300002": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300002": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300002": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300002": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300002": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300002": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300002": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300002": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300002": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300002": {
+  "answer": 8,
+  "original_answer": 4,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300002": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300002": {
+  "answer": 8,
+  "original_answer": 2,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300002": {
+  "answer": 11,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300002": {
+  "answer": 9,
+  "original_answer": 11,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300002": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300002": {
+  "answer": 12,
+  "original_answer": 5,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300002": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300002": {
+  "answer": 8,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300002": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300002": {
+  "answer": 10,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300002": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300002": {
+  "answer": 8,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300002": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300002": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300002": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300002": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300002": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300002": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300002": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300002": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300002": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300002": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300002": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300003": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300003": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300003": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300003": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300003": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300003": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300003": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300003": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300003": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300003": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300003": {
+  "answer": 8,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300003": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300003": {
+  "answer": 9,
+  "original_answer": 2,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300003": {
+  "answer": 8,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300003": {
+  "answer": 4,
+  "original_answer": 8,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300003": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300003": {
+  "answer": 7,
+  "original_answer": 5,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300003": {
+  "answer": 1,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300003": {
+  "answer": 8,
+  "original_answer": 1,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300003": {
+  "answer": 9,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300003": {
+  "answer": 8,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300003": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:3-한수(판):008@3300003": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300003": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300003": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300003": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300003": {
+  "answer": 10,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300003": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300003": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300003": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300003": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300003": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300003": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300003": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300004": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300004": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300004": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300004": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300004": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300004": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300004": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300004": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300004": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300004": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300004": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300004": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300004": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300004": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300004": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300004": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300004": {
+  "answer": 4,
+  "original_answer": 5,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300004": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300004": {
+  "answer": 2,
+  "original_answer": 6,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300004": {
+  "answer": 11,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300004": {
+  "answer": 1,
+  "original_answer": 11,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300004": {
+  "answer": 10,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300004": {
+  "answer": 11,
+  "original_answer": 10,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300004": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300004": {
+  "answer": 8,
+  "original_answer": 5,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300004": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300004": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300004": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300004": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300004": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300004": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300004": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300004": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300004": {
+  "answer": 5,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300004": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300004": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300004": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300004": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300004": {
+  "answer": 2,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300004": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300005": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300005": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300005": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300005": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300005": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300005": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300005": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300005": {
+  "answer": 2,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300005": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300005": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300005": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300005": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300005": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300005": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300005": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300005": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300005": {
+  "answer": 9,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300005": {
+  "answer": 2,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300005": {
+  "answer": 8,
+  "original_answer": 2,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300005": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300005": {
+  "answer": 5,
+  "original_answer": 4,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300005": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300005": {
+  "answer": 2,
+  "original_answer": 12,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300005": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300005": {
+  "answer": 4,
+  "original_answer": 3,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300005": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300005": {
+  "answer": 10,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300005": {
+  "answer": 3,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300005": {
+  "answer": 11,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300005": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300005": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300005": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300005": {
+  "answer": 3,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300005": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300005": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300005": {
+  "answer": 6,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300005": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300005": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300005": {
+  "answer": 5,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300005": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300006": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300006": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300006": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300006": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300006": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300006": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300006": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300006": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300006": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300006": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300006": {
+  "answer": 1,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300006": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300006": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300006": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300006": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300006": {
+  "answer": 8,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300006": {
+  "answer": 12,
+  "original_answer": 8,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300006": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300006": {
+  "answer": 8,
+  "original_answer": 4,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300006": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:2-변형:007@3300006": {
+  "answer": 9,
+  "original_answer": 12,
+  "twin_of": "gomoku:3-한수(판):002",
+  "n": 12
+ },
+ "gomoku:3-한수(판):003@3300006": {
+  "answer": 12,
+  "n": 12
+ },
+ "gomoku:2-변형:008@3300006": {
+  "answer": 2,
+  "original_answer": 12,
+  "twin_of": "gomoku:3-한수(판):003",
+  "n": 12
+ },
+ "gomoku:3-한수(판):004@3300006": {
+  "answer": 5,
+  "n": 12
+ },
+ "gomoku:2-변형:009@3300006": {
+  "answer": 6,
+  "original_answer": 5,
+  "twin_of": "gomoku:3-한수(판):004",
+  "n": 12
+ },
+ "gomoku:3-한수(판):005@3300006": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:3-한수(판):006@3300006": {
+  "answer": 1,
+  "n": 12
+ },
+ "gomoku:3-한수(판):007@3300006": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:3-한수(판):008@3300006": {
+  "answer": 4,
+  "n": 12
+ },
+ "gomoku:3-한수(판):009@3300006": {
+  "answer": 6,
+  "n": 12
+ },
+ "gomoku:4-앞보기(판):000@3300006": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):001@3300006": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):002@3300006": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):003@3300006": {
+  "answer": 8,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):004@3300006": {
+  "answer": 5,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):005@3300006": {
+  "answer": 9,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):006@3300006": {
+  "answer": 4,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):007@3300006": {
+  "answer": 10,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):008@3300006": {
+  "answer": 7,
+  "n": 10
+ },
+ "gomoku:4-앞보기(판):009@3300006": {
+  "answer": 1,
+  "n": 10
+ },
+ "gomoku:1-판정:000@3300007": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:000@3300007": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:000",
+  "n": 3
+ },
+ "gomoku:1-판정:001@3300007": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:1-판정:002@3300007": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:2-변형:001@3300007": {
+  "answer": 3,
+  "original_answer": 2,
+  "twin_of": "gomoku:1-판정:002",
+  "n": 3
+ },
+ "gomoku:1-판정:003@3300007": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:004@3300007": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:002@3300007": {
+  "answer": 2,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:004",
+  "n": 3
+ },
+ "gomoku:1-판정:005@3300007": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:1-판정:006@3300007": {
+  "answer": 1,
+  "n": 3
+ },
+ "gomoku:2-변형:003@3300007": {
+  "answer": 3,
+  "original_answer": 1,
+  "twin_of": "gomoku:1-판정:006",
+  "n": 3
+ },
+ "gomoku:1-판정:007@3300007": {
+  "answer": 2,
+  "n": 3
+ },
+ "gomoku:1-판정:008@3300007": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:2-변형:004@3300007": {
+  "answer": 1,
+  "original_answer": 3,
+  "twin_of": "gomoku:1-판정:008",
+  "n": 3
+ },
+ "gomoku:1-판정:009@3300007": {
+  "answer": 3,
+  "n": 3
+ },
+ "gomoku:3-한수(판):000@3300007": {
+  "answer": 9,
+  "n": 12
+ },
+ "gomoku:2-변형:005@3300007": {
+  "answer": 8,
+  "original_answer": 9,
+  "twin_of": "gomoku:3-한수(판):000",
+  "n": 12
+ },
+ "gomoku:3-한수(판):001@3300007": {
+  "answer": 7,
+  "n": 12
+ },
+ "gomoku:2-변형:006@3300007": {
+  "answer": 2,
+  "original_answer": 7,
+  "twin_of": "gomoku:3-한수(판):001",
+  "n": 12
+ },
+ "gomoku:3-한수(판):002@3300007": {
+  "answer": 10,
+  "n": 12
+ }
+}

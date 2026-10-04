@@ -1,0 +1,130 @@
+{
+ "jev-1.13.0": {
+  "T 사목 grid": {
+   "scored": 500,
+   "accuracy": 0.316,
+   "score": 0.04,
+   "judge_picks": {
+    "X": 46,
+    "아직 없음": 61,
+    "O": 13
+   }
+  },
+  "T 사목 coords": {
+   "scored": 500,
+   "accuracy": 0.374,
+   "score": 0.123,
+   "judge_picks": {
+    "X": 38,
+    "아직 없음": 74,
+    "O": 8
+   },
+   "vs_grid": {
+    "only_rep": 69,
+    "only_grid": 40,
+    "mcnemar_p": 0.007040750835507646
+   }
+  },
+  "T 사목 stacks": {
+   "scored": 500,
+   "accuracy": 0.382,
+   "score": 0.132,
+   "judge_picks": {
+    "X": 31,
+    "아직 없음": 86,
+    "O": 3
+   },
+   "vs_grid": {
+    "only_rep": 84,
+    "only_grid": 51,
+    "mcnemar_p": 0.005682824660016597
+   }
+  },
+  "N 오목 grid": {
+   "scored": 300,
+   "accuracy": 0.407,
+   "score": 0.259,
+   "judge_picks": {
+    "O": 20,
+    "X": 28,
+    "아직 없음": 32
+   }
+  },
+  "N 오목 coords": {
+   "scored": 300,
+   "accuracy": 0.49,
+   "score": 0.355,
+   "judge_picks": {
+    "O": 13,
+    "X": 10,
+    "아직 없음": 57
+   },
+   "vs_grid": {
+    "only_rep": 47,
+    "only_grid": 22,
+    "mcnemar_p": 0.0035448128470210523
+   }
+  }
+ },
+ "jeff-0.8b-torch": {
+  "T 사목 grid": {
+   "scored": 500,
+   "accuracy": 0.37,
+   "score": 0.122,
+   "judge_picks": {
+    "아직 없음": 119,
+    "X": 1
+   }
+  },
+  "T 사목 coords": {
+   "scored": 500,
+   "accuracy": 0.338,
+   "score": 0.079,
+   "judge_picks": {
+    "아직 없음": 120
+   },
+   "vs_grid": {
+    "only_rep": 19,
+    "only_grid": 35,
+    "mcnemar_p": 0.0402235640957167
+   }
+  },
+  "T 사목 stacks": {
+   "scored": 500,
+   "accuracy": 0.356,
+   "score": 0.102,
+   "judge_picks": {
+    "아직 없음": 119,
+    "X": 1
+   },
+   "vs_grid": {
+    "only_rep": 44,
+    "only_grid": 51,
+    "mcnemar_p": 0.5383940262921683
+   }
+  },
+  "N 오목 grid": {
+   "scored": 300,
+   "accuracy": 0.22,
+   "score": 0.052,
+   "judge_picks": {
+    "아직 없음": 25,
+    "X": 55
+   }
+  },
+  "N 오목 coords": {
+   "scored": 300,
+   "accuracy": 0.28,
+   "score": 0.122,
+   "judge_picks": {
+    "아직 없음": 53,
+    "X": 27
+   },
+   "vs_grid": {
+    "only_rep": 36,
+    "only_grid": 18,
+    "mcnemar_p": 0.019834326728068286
+   }
+  }
+ }
+}

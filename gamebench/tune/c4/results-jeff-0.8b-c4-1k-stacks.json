@@ -1,0 +1,192 @@
+{
+ "T 사목 시험": {
+  "items": 500,
+  "jev-1.13.0": {
+   "scored": 500,
+   "accuracy": 0.382,
+   "score": 0.132
+  },
+  "jeff-0.8b-torch": {
+   "scored": 500,
+   "accuracy": 0.356,
+   "score": 0.102
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "scored": 500,
+   "accuracy": 0.362,
+   "score": 0.111
+  },
+  "grid-tuned": {
+   "scored": 500,
+   "accuracy": 0.362,
+   "score": 0.109
+  },
+  "tuned_vs_base": {
+   "only_tuned": 55,
+   "only_other": 52,
+   "mcnemar_p": 0.8468020751891949
+  },
+  "tuned_vs_grid_tuned": {
+   "only_tuned": 74,
+   "only_other": 74,
+   "mcnemar_p": 1.0
+  }
+ },
+ "T 1-판정": {
+  "items": 120,
+  "jev-1.13.0": {
+   "scored": 120,
+   "accuracy": 0.45,
+   "score": 0.175
+  },
+  "jeff-0.8b-torch": {
+   "scored": 120,
+   "accuracy": 0.367,
+   "score": 0.05
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "scored": 120,
+   "accuracy": 0.367,
+   "score": 0.05
+  },
+  "grid-tuned": {
+   "scored": 120,
+   "accuracy": 0.242,
+   "score": -0.137
+  },
+  "tuned_vs_base": {
+   "only_tuned": 0,
+   "only_other": 0,
+   "mcnemar_p": 1.0
+  },
+  "tuned_vs_grid_tuned": {
+   "only_tuned": 25,
+   "only_other": 10,
+   "mcnemar_p": 0.01667384780012071
+  }
+ },
+ "T 2-변형": {
+  "items": 156,
+  "jev-1.13.0": {
+   "scored": 156,
+   "accuracy": 0.391,
+   "score": 0.142
+  },
+  "jeff-0.8b-torch": {
+   "scored": 156,
+   "accuracy": 0.455,
+   "score": 0.254
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "scored": 156,
+   "accuracy": 0.519,
+   "score": 0.346
+  },
+  "grid-tuned": {
+   "scored": 156,
+   "accuracy": 0.532,
+   "score": 0.364
+  },
+  "tuned_vs_base": {
+   "only_tuned": 19,
+   "only_other": 9,
+   "mcnemar_p": 0.08715855330228806
+  },
+  "tuned_vs_grid_tuned": {
+   "only_tuned": 16,
+   "only_other": 18,
+   "mcnemar_p": 0.8641662404406816
+  }
+ },
+ "T 3-한수(판)": {
+  "items": 118,
+  "jev-1.13.0": {
+   "scored": 118,
+   "accuracy": 0.364,
+   "score": 0.133
+  },
+  "jeff-0.8b-torch": {
+   "scored": 118,
+   "accuracy": 0.28,
+   "score": 0.013
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "scored": 118,
+   "accuracy": 0.271,
+   "score": 0.005
+  },
+  "grid-tuned": {
+   "scored": 118,
+   "accuracy": 0.288,
+   "score": 0.037
+  },
+  "tuned_vs_base": {
+   "only_tuned": 23,
+   "only_other": 24,
+   "mcnemar_p": 1.0
+  },
+  "tuned_vs_grid_tuned": {
+   "only_tuned": 22,
+   "only_other": 24,
+   "mcnemar_p": 0.8829959121223965
+  }
+ },
+ "T 4-앞보기(판)": {
+  "items": 106,
+  "jev-1.13.0": {
+   "scored": 106,
+   "accuracy": 0.311,
+   "score": 0.068
+  },
+  "jeff-0.8b-torch": {
+   "scored": 106,
+   "accuracy": 0.283,
+   "score": 0.035
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "scored": 106,
+   "accuracy": 0.226,
+   "score": -0.046
+  },
+  "grid-tuned": {
+   "scored": 106,
+   "accuracy": 0.33,
+   "score": 0.092
+  },
+  "tuned_vs_base": {
+   "only_tuned": 13,
+   "only_other": 19,
+   "mcnemar_p": 0.37708558747544885
+  },
+  "tuned_vs_grid_tuned": {
+   "only_tuned": 11,
+   "only_other": 22,
+   "mcnemar_p": 0.08014331245794892
+  }
+ },
+ "judge_picks": {
+  "jeff-0.8b-torch": {
+   "connect4": {
+    "아직 없음": 119,
+    "X": 1
+   }
+  },
+  "jeff-0.8b-c4-1k-stacks": {
+   "connect4": {
+    "아직 없음": 120
+   }
+  },
+  "jeff-0.8b-c4-1k": {
+   "connect4": {
+    "아직 없음": 64,
+    "X": 23,
+    "O": 33
+   },
+   "gomoku": {
+    "X": 12,
+    "아직 없음": 45,
+    "O": 23
+   }
+  }
+ }
+}

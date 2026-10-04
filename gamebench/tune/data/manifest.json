@@ -1,0 +1,28 @@
+{
+ "train_games": [
+  "minesweeper",
+  "sudoku4",
+  "tictactoe",
+  "connect4"
+ ],
+ "v1_keys_banned": 1144,
+ "train": 8000,
+ "dev": 200,
+ "train_by_game": {
+  "connect4": 2000,
+  "minesweeper": 2000,
+  "sudoku4": 2000,
+  "tictactoe": 2000
+ },
+ "train_by_stage": {
+  "1-판정": 2822,
+  "2-변형": 2435,
+  "3-한수": 663,
+  "3-한수(판)": 1559,
+  "4-앞보기(판)": 521
+ },
+ "sha256": {
+  "train.jsonl": "774f0764d375c44432450367e06e5731fd909d1c5a298963827ab4dc1cd6b644",
+  "dev.jsonl": "531c77fc1e9f12fb7b7fb22c395f5b414bc7ecabbe6e1a9c4cc6a7c218714ce3"
+ }
+}
