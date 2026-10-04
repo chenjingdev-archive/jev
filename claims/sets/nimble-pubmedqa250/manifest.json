@@ -1,0 +1,84 @@
+{
+ "set": "nimble-pubmedqa250",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "pubmedqa",
+  "dataset": "pubmedqa",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/pubmedqa-manifest.json",
+   "sha256": "c358a651b45ca0f4ed4853af22ee2afd1a4f3040e1567ca93e5923130689d970"
+  },
+  "upstream": {
+   "url": "https://huggingface.co/datasets/qiaojin/PubMedQA/resolve/9001f2853fb87cab8d220904e0de81ac6973b318/pqa_labeled/train-00000-of-00001.parquet",
+   "repo": "qiaojin/PubMedQA",
+   "revision": "9001f2853fb87cab8d220904e0de81ac6973b318",
+   "file": "pqa_labeled/train-00000-of-00001.parquet",
+   "sha256": "3d56bd1abc11884579ecc3aab9dd3cdfce8b7cf54715daeca93b8022b7be231c",
+   "exported_to": "pubmedqa/train.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/qiaojin/PubMedQA",
+   "license": "MIT",
+   "release_year": 2019
+  },
+  "source_sha256": "0b9b06e379d39fff0b7c7acb33bdeb96c843049f1ad071e41c02aeaae16277fe",
+  "dataset_sha256": "8ee766a759a60280373f45a19a62c9e36462b1176508f193621095e102403a40",
+  "seed": 20260918,
+  "limit": 250,
+  "ids_from": null,
+  "converted": 1000,
+  "skipped": 0,
+  "dropped_over_length": 0,
+  "families": 250,
+  "maker_code": [
+   "nimble/datasets/public_sources/pubmedqa.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.756,
+  "jev-1.13.0": 0.772,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 250,
+ "sha256": {
+  "items.jsonl": "5978563a51a7333efc6169cc7bf36ba7722084ace6735d676030e85c8a4c0204",
+  "gold.json": "11beeff898f9c25c4eb0c87e62ca5f3beff1edfa57e80d353210d732e7bb04b3"
+ },
+ "type_counts": {
+  "choice": 250
+ },
+ "stats": {
+  "options": {
+   "3": 250
+  },
+  "answer_position": {
+   "1": 133,
+   "2": 80,
+   "3": 37
+  },
+  "label_by_position": {
+   "1": "yes",
+   "2": "no",
+   "3": "maybe"
+  },
+  "nimble_labels": {
+   "yes": 133,
+   "no": 80,
+   "maybe": 37
+  },
+  "stages": {
+   "pubmedqa": 250
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/pubmedqa.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain."
+ ]
+}

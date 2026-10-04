@@ -34,8 +34,14 @@ CHECKPOINTS = {  # name -> (Hub repo, revision fetched 2026-09-29, local dir)
     'jeff-0.8b': ('mstrasser/Jeff-Qwen3.5-0.8B', 'd66458d54426fcf52046b896261df8909bbc8b05', 'checkpoints/jeff-0.8b'),
     'jeff-2b': ('mstrasser/Jeff-Qwen3.5-2B', '30824caa5f255df0086fecba5bdfa63374c4f758', 'checkpoints/jeff-2b'),
     'jeff-gemma4-e2b': ('mstrasser/Jeff-Gemma4-E2B', 'afcb75ae269494582aab3ec3cea0d278685a8cb2', 'checkpoints/jeff-gemma4-e2b'),
+    # gamebench/tune: 0.8B를 amd torch 경로로 다시 돌린 기준선과, 판 게임으로 추가 학습한 체크포인트
+    'jeff-0.8b-torch': ('mstrasser/Jeff-Qwen3.5-0.8B', 'd66458d54426fcf52046b896261df8909bbc8b05', 'checkpoints/jeff-0.8b'),
+    'jeff-0.8b-board': ('local: gamebench/tune/train.py', None, 'checkpoints/jeff-0.8b-board'),
+    'jeff-0.8b-c4-1k': ('local: gamebench/tune/train.py (c4)', None, 'checkpoints/jeff-0.8b-c4-1k'),
+    'jeff-0.8b-c4-1k-coords': ('local: gamebench/tune/train.py (c4, coords)', None, 'checkpoints/jeff-0.8b-c4-1k-coords'),
+    'jeff-0.8b-c4-1k-stacks': ('local: gamebench/tune/train.py (c4, stacks)', None, 'checkpoints/jeff-0.8b-c4-1k-stacks'),
 }
-TORCH = {'jeff-gemma4-e2b'}
+TORCH = {'jeff-gemma4-e2b', 'jeff-0.8b-torch', 'jeff-0.8b-board', 'jeff-0.8b-c4-1k', 'jeff-0.8b-c4-1k-coords', 'jeff-0.8b-c4-1k-stacks'}
 MAX_TOKENS = 8192
 
 ap = argparse.ArgumentParser()

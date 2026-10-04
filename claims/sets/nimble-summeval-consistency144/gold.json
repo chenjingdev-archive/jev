@@ -1,0 +1,578 @@
+{
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-0": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-14": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-a02e362c5b8f049848ce718b37b96117485461cf-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-0": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-1": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-14": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-8": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-d75b043ebefc3098aea84d92bb8bec0f509b1563-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-0": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-12": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-14": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-cnn-test-e49792c337d3f4c13e22f710efa44cf6a4e59aba-9": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-0": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-14": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-54b857a66cbd8473d6732e5da52d48612e636a37-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-0": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-13": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-14": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-6c1341bedf92a304318545fbf1aad88651de7909-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-0": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-14": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-8b59fa7715418c4bcc0d50e3caeb239129de453e-9": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-0": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-14": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-15": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-8": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-b5bc2ae78441e4ac08fb01823d5fc0f1627c3166-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-0": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-14": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-8": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-d89de9c2a76f2665560becfe5d761a4fc62b9926-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-0": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-1": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-10": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-12": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-13": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-14": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-2": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-3": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-4": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-5": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-6": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-7": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-8": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-summeval-consistency144:summeval-consistency-dm-test-e43eef75de38d246db9d80216ca9f5487215a78b-9": {
+  "answer": 5,
+  "n": 5
+ }
+}

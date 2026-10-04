@@ -1,0 +1,82 @@
+{
+ "set": "nimble-paws250",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "paws",
+  "dataset": "paws",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/paws-manifest.json",
+   "sha256": "4e7359ab58484e4bf716e916f688360f5dd3da41e3760a5d3cdeef03ee553069"
+  },
+  "upstream": {
+   "url": "https://huggingface.co/datasets/google-research-datasets/paws/resolve/161ece9501cf0a11f3e48bd356eaa82de46d6a09/labeled_final/test-00000-of-00001.parquet",
+   "repo": "google-research-datasets/paws",
+   "revision": "161ece9501cf0a11f3e48bd356eaa82de46d6a09",
+   "file": "labeled_final/test-00000-of-00001.parquet",
+   "sha256": "ae342ff12bb84b84b95f468abf5db6cb7c7bd578271299fe9c99be75b8132f4d",
+   "exported_to": "paws/test.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/google-research-datasets/paws",
+   "license": "Google PAWS license: may be freely used for any purpose",
+   "release_year": 2019
+  },
+  "source_sha256": "7d2f9c7973b04d83cde2d87ef20fb9001157e79fb6cfa27597223db9d5b86f3c",
+  "dataset_sha256": "ffc7388bbf027272b1c2175cd8d4d3591b63006696b2f9889bf70fccd457d167",
+  "seed": 20260918,
+  "limit": 250,
+  "ids_from": null,
+  "converted": 8000,
+  "skipped": 0,
+  "dropped_over_length": 0,
+  "families": 250,
+  "maker_code": [
+   "nimble/datasets/public_sources/paws.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.828,
+  "jev-1.13.0": 0.892,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 250,
+ "sha256": {
+  "items.jsonl": "3a616df7144081e67b98f2278d55865c1069e9415160e2e1aa55c0002c71980f",
+  "gold.json": "547988ce9930a711ddb7915cd797b859d5bfc7fef4ed7bf943b0b077a0e5425a"
+ },
+ "type_counts": {
+  "noul": 250
+ },
+ "stats": {
+  "options": {
+   "2": 250
+  },
+  "answer_position": {
+   "1": 129,
+   "2": 121
+  },
+  "label_by_position": {
+   "1": "False",
+   "2": "True"
+  },
+  "nimble_labels": {
+   "False": 129,
+   "True": 121
+  },
+  "stages": {
+   "paws": 250
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/paws.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain.",
+  "noul -> two options [criteria[\"false\"], criteria[\"true\"]]: public_records.record_for (public_records.py:63-64) fixes that order and evaluate_pilot.py:29-30 (adapt_input) renders choices [False, True]. answer 2 = true. Jev was asked a native noul (P(true)); here every system gets the same two-option choice."
+ ]
+}

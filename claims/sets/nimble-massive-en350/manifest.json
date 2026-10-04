@@ -1,0 +1,127 @@
+{
+ "set": "nimble-massive-en350",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "massive-en-US",
+  "dataset": "massive",
+  "dataset_subset": "en-US",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/massive-en-US-manifest.json",
+   "sha256": "d4b40879ebb3e1e159caf066a94163a36930b5546aa40d2e3e5aa613db739ec2"
+  },
+  "upstream": {
+   "url": "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.1.tar.gz",
+   "sha256": "4cba5faa11c71437928e17cb1b9b3d8b8e727e7ea363a3a9a8045e19c0491577",
+   "member": null,
+   "exported_to": "massive/amazon-massive-dataset-1.1.tar.gz",
+   "nimble_source_url": "https://huggingface.co/datasets/AmazonScience/massive",
+   "license": "CC BY 4.0",
+   "release_year": 2022
+  },
+  "source_sha256": "4cba5faa11c71437928e17cb1b9b3d8b8e727e7ea363a3a9a8045e19c0491577",
+  "dataset_sha256": "f173a34108c1f785f5e5bf1d83534c34393651e7f7b0b2eba19deb0d5d0f2681",
+  "seed": 20260918,
+  "limit": 350,
+  "ids_from": null,
+  "converted": 2974,
+  "skipped": 13547,
+  "dropped_over_length": 0,
+  "families": 350,
+  "maker_code": [
+   "nimble/datasets/public_sources/massive.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.869,
+  "jev-1.13.0": 0.874,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 350,
+ "sha256": {
+  "items.jsonl": "501ca1b954523bd177fdcafe6afa0db2a0966ebb3a98fb2ad0f0bd3f2d107e9e",
+  "gold.json": "f35dff249aef9b5a5434238c885b3a7deeb792302d77f6411a3bbd25fafdd62c"
+ },
+ "type_counts": {
+  "choice": 350
+ },
+ "stats": {
+  "options": {
+   "18": 350
+  },
+  "answer_position": {
+   "1": 9,
+   "2": 9,
+   "3": 57,
+   "4": 6,
+   "5": 13,
+   "6": 27,
+   "7": 22,
+   "8": 29,
+   "9": 19,
+   "10": 12,
+   "11": 14,
+   "12": 48,
+   "13": 31,
+   "14": 13,
+   "15": 7,
+   "16": 5,
+   "17": 12,
+   "18": 17
+  },
+  "label_by_position": {
+   "1": "alarm",
+   "2": "audio",
+   "3": "calendar",
+   "4": "cooking",
+   "5": "datetime",
+   "6": "email",
+   "7": "general",
+   "8": "iot",
+   "9": "lists",
+   "10": "music",
+   "11": "news",
+   "12": "play",
+   "13": "qa",
+   "14": "recommendation",
+   "15": "social",
+   "16": "takeaway",
+   "17": "transport",
+   "18": "weather"
+  },
+  "nimble_labels": {
+   "cooking": 6,
+   "play": 48,
+   "iot": 29,
+   "lists": 19,
+   "calendar": 57,
+   "datetime": 13,
+   "news": 14,
+   "recommendation": 13,
+   "transport": 12,
+   "general": 22,
+   "qa": 31,
+   "social": 7,
+   "weather": 17,
+   "email": 27,
+   "audio": 9,
+   "music": 12,
+   "takeaway": 5,
+   "alarm": 9
+  },
+  "stages": {
+   "massive-en-US": 350
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/massive.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain."
+ ]
+}

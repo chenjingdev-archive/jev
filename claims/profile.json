@@ -1,0 +1,8377 @@
+{
+ "claims": {
+  "jev-1.13.0": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.908,
+    "unsupported": 0,
+    "accuracy_received": 0.908,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.88
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.98
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.98
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.94
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.8218,
+    "unsupported": 0,
+    "accuracy_received": 0.8218
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.7524,
+    "unsupported": 0,
+    "accuracy_received": 0.7524,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.8571
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.7059
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.7059
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.9412
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.8
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2143
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.8333
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 1
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.8143,
+    "unsupported": 0,
+    "accuracy_received": 0.8143
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.8167,
+    "unsupported": 0,
+    "accuracy_received": 0.8167
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.912,
+    "unsupported": 0,
+    "accuracy_received": 0.912
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.91,
+    "unsupported": 0,
+    "accuracy_received": 0.91
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.89,
+    "unsupported": 0,
+    "accuracy_received": 0.89
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.45,
+    "unsupported": 0,
+    "accuracy_received": 0.45
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.8347,
+    "unsupported": 0,
+    "accuracy_received": 0.8347,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.7647
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8681
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.8533
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.7568
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.8691,
+    "unsupported": 0,
+    "accuracy_received": 0.8691,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 1
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 1
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.9062
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.675
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.8875
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.925
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.7625
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.925
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.8675,
+    "unsupported": 0,
+    "accuracy_received": 0.8675
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.85,
+    "unsupported": 0,
+    "accuracy_received": 0.85
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5875,
+    "unsupported": 0,
+    "accuracy_received": 0.5875
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.804,
+    "unsupported": 0,
+    "accuracy_received": 0.804
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8867,
+    "unsupported": 0,
+    "accuracy_received": 0.8867
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.8133,
+    "unsupported": 0,
+    "accuracy_received": 0.8133
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3414,
+    "unsupported": 0,
+    "accuracy_received": 0.3414
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.86,
+    "unsupported": 0,
+    "accuracy_received": 0.86
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8714,
+    "unsupported": 0,
+    "accuracy_received": 0.8714
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8227,
+    "unsupported": 0,
+    "accuracy_received": 0.8227,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.8333
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.8525
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.75
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.8
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8793
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.9,
+    "unsupported": 0,
+    "accuracy_received": 0.9
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.78,
+    "unsupported": 0,
+    "accuracy_received": 0.78
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.8361,
+    "unsupported": 0,
+    "accuracy_received": 0.8361
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8125,
+    "unsupported": 0,
+    "accuracy_received": 0.8125
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.3583,
+    "unsupported": 0,
+    "accuracy_received": 0.3583
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.7796,
+    "unsupported": 0,
+    "accuracy_received": 0.7796,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.8185
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.75
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9792,
+    "unsupported": 0,
+    "accuracy_received": 0.9792,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9583
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 1
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.9792
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.902,
+    "unsupported": 0,
+    "accuracy_received": 0.902,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.7857
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.9167
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 1
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.9048
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.7461,
+    "unsupported": 0,
+    "accuracy_received": 0.7461
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.735,
+    "unsupported": 0,
+    "accuracy_received": 0.735,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.725
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.7983
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.695
+     }
+    }
+   }
+  },
+  "kev": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.6893,
+    "unsupported": 0,
+    "accuracy_received": 0.6893,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.88
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.42
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.54
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.86
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.76
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.8
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.98
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.3
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.9289,
+    "unsupported": 0,
+    "accuracy_received": 0.9289
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.619,
+    "unsupported": 0,
+    "accuracy_received": 0.619,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.5714
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.4118
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.8235
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.6
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.3571
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.5
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 1
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6429,
+    "unsupported": 0,
+    "accuracy_received": 0.6429
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.666,
+    "unsupported": 0,
+    "accuracy_received": 0.666
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.731,
+    "unsupported": 0,
+    "accuracy_received": 0.731
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.96,
+    "unsupported": 0,
+    "accuracy_received": 0.96
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.88,
+    "unsupported": 0,
+    "accuracy_received": 0.88
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.48,
+    "unsupported": 0,
+    "accuracy_received": 0.48
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.8154,
+    "unsupported": 0,
+    "accuracy_received": 0.8154,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.7647
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8462
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.8478
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.6486
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.8364,
+    "unsupported": 0,
+    "accuracy_received": 0.8364,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.6875
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.9062
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.9062
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6625
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.625
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.7625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.625
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.9583
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.8125
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.95
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.85
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.875
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.905,
+    "unsupported": 0,
+    "accuracy_received": 0.905
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.85,
+    "unsupported": 0,
+    "accuracy_received": 0.85
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.59,
+    "unsupported": 0,
+    "accuracy_received": 0.59
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.812,
+    "unsupported": 0,
+    "accuracy_received": 0.812
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8533,
+    "unsupported": 0,
+    "accuracy_received": 0.8533
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.8433,
+    "unsupported": 0,
+    "accuracy_received": 0.8433
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.4016,
+    "unsupported": 0,
+    "accuracy_received": 0.4016
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.8457,
+    "unsupported": 0,
+    "accuracy_received": 0.8457
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8571,
+    "unsupported": 0,
+    "accuracy_received": 0.8571
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.913,
+    "unsupported": 0,
+    "accuracy_received": 0.913,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.95
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9344
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.8667
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.9333
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8793
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.816,
+    "unsupported": 0,
+    "accuracy_received": 0.816
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.764,
+    "unsupported": 0,
+    "accuracy_received": 0.764
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.7458,
+    "unsupported": 0,
+    "accuracy_received": 0.7458
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8194,
+    "unsupported": 0,
+    "accuracy_received": 0.8194
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.4292,
+    "unsupported": 0,
+    "accuracy_received": 0.4292
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.7262,
+    "unsupported": 0,
+    "accuracy_received": 0.7262,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.7606
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9306,
+    "unsupported": 0,
+    "accuracy_received": 0.9306,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9583
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9583
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.875
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.8235,
+    "unsupported": 0,
+    "accuracy_received": 0.8235,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.75
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.9167
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.9655
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.619
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6719,
+    "unsupported": 0,
+    "accuracy_received": 0.6719
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.7095,
+    "unsupported": 0,
+    "accuracy_received": 0.7095,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.6833
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.7783
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.6775
+     }
+    }
+   }
+  },
+  "semif": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.596,
+    "unsupported": 35,
+    "accuracy_received": 0.6252,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.72
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.8
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.9
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.22
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.98
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.12
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.7367,
+    "unsupported": 0,
+    "accuracy_received": 0.7367
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.6381,
+    "unsupported": 0,
+    "accuracy_received": 0.6381,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.8
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.5714
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.7647
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.6471
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.5
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.3571
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 1
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6457,
+    "unsupported": 0,
+    "accuracy_received": 0.6457
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.7727,
+    "unsupported": 0,
+    "accuracy_received": 0.7727
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.642,
+    "unsupported": 0,
+    "accuracy_received": 0.642
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.91,
+    "unsupported": 0,
+    "accuracy_received": 0.91
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.46,
+    "unsupported": 0,
+    "accuracy_received": 0.46
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.3829,
+    "unsupported": 184,
+    "accuracy_received": 0.7765,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.7843
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8022
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.7027
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.7827,
+    "unsupported": 0,
+    "accuracy_received": 0.7827,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.7188
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.8125
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.4062
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6625
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5833
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.725
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.9583
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.925
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.85
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.525
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.87,
+    "unsupported": 0,
+    "accuracy_received": 0.87
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5925,
+    "unsupported": 0,
+    "accuracy_received": 0.5925
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.792,
+    "unsupported": 0,
+    "accuracy_received": 0.792
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8267,
+    "unsupported": 0,
+    "accuracy_received": 0.8267
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.81,
+    "unsupported": 0,
+    "accuracy_received": 0.81
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3775,
+    "unsupported": 0,
+    "accuracy_received": 0.3775
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.0,
+    "unsupported": 350,
+    "accuracy_received": null
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.0,
+    "unsupported": 350,
+    "accuracy_received": null
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.7692,
+    "unsupported": 0,
+    "accuracy_received": 0.7692,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.7667
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.8525
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.7333
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.6667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8276
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.824,
+    "unsupported": 0,
+    "accuracy_received": 0.824
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.656,
+    "unsupported": 0,
+    "accuracy_received": 0.656
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.7759,
+    "unsupported": 0,
+    "accuracy_received": 0.7759
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.875,
+    "unsupported": 0,
+    "accuracy_received": 0.875
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.525,
+    "unsupported": 0,
+    "accuracy_received": 0.525
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.6528,
+    "unsupported": 0,
+    "accuracy_received": 0.6528,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.722
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.6
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9028,
+    "unsupported": 0,
+    "accuracy_received": 0.9028,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.8958
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9167
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.8958
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.5784,
+    "unsupported": 29,
+    "accuracy_received": 0.8082,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.7857
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.7619
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6523,
+    "unsupported": 0,
+    "accuracy_received": 0.6523
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.629,
+    "unsupported": 0,
+    "accuracy_received": 0.629,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.5867
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.725
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.5887
+     }
+    }
+   }
+  },
+  "open-jev": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.5787,
+    "unsupported": 0,
+    "accuracy_received": 0.5787,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.54
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.36
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.16
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.5836,
+    "unsupported": 0,
+    "accuracy_received": 0.5836
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.4762,
+    "unsupported": 0,
+    "accuracy_received": 0.4762,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.4286
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.6471
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.3529
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.2353
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.4
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.8
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.5
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.3333
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.5714
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.5086,
+    "unsupported": 0,
+    "accuracy_received": 0.5086
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.3587,
+    "unsupported": 0,
+    "accuracy_received": 0.3587
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.558,
+    "unsupported": 0,
+    "accuracy_received": 0.558
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.79,
+    "unsupported": 0,
+    "accuracy_received": 0.79
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.65,
+    "unsupported": 0,
+    "accuracy_received": 0.65
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.48,
+    "unsupported": 0,
+    "accuracy_received": 0.48
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4656,
+    "unsupported": 0,
+    "accuracy_received": 0.4656,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.4902
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.6044
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.4022
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.4054
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.661,
+    "unsupported": 0,
+    "accuracy_received": 0.661,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.5938
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.375
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.5625
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6375
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.4167
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.6667
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.5875
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.375
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.6667
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.9625
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.5833
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.95
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.7125
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.85
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.6125
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.25
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.825,
+    "unsupported": 0,
+    "accuracy_received": 0.825
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.5825,
+    "unsupported": 0,
+    "accuracy_received": 0.5825
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5575,
+    "unsupported": 0,
+    "accuracy_received": 0.5575
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.588,
+    "unsupported": 0,
+    "accuracy_received": 0.588
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.7267,
+    "unsupported": 0,
+    "accuracy_received": 0.7267
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.6233,
+    "unsupported": 0,
+    "accuracy_received": 0.6233
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.1727,
+    "unsupported": 0,
+    "accuracy_received": 0.1727
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.7629,
+    "unsupported": 0,
+    "accuracy_received": 0.7629
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8057,
+    "unsupported": 0,
+    "accuracy_received": 0.8057
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.5017,
+    "unsupported": 0,
+    "accuracy_received": 0.5017,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.4667
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.541
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.5
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.35
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.6552
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.52,
+    "unsupported": 0,
+    "accuracy_received": 0.52
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.36,
+    "unsupported": 0,
+    "accuracy_received": 0.36
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.5786,
+    "unsupported": 0,
+    "accuracy_received": 0.5786
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8264,
+    "unsupported": 0,
+    "accuracy_received": 0.8264
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.2667,
+    "unsupported": 0,
+    "accuracy_received": 0.2667
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.5442,
+    "unsupported": 0,
+    "accuracy_received": 0.5442,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.583
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.5147
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.7986,
+    "unsupported": 0,
+    "accuracy_received": 0.7986,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.8333
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.875
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.6875
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.5098,
+    "unsupported": 0,
+    "accuracy_received": 0.5098,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.5357
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.625
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.3103
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.619
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.5,
+    "unsupported": 0,
+    "accuracy_received": 0.5
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.487,
+    "unsupported": 0,
+    "accuracy_received": 0.487,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.5183
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.4967
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.4562
+     }
+    }
+   }
+  },
+  "jevmlx": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.4627,
+    "unsupported": 0,
+    "accuracy_received": 0.4627,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.22
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.38
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.34
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.24
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.24
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.9179,
+    "unsupported": 0,
+    "accuracy_received": 0.9179
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.4952,
+    "unsupported": 0,
+    "accuracy_received": 0.4952,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.8
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.1429
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.7647
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.2941
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.4706
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.3
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.3571
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.5
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.7143
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6086,
+    "unsupported": 0,
+    "accuracy_received": 0.6086
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.5793,
+    "unsupported": 0,
+    "accuracy_received": 0.5793
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.632,
+    "unsupported": 0,
+    "accuracy_received": 0.632
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.84,
+    "unsupported": 0,
+    "accuracy_received": 0.84
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.73,
+    "unsupported": 0,
+    "accuracy_received": 0.73
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.52,
+    "unsupported": 0,
+    "accuracy_received": 0.52
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.405,
+    "unsupported": 91,
+    "accuracy_received": 0.5404,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.5686
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.7582
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.1848
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.4054
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.695,
+    "unsupported": 0,
+    "accuracy_received": 0.695,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.7812
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.5938
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.8438
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.4167
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.4625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.375
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.4167
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.9167
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.725
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.7375
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.775
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.775
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.625
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.7675,
+    "unsupported": 0,
+    "accuracy_received": 0.7675
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.735,
+    "unsupported": 0,
+    "accuracy_received": 0.735
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5925,
+    "unsupported": 0,
+    "accuracy_received": 0.5925
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.792,
+    "unsupported": 0,
+    "accuracy_received": 0.792
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.7833,
+    "unsupported": 0,
+    "accuracy_received": 0.7833
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.6633,
+    "unsupported": 0,
+    "accuracy_received": 0.6633
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3735,
+    "unsupported": 0,
+    "accuracy_received": 0.3735
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.7686,
+    "unsupported": 0,
+    "accuracy_received": 0.7686
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.7914,
+    "unsupported": 0,
+    "accuracy_received": 0.7914
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.7525,
+    "unsupported": 0,
+    "accuracy_received": 0.7525,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.6833
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.8525
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.7167
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.6667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8448
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.644,
+    "unsupported": 0,
+    "accuracy_received": 0.644
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.432,
+    "unsupported": 0,
+    "accuracy_received": 0.432
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.7458,
+    "unsupported": 0,
+    "accuracy_received": 0.7458
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.1389,
+    "unsupported": 0,
+    "accuracy_received": 0.1389
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.2625,
+    "unsupported": 0,
+    "accuracy_received": 0.2625
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.6177,
+    "unsupported": 0,
+    "accuracy_received": 0.6177,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.6062
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.6265
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.6528,
+    "unsupported": 0,
+    "accuracy_received": 0.6528,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.6875
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.625
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.6458
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.5,
+    "unsupported": 13,
+    "accuracy_received": 0.573,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.6429
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.75
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.2414
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.381
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.5312,
+    "unsupported": 0,
+    "accuracy_received": 0.5312
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.56,
+    "unsupported": 0,
+    "accuracy_received": 0.56,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.5167
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.6617
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.5162
+     }
+    }
+   }
+  },
+  "laya": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.36,
+    "unsupported": 0,
+    "accuracy_received": 0.36,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.3
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.3
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.32
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.38
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.22
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.22
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.12
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.4
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.26
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.18
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.8238,
+    "unsupported": 0,
+    "accuracy_received": 0.8238
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.3429,
+    "unsupported": 0,
+    "accuracy_received": 0.3429,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.4
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.4286
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.4118
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.3529
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.2353
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.2
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.2
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.4286
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.1667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.5714
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.4971,
+    "unsupported": 0,
+    "accuracy_received": 0.4971
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.4707,
+    "unsupported": 0,
+    "accuracy_received": 0.4707
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.504,
+    "unsupported": 0,
+    "accuracy_received": 0.504
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.96,
+    "unsupported": 0,
+    "accuracy_received": 0.96
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.42,
+    "unsupported": 0,
+    "accuracy_received": 0.42
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.1983,
+    "unsupported": 134,
+    "accuracy_received": 0.3144,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.3922
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.3956
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.0217
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.3243
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.6008,
+    "unsupported": 1,
+    "accuracy_received": 0.6016,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.5
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.4688
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.5625
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5833
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.3625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.25
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.25
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.825
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.4167
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.5
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.825
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.7125
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.725
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.725
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.325
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.94,
+    "unsupported": 0,
+    "accuracy_received": 0.94
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.52,
+    "unsupported": 0,
+    "accuracy_received": 0.52
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5525,
+    "unsupported": 0,
+    "accuracy_received": 0.5525
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.0,
+    "unsupported": 250,
+    "accuracy_received": null
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.7033,
+    "unsupported": 0,
+    "accuracy_received": 0.7033
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.87,
+    "unsupported": 0,
+    "accuracy_received": 0.87
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.249,
+    "unsupported": 0,
+    "accuracy_received": 0.249
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.4314,
+    "unsupported": 0,
+    "accuracy_received": 0.4314
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.5457,
+    "unsupported": 0,
+    "accuracy_received": 0.5457
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.7191,
+    "unsupported": 0,
+    "accuracy_received": 0.7191,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.8
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.7213
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.6667
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.6833
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.7241
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.644,
+    "unsupported": 0,
+    "accuracy_received": 0.644
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.532,
+    "unsupported": 0,
+    "accuracy_received": 0.532
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.5886,
+    "unsupported": 0,
+    "accuracy_received": 0.5886
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.4653,
+    "unsupported": 0,
+    "accuracy_received": 0.4653
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1208,
+    "unsupported": 0,
+    "accuracy_received": 0.1208
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.7896,
+    "unsupported": 0,
+    "accuracy_received": 0.7896,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.7915
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7882
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.92,
+    "unsupported": 0,
+    "accuracy_received": 0.92
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.5764,
+    "unsupported": 0,
+    "accuracy_received": 0.5764,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.5208
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.6042
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.6042
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.3039,
+    "unsupported": 29,
+    "accuracy_received": 0.4247,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.2857
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.0345
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.4762
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.4922,
+    "unsupported": 0,
+    "accuracy_received": 0.4922
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.3355,
+    "unsupported": 0,
+    "accuracy_received": 0.3355,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.3233
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.46
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.2512
+     }
+    }
+   }
+  },
+  "clm": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.3213,
+    "unsupported": 0,
+    "accuracy_received": 0.3213,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.4
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.14
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.4
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.54
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.2
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.16
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.24
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.08
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.14
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.24
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.26
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.2472,
+    "unsupported": 0,
+    "accuracy_received": 0.2472
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.3905,
+    "unsupported": 0,
+    "accuracy_received": 0.3905,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.2
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.4286
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.4118
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.4706
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.2941
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.5
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.2
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.3571
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.3333
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.5714
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.5514,
+    "unsupported": 0,
+    "accuracy_received": 0.5514
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.3587,
+    "unsupported": 0,
+    "accuracy_received": 0.3587
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.47,
+    "unsupported": 0,
+    "accuracy_received": 0.47
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.39,
+    "unsupported": 0,
+    "accuracy_received": 0.39
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.08,
+    "unsupported": 0,
+    "accuracy_received": 0.08
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.23,
+    "unsupported": 0,
+    "accuracy_received": 0.23
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4298,
+    "unsupported": 91,
+    "accuracy_received": 0.5735,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.6078
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.6264
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.2337
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.6757
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.4908,
+    "unsupported": 0,
+    "accuracy_received": 0.4908,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.3125
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.625
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.375
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.2125
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.0833
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.1667
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.3
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.375
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.25
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.6125
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.5
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.5
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.7875
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.7
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.25
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.395,
+    "unsupported": 0,
+    "accuracy_received": 0.395
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 0,
+    "accuracy_received": 0.0
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.295,
+    "unsupported": 0,
+    "accuracy_received": 0.295
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.432,
+    "unsupported": 0,
+    "accuracy_received": 0.432
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.72,
+    "unsupported": 0,
+    "accuracy_received": 0.72
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.7133,
+    "unsupported": 0,
+    "accuracy_received": 0.7133
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.2008,
+    "unsupported": 0,
+    "accuracy_received": 0.2008
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.0629,
+    "unsupported": 0,
+    "accuracy_received": 0.0629
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.08,
+    "unsupported": 0,
+    "accuracy_received": 0.08
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.6656,
+    "unsupported": 0,
+    "accuracy_received": 0.6656,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.5
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.8033
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.6833
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.6667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.6724
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.516,
+    "unsupported": 0,
+    "accuracy_received": 0.516
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.408,
+    "unsupported": 0,
+    "accuracy_received": 0.408
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.5017,
+    "unsupported": 0,
+    "accuracy_received": 0.5017
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.0069,
+    "unsupported": 0,
+    "accuracy_received": 0.0069
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.2292,
+    "unsupported": 0,
+    "accuracy_received": 0.2292
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.3873,
+    "unsupported": 0,
+    "accuracy_received": 0.3873,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.2394
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.5
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.6675,
+    "unsupported": 0,
+    "accuracy_received": 0.6675
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.5208,
+    "unsupported": 0,
+    "accuracy_received": 0.5208,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.5
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.8125
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.25
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.4412,
+    "unsupported": 8,
+    "accuracy_received": 0.4787,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.4643
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.4167
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.4138
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.4762
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.4688,
+    "unsupported": 0,
+    "accuracy_received": 0.4688
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.358,
+    "unsupported": 0,
+    "accuracy_received": 0.358,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.2467
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.505
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.3312
+     }
+    }
+   }
+  },
+  "julia": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.38,
+    "unsupported": 0,
+    "accuracy_received": 0.38,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.76
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.38
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.24
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.16
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.26
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.16
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.12
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.42
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.26
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.14
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.4144,
+    "unsupported": 0,
+    "accuracy_received": 0.4144
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.3524,
+    "unsupported": 0,
+    "accuracy_received": 0.3524,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.2857
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5882
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.3529
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.0588
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.2
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.4
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.5
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.1667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.4286
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.5229,
+    "unsupported": 0,
+    "accuracy_received": 0.5229
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.392,
+    "unsupported": 0,
+    "accuracy_received": 0.392
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.472,
+    "unsupported": 0,
+    "accuracy_received": 0.472
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.9,
+    "unsupported": 0,
+    "accuracy_received": 0.9
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.88,
+    "unsupported": 0,
+    "accuracy_received": 0.88
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.2479,
+    "unsupported": 134,
+    "accuracy_received": 0.393,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.4314
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.5055
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.0435
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.3784
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.5982,
+    "unsupported": 1,
+    "accuracy_received": 0.599,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.6875
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.5312
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.5625
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.925
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.75
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.3
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.2917
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.4167
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.85
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.5
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.575
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.7
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.5125
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.25
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.79,
+    "unsupported": 0,
+    "accuracy_received": 0.79
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.935,
+    "unsupported": 0,
+    "accuracy_received": 0.935
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.0,
+    "unsupported": 250,
+    "accuracy_received": null
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.5833,
+    "unsupported": 0,
+    "accuracy_received": 0.5833
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.7233,
+    "unsupported": 0,
+    "accuracy_received": 0.7233
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.2088,
+    "unsupported": 0,
+    "accuracy_received": 0.2088
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.4714,
+    "unsupported": 0,
+    "accuracy_received": 0.4714
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.54,
+    "unsupported": 0,
+    "accuracy_received": 0.54
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.3813,
+    "unsupported": 0,
+    "accuracy_received": 0.3813,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.35
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.4098
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.3333
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.3667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.4483
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.536,
+    "unsupported": 0,
+    "accuracy_received": 0.536
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.436,
+    "unsupported": 0,
+    "accuracy_received": 0.436
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.4983,
+    "unsupported": 0,
+    "accuracy_received": 0.4983
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.0486,
+    "unsupported": 0,
+    "accuracy_received": 0.0486
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.125,
+    "unsupported": 0,
+    "accuracy_received": 0.125
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.5008,
+    "unsupported": 0,
+    "accuracy_received": 0.5008,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.4633
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.5294
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.99,
+    "unsupported": 0,
+    "accuracy_received": 0.99
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.4167,
+    "unsupported": 0,
+    "accuracy_received": 0.4167,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.5208
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.4375
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.2917
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.3137,
+    "unsupported": 22,
+    "accuracy_received": 0.4,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.3929
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.2917
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.1379
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.4762
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.3477,
+    "unsupported": 0,
+    "accuracy_received": 0.3477
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.696,
+    "unsupported": 0,
+    "accuracy_received": 0.696,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.6583
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.7733
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.6663
+     }
+    }
+   }
+  },
+  "jeff-0.8b": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.676,
+    "unsupported": 0,
+    "accuracy_received": 0.676,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.94
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.7
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.54
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.98
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.72
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.84
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.32
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.954,
+    "unsupported": 0,
+    "accuracy_received": 0.954
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.4476,
+    "unsupported": 0,
+    "accuracy_received": 0.4476,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.5714
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.2941
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.3529
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.3
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2143
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.7143
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6171,
+    "unsupported": 0,
+    "accuracy_received": 0.6171
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.856,
+    "unsupported": 0,
+    "accuracy_received": 0.856
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.684,
+    "unsupported": 0,
+    "accuracy_received": 0.684
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.78,
+    "unsupported": 0,
+    "accuracy_received": 0.78
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.46,
+    "unsupported": 0,
+    "accuracy_received": 0.46
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4959,
+    "unsupported": 101,
+    "accuracy_received": 0.687,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.6078
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.7582
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.3207
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.5676
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.7238,
+    "unsupported": 0,
+    "accuracy_received": 0.7238,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.5938
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.6562
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.8125
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.625
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.5625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.3333
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.8333
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.8
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.825
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.825
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.8625
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.3
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.8225,
+    "unsupported": 0,
+    "accuracy_received": 0.8225
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5675,
+    "unsupported": 0,
+    "accuracy_received": 0.5675
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.8,
+    "unsupported": 0,
+    "accuracy_received": 0.8
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8267,
+    "unsupported": 0,
+    "accuracy_received": 0.8267
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.9067,
+    "unsupported": 0,
+    "accuracy_received": 0.9067
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.2329,
+    "unsupported": 0,
+    "accuracy_received": 0.2329
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.9057,
+    "unsupported": 0,
+    "accuracy_received": 0.9057
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.9143,
+    "unsupported": 0,
+    "accuracy_received": 0.9143
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8763,
+    "unsupported": 0,
+    "accuracy_received": 0.8763,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.9333
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9016
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.8167
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.8667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8621
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.924,
+    "unsupported": 0,
+    "accuracy_received": 0.924
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.64,
+    "unsupported": 0,
+    "accuracy_received": 0.64
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.8997,
+    "unsupported": 0,
+    "accuracy_received": 0.8997
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.7986,
+    "unsupported": 0,
+    "accuracy_received": 0.7986
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1458,
+    "unsupported": 0,
+    "accuracy_received": 0.1458
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.8881,
+    "unsupported": 0,
+    "accuracy_received": 0.8881,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.8224
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.9382
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.8403,
+    "unsupported": 0,
+    "accuracy_received": 0.8403,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9167
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.8542
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.75
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.6275,
+    "unsupported": 13,
+    "accuracy_received": 0.7191,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.5357
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.5172
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.619
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6797,
+    "unsupported": 0,
+    "accuracy_received": 0.6797
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.473,
+    "unsupported": 0,
+    "accuracy_received": 0.473,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.4633
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.6483
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.3488
+     }
+    }
+   }
+  },
+  "jeff-2b": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.68,
+    "unsupported": 0,
+    "accuracy_received": 0.68,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.88
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.7
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.76
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.76
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.48
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.9309,
+    "unsupported": 0,
+    "accuracy_received": 0.9309
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.5238,
+    "unsupported": 0,
+    "accuracy_received": 0.5238,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.8
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.5714
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5882
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.3529
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.4706
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.5
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2857
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.7143
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6286,
+    "unsupported": 0,
+    "accuracy_received": 0.6286
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.8867,
+    "unsupported": 0,
+    "accuracy_received": 0.8867
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.79,
+    "unsupported": 0,
+    "accuracy_received": 0.79
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.83,
+    "unsupported": 0,
+    "accuracy_received": 0.83
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.54,
+    "unsupported": 0,
+    "accuracy_received": 0.54
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4848,
+    "unsupported": 101,
+    "accuracy_received": 0.6718,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.6078
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.7473
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.2935
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.6216
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.6846,
+    "unsupported": 0,
+    "accuracy_received": 0.6846,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.625
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.5938
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.5
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.575
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.5
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.25
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.4167
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.9875
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.6
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.8125
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.3
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.8275,
+    "unsupported": 0,
+    "accuracy_received": 0.8275
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.58,
+    "unsupported": 0,
+    "accuracy_received": 0.58
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.796,
+    "unsupported": 0,
+    "accuracy_received": 0.796
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8567,
+    "unsupported": 0,
+    "accuracy_received": 0.8567
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.92,
+    "unsupported": 0,
+    "accuracy_received": 0.92
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3052,
+    "unsupported": 0,
+    "accuracy_received": 0.3052
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.9143,
+    "unsupported": 0,
+    "accuracy_received": 0.9143
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.9114,
+    "unsupported": 0,
+    "accuracy_received": 0.9114
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8997,
+    "unsupported": 0,
+    "accuracy_received": 0.8997,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.95
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9344
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.85
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.85
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.9138
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.936,
+    "unsupported": 0,
+    "accuracy_received": 0.936
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.656,
+    "unsupported": 0,
+    "accuracy_received": 0.656
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.9231,
+    "unsupported": 0,
+    "accuracy_received": 0.9231
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8194,
+    "unsupported": 0,
+    "accuracy_received": 0.8194
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1375,
+    "unsupported": 0,
+    "accuracy_received": 0.1375
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.8932,
+    "unsupported": 0,
+    "accuracy_received": 0.8932,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.8185
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.95
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9236,
+    "unsupported": 0,
+    "accuracy_received": 0.9236,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9167
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9375
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.9167
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.6569,
+    "unsupported": 13,
+    "accuracy_received": 0.7528,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.6429
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.9167
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.4483
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.6667
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.668,
+    "unsupported": 0,
+    "accuracy_received": 0.668
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.506,
+    "unsupported": 0,
+    "accuracy_received": 0.506,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.4733
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.635
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.4338
+     }
+    }
+   }
+  },
+  "jeff-gemma4-e2b": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.6907,
+    "unsupported": 0,
+    "accuracy_received": 0.6907,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.96
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.7
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.72
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.72
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.58
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.9389,
+    "unsupported": 0,
+    "accuracy_received": 0.9389
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.4857,
+    "unsupported": 0,
+    "accuracy_received": 0.4857,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.2857
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.2353
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.4118
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.6
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2857
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 1
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.7143
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.5914,
+    "unsupported": 0,
+    "accuracy_received": 0.5914
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.8707,
+    "unsupported": 0,
+    "accuracy_received": 0.8707
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.769,
+    "unsupported": 0,
+    "accuracy_received": 0.769
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.84,
+    "unsupported": 0,
+    "accuracy_received": 0.84
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.53,
+    "unsupported": 0,
+    "accuracy_received": 0.53
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4463,
+    "unsupported": 134,
+    "accuracy_received": 0.7074,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.6667
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.7802
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.2011
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.5405
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.7605,
+    "unsupported": 0,
+    "accuracy_received": 0.7605,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.6562
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.7188
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.8125
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6125
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5833
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.6667
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.9875
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.75
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.8625
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.8375
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.8625
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.5
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.85,
+    "unsupported": 0,
+    "accuracy_received": 0.85
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.595,
+    "unsupported": 0,
+    "accuracy_received": 0.595
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.828,
+    "unsupported": 0,
+    "accuracy_received": 0.828
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.85,
+    "unsupported": 0,
+    "accuracy_received": 0.85
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.92,
+    "unsupported": 0,
+    "accuracy_received": 0.92
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3253,
+    "unsupported": 0,
+    "accuracy_received": 0.3253
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.9057,
+    "unsupported": 0,
+    "accuracy_received": 0.9057
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.9171,
+    "unsupported": 0,
+    "accuracy_received": 0.9171
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8863,
+    "unsupported": 0,
+    "accuracy_received": 0.8863,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.95
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9344
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.8333
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.8333
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8793
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.94,
+    "unsupported": 0,
+    "accuracy_received": 0.94
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.588,
+    "unsupported": 0,
+    "accuracy_received": 0.588
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.903,
+    "unsupported": 0,
+    "accuracy_received": 0.903
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8194,
+    "unsupported": 0,
+    "accuracy_received": 0.8194
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1458,
+    "unsupported": 0,
+    "accuracy_received": 0.1458
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.8898,
+    "unsupported": 0,
+    "accuracy_received": 0.8898,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.8649
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.9088
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 1.0,
+    "unsupported": 0,
+    "accuracy_received": 1.0
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.875,
+    "unsupported": 0,
+    "accuracy_received": 0.875,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.8958
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.8958
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.8333
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.6176,
+    "unsupported": 13,
+    "accuracy_received": 0.7079,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.7143
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.8333
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.4828
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.4286
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6836,
+    "unsupported": 0,
+    "accuracy_received": 0.6836
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.6005,
+    "unsupported": 0,
+    "accuracy_received": 0.6005,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.59
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.6683
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.5575
+     }
+    }
+   }
+  },
+  "laya-typed": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.408,
+    "unsupported": 0,
+    "accuracy_received": 0.408,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.4
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.38
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.18
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.36
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.22
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.28
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.24
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.18
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.5445,
+    "unsupported": 0,
+    "accuracy_received": 0.5445
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.2476,
+    "unsupported": 34,
+    "accuracy_received": 0.3662,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.2857
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.2941
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.3
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.4286
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.3333
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.2857
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.0743,
+    "unsupported": 297,
+    "accuracy_received": 0.4906
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.4733,
+    "unsupported": 401,
+    "accuracy_received": 0.646
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.501,
+    "unsupported": 0,
+    "accuracy_received": 0.501
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.95,
+    "unsupported": 0,
+    "accuracy_received": 0.95
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.44,
+    "unsupported": 0,
+    "accuracy_received": 0.44
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.1019,
+    "unsupported": 261,
+    "accuracy_received": 0.3627,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.1176
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.3407
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.644,
+    "unsupported": 1,
+    "accuracy_received": 0.6448,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.5
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.5
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.5
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.625
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5417
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.2875
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.2083
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.25
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.9
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.4583
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.6667
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.775
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.9
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.725
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.85
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.525
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.94,
+    "unsupported": 0,
+    "accuracy_received": 0.94
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5975,
+    "unsupported": 0,
+    "accuracy_received": 0.5975
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.0,
+    "unsupported": 250,
+    "accuracy_received": null
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8,
+    "unsupported": 0,
+    "accuracy_received": 0.8
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.87,
+    "unsupported": 0,
+    "accuracy_received": 0.87
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3454,
+    "unsupported": 29,
+    "accuracy_received": 0.3909
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.0,
+    "unsupported": 350,
+    "accuracy_received": null
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.0,
+    "unsupported": 350,
+    "accuracy_received": null
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.7191,
+    "unsupported": 0,
+    "accuracy_received": 0.7191,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.7
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.6557
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.7167
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.7
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8276
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.892,
+    "unsupported": 0,
+    "accuracy_received": 0.892
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.548,
+    "unsupported": 0,
+    "accuracy_received": 0.548
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.6656,
+    "unsupported": 0,
+    "accuracy_received": 0.6656
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.5556,
+    "unsupported": 0,
+    "accuracy_received": 0.5556
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1458,
+    "unsupported": 0,
+    "accuracy_received": 0.1458
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.8297,
+    "unsupported": 0,
+    "accuracy_received": 0.8297,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.8571
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.8088
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.9975,
+    "unsupported": 0,
+    "accuracy_received": 0.9975
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.6875,
+    "unsupported": 0,
+    "accuracy_received": 0.6875,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.5417
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.8125
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.7083
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.1078,
+    "unsupported": 76,
+    "accuracy_received": 0.4231,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.0714
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.375
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.5586,
+    "unsupported": 0,
+    "accuracy_received": 0.5586
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.76,
+    "unsupported": 0,
+    "accuracy_received": 0.76,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.73
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.8217
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.7362
+     }
+    }
+   }
+  },
+  "d1": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.852,
+    "unsupported": 0,
+    "accuracy_received": 0.852,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.9
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.88
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.92
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.94
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.82
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.86
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.92
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 1
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.78
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.8679,
+    "unsupported": 0,
+    "accuracy_received": 0.8679
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.7905,
+    "unsupported": 0,
+    "accuracy_received": 0.7905,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 1
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.8824
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.5882
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.8824
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.9
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.4286
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 1
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.7743,
+    "unsupported": 0,
+    "accuracy_received": 0.7743
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.87,
+    "unsupported": 0,
+    "accuracy_received": 0.87
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.873,
+    "unsupported": 0,
+    "accuracy_received": 0.873
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.93,
+    "unsupported": 0,
+    "accuracy_received": 0.93
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.9,
+    "unsupported": 0,
+    "accuracy_received": 0.9
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.53,
+    "unsupported": 0,
+    "accuracy_received": 0.53
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.8072,
+    "unsupported": 0,
+    "accuracy_received": 0.8072,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.7843
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8462
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.8152
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.7027
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.8848,
+    "unsupported": 0,
+    "accuracy_received": 0.8848,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.875
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 1
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.9062
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.7375
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.8125
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.8333
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.9583
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.925
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.9125
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.95
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.8825,
+    "unsupported": 0,
+    "accuracy_received": 0.8825
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.885,
+    "unsupported": 0,
+    "accuracy_received": 0.885
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.675,
+    "unsupported": 0,
+    "accuracy_received": 0.675
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.82,
+    "unsupported": 0,
+    "accuracy_received": 0.82
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8867,
+    "unsupported": 0,
+    "accuracy_received": 0.8867
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.89,
+    "unsupported": 0,
+    "accuracy_received": 0.89
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3855,
+    "unsupported": 0,
+    "accuracy_received": 0.3855
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.88,
+    "unsupported": 0,
+    "accuracy_received": 0.88
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8829,
+    "unsupported": 0,
+    "accuracy_received": 0.8829
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8829,
+    "unsupported": 0,
+    "accuracy_received": 0.8829,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.8833
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9344
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.8667
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.8833
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8448
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.916,
+    "unsupported": 0,
+    "accuracy_received": 0.916
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.796,
+    "unsupported": 0,
+    "accuracy_received": 0.796
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.903,
+    "unsupported": 0,
+    "accuracy_received": 0.903
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8125,
+    "unsupported": 0,
+    "accuracy_received": 0.8125
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.4958,
+    "unsupported": 0,
+    "accuracy_received": 0.4958
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.7462,
+    "unsupported": 0,
+    "accuracy_received": 0.7462,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.7876
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7147
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9514,
+    "unsupported": 0,
+    "accuracy_received": 0.9514,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9583
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9583
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.9375
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.8529,
+    "unsupported": 0,
+    "accuracy_received": 0.8529,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.75
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.9167
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.9655
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.7619
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.7461,
+    "unsupported": 0,
+    "accuracy_received": 0.7461
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.7545,
+    "unsupported": 0,
+    "accuracy_received": 0.7545,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.74
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.8617
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.685
+     }
+    }
+   }
+  },
+  "nimble": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.7293,
+    "unsupported": 0,
+    "accuracy_received": 0.7293,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.8
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.84
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.66
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.92
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.84
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.8
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.7
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.88
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.58
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.9
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.94
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.32
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.7938,
+    "unsupported": 0,
+    "accuracy_received": 0.7938
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.619,
+    "unsupported": 0,
+    "accuracy_received": 0.619,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.4
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.5714
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5882
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.8235
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.7
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2143
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 1
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.6429,
+    "unsupported": 0,
+    "accuracy_received": 0.6429
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.7787,
+    "unsupported": 0,
+    "accuracy_received": 0.7787
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.71,
+    "unsupported": 0,
+    "accuracy_received": 0.71
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.95,
+    "unsupported": 0,
+    "accuracy_received": 0.95
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.44,
+    "unsupported": 0,
+    "accuracy_received": 0.44
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.4876,
+    "unsupported": 134,
+    "accuracy_received": 0.7729,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.7647
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8132
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0.2283
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.5946
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.8168,
+    "unsupported": 0,
+    "accuracy_received": 0.8168,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.875
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.6875
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.8125
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.625
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.5417
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.75
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.5
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.8875
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.925
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.875
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.7
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.885,
+    "unsupported": 0,
+    "accuracy_received": 0.885
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.5775,
+    "unsupported": 0,
+    "accuracy_received": 0.5775
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.832,
+    "unsupported": 0,
+    "accuracy_received": 0.832
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8633,
+    "unsupported": 0,
+    "accuracy_received": 0.8633
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.7933,
+    "unsupported": 0,
+    "accuracy_received": 0.7933
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3534,
+    "unsupported": 0,
+    "accuracy_received": 0.3534
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.8543,
+    "unsupported": 0,
+    "accuracy_received": 0.8543
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8771,
+    "unsupported": 0,
+    "accuracy_received": 0.8771
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.8997,
+    "unsupported": 0,
+    "accuracy_received": 0.8997,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.9
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9016
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.85
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.95
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.8966
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.764,
+    "unsupported": 0,
+    "accuracy_received": 0.764
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.768,
+    "unsupported": 0,
+    "accuracy_received": 0.768
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.7592,
+    "unsupported": 0,
+    "accuracy_received": 0.7592
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8611,
+    "unsupported": 0,
+    "accuracy_received": 0.8611
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.475,
+    "unsupported": 0,
+    "accuracy_received": 0.475
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.793,
+    "unsupported": 0,
+    "accuracy_received": 0.793,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.7915
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7941
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.9167,
+    "unsupported": 0,
+    "accuracy_received": 0.9167,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.8958
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9792
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.875
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.7647,
+    "unsupported": 13,
+    "accuracy_received": 0.8764,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.8571
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0.5517
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.8095
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.7148,
+    "unsupported": 0,
+    "accuracy_received": 0.7148
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.707,
+    "unsupported": 0,
+    "accuracy_received": 0.707,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.705
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.8067
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.6338
+     }
+    }
+   }
+  },
+  "tev1-4b": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.6813,
+    "unsupported": 0,
+    "accuracy_received": 0.6813,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.86
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.52
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.82
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.92
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.78
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.68
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.92
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.2
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.9179,
+    "unsupported": 0,
+    "accuracy_received": 0.9179
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.4,
+    "unsupported": 33,
+    "accuracy_received": 0.5833,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 0.8
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.4286
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.5294
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0.0588
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.7
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2143
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.6667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.8571
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.4171,
+    "unsupported": 110,
+    "accuracy_received": 0.6083
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.6833,
+    "unsupported": 22,
+    "accuracy_received": 0.6935
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.644,
+    "unsupported": 0,
+    "accuracy_received": 0.644
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.97,
+    "unsupported": 0,
+    "accuracy_received": 0.97
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.48,
+    "unsupported": 0,
+    "accuracy_received": 0.48
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.2397,
+    "unsupported": 255,
+    "accuracy_received": 0.8056,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.1961
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.8242
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.0541
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.8181,
+    "unsupported": 0,
+    "accuracy_received": 0.8181,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.7188
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.7812
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 1
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6125
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.5833
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.7
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.5417
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.6667
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 1
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.9167
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 1
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 1
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.8625
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.9125
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.9
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.7
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.885,
+    "unsupported": 0,
+    "accuracy_received": 0.885
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.585,
+    "unsupported": 0,
+    "accuracy_received": 0.585
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.764,
+    "unsupported": 0,
+    "accuracy_received": 0.764
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.8467,
+    "unsupported": 0,
+    "accuracy_received": 0.8467
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.8067,
+    "unsupported": 0,
+    "accuracy_received": 0.8067
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3574,
+    "unsupported": 0,
+    "accuracy_received": 0.3574
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.8371,
+    "unsupported": 0,
+    "accuracy_received": 0.8371
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.8657,
+    "unsupported": 0,
+    "accuracy_received": 0.8657
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.9164,
+    "unsupported": 0,
+    "accuracy_received": 0.9164,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.85
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.9344
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.9167
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.9667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.9138
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.828,
+    "unsupported": 0,
+    "accuracy_received": 0.828
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.752,
+    "unsupported": 0,
+    "accuracy_received": 0.752
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.7625,
+    "unsupported": 0,
+    "accuracy_received": 0.7625
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8056,
+    "unsupported": 0,
+    "accuracy_received": 0.8056
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.4167,
+    "unsupported": 0,
+    "accuracy_received": 0.4167
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.7629,
+    "unsupported": 0,
+    "accuracy_received": 0.7629,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.7606
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7647
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.8889,
+    "unsupported": 0,
+    "accuracy_received": 0.8889,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.9375
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.9375
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.7917
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.3137,
+    "unsupported": 66,
+    "accuracy_received": 0.8889,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.3214
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.875
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.0952
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6992,
+    "unsupported": 0,
+    "accuracy_received": 0.6992
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.6635,
+    "unsupported": 0,
+    "accuracy_received": 0.6635,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.64
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.75
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.6162
+     }
+    }
+   }
+  },
+  "tev1-0.8b": {
+   "jeff-bbh750": {
+    "n": 750,
+    "accuracy": 0.4867,
+    "unsupported": 0,
+    "accuracy_received": 0.4867,
+    "stages": {
+     "boolean_expressions": {
+      "n": 50,
+      "accuracy": 0.74
+     },
+     "causal_judgement": {
+      "n": 50,
+      "accuracy": 0.54
+     },
+     "date_understanding": {
+      "n": 50,
+      "accuracy": 0.64
+     },
+     "disambiguation_qa": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "formal_fallacies": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "hyperbaton": {
+      "n": 50,
+      "accuracy": 0.6
+     },
+     "logical_deduction_five_objects": {
+      "n": 50,
+      "accuracy": 0.62
+     },
+     "logical_deduction_seven_objects": {
+      "n": 50,
+      "accuracy": 0.46
+     },
+     "navigate": {
+      "n": 50,
+      "accuracy": 0.44
+     },
+     "penguins_in_a_table": {
+      "n": 50,
+      "accuracy": 0.3
+     },
+     "reasoning_about_colored_objects": {
+      "n": 50,
+      "accuracy": 0.5
+     },
+     "salient_translation_error_detection": {
+      "n": 50,
+      "accuracy": 0.4
+     },
+     "snarks": {
+      "n": 50,
+      "accuracy": 0.48
+     },
+     "temporal_sequences": {
+      "n": 50,
+      "accuracy": 0.56
+     },
+     "tracking_shuffled_objects_five_objects": {
+      "n": 50,
+      "accuracy": 0.12
+     }
+    }
+   },
+   "jeff-fpb999": {
+    "n": 999,
+    "accuracy": 0.8719,
+    "unsupported": 0,
+    "accuracy_received": 0.8719
+   },
+   "jeff-jevbenchhard105": {
+    "n": 105,
+    "accuracy": 0.2857,
+    "unsupported": 33,
+    "accuracy_received": 0.4167,
+    "stages": {
+     "adversarial": {
+      "n": 5,
+      "accuracy": 1
+     },
+     "ambiguous": {
+      "n": 7,
+      "accuracy": 0.2857
+     },
+     "judge_hard": {
+      "n": 17,
+      "accuracy": 0.4118
+     },
+     "long_policy": {
+      "n": 17,
+      "accuracy": 0
+     },
+     "multi_hop": {
+      "n": 17,
+      "accuracy": 0
+     },
+     "probability": {
+      "n": 10,
+      "accuracy": 0.4
+     },
+     "routing_hard": {
+      "n": 5,
+      "accuracy": 0.6
+     },
+     "temporal_numeric": {
+      "n": 14,
+      "accuracy": 0.2143
+     },
+     "tradeoff": {
+      "n": 6,
+      "accuracy": 0.1667
+     },
+     "trap": {
+      "n": 7,
+      "accuracy": 0.7143
+     }
+    }
+   },
+   "jeff-judgebench350": {
+    "n": 350,
+    "accuracy": 0.3457,
+    "unsupported": 110,
+    "accuracy_received": 0.5042
+   },
+   "jeff-ragtruth1500": {
+    "n": 1500,
+    "accuracy": 0.5993,
+    "unsupported": 22,
+    "accuracy_received": 0.6083
+   },
+   "jeff-winogrande1000": {
+    "n": 1000,
+    "accuracy": 0.519,
+    "unsupported": 0,
+    "accuracy_received": 0.519
+   },
+   "jevbench-agnews100": {
+    "n": 100,
+    "accuracy": 0.88,
+    "unsupported": 0,
+    "accuracy_received": 0.88
+   },
+   "jevbench-banking77-100": {
+    "n": 100,
+    "accuracy": 0.0,
+    "unsupported": 100,
+    "accuracy_received": null
+   },
+   "jevbench-emotion100": {
+    "n": 100,
+    "accuracy": 0.42,
+    "unsupported": 0,
+    "accuracy_received": 0.42
+   },
+   "jevmlx-typesafe45": {
+    "n": 363,
+    "accuracy": 0.168,
+    "unsupported": 255,
+    "accuracy_received": 0.5648,
+    "stages": {
+     "agent_trace_observability": {
+      "n": 51,
+      "accuracy": 0.1765
+     },
+     "customer_service": {
+      "n": 91,
+      "accuracy": 0.5604
+     },
+     "invoice_processing": {
+      "n": 184,
+      "accuracy": 0
+     },
+     "security_incidents": {
+      "n": 37,
+      "accuracy": 0.027
+     }
+    }
+   },
+   "kev-transfer-v4": {
+    "n": 764,
+    "accuracy": 0.6558,
+    "unsupported": 0,
+    "accuracy_received": 0.6558,
+    "stages": {
+     "choice/composition_final_combination": {
+      "n": 32,
+      "accuracy": 0.5625
+     },
+     "choice/composition_final_exception": {
+      "n": 32,
+      "accuracy": 0.625
+     },
+     "choice/composition_final_negation": {
+      "n": 32,
+      "accuracy": 0.9062
+     },
+     "choice/emotion": {
+      "n": 80,
+      "accuracy": 0.6
+     },
+     "choice/emotion/none": {
+      "n": 24,
+      "accuracy": 0.625
+     },
+     "choice/emotion/permuted": {
+      "n": 12,
+      "accuracy": 0.75
+     },
+     "choice/mmlu": {
+      "n": 80,
+      "accuracy": 0.4625
+     },
+     "choice/mmlu/none": {
+      "n": 24,
+      "accuracy": 0.3333
+     },
+     "choice/mmlu/permuted": {
+      "n": 12,
+      "accuracy": 0.1667
+     },
+     "choice/sciq": {
+      "n": 80,
+      "accuracy": 0.95
+     },
+     "choice/sciq/none": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "choice/sciq/permuted": {
+      "n": 12,
+      "accuracy": 0.8333
+     },
+     "noul/contrastive_authorization": {
+      "n": 40,
+      "accuracy": 0.55
+     },
+     "noul/paws": {
+      "n": 80,
+      "accuracy": 0.6125
+     },
+     "noul/qnli": {
+      "n": 80,
+      "accuracy": 0.8375
+     },
+     "noul/tweet_offensive": {
+      "n": 80,
+      "accuracy": 0.8125
+     },
+     "score/contrastive_deadline": {
+      "n": 40,
+      "accuracy": 0.25
+     }
+    }
+   },
+   "laya-agnews400": {
+    "n": 400,
+    "accuracy": 0.875,
+    "unsupported": 0,
+    "accuracy_received": 0.875
+   },
+   "laya-banking77-400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "laya-emotion400": {
+    "n": 400,
+    "accuracy": 0.575,
+    "unsupported": 0,
+    "accuracy_received": 0.575
+   },
+   "nimble-aegis2-250": {
+    "n": 250,
+    "accuracy": 0.624,
+    "unsupported": 0,
+    "accuracy_received": 0.624
+   },
+   "nimble-boolq300": {
+    "n": 300,
+    "accuracy": 0.79,
+    "unsupported": 0,
+    "accuracy_received": 0.79
+   },
+   "nimble-civilcomments300": {
+    "n": 300,
+    "accuracy": 0.6133,
+    "unsupported": 0,
+    "accuracy_received": 0.6133
+   },
+   "nimble-helpsteer2-249": {
+    "n": 249,
+    "accuracy": 0.3815,
+    "unsupported": 0,
+    "accuracy_received": 0.3815
+   },
+   "nimble-massive-de350": {
+    "n": 350,
+    "accuracy": 0.7229,
+    "unsupported": 0,
+    "accuracy_received": 0.7229
+   },
+   "nimble-massive-en350": {
+    "n": 350,
+    "accuracy": 0.7857,
+    "unsupported": 0,
+    "accuracy_received": 0.7857
+   },
+   "nimble-multinli299": {
+    "n": 299,
+    "accuracy": 0.7926,
+    "unsupported": 0,
+    "accuracy_received": 0.7926,
+    "stages": {
+     "multinli-fiction": {
+      "n": 60,
+      "accuracy": 0.7833
+     },
+     "multinli-government": {
+      "n": 61,
+      "accuracy": 0.8033
+     },
+     "multinli-slate": {
+      "n": 60,
+      "accuracy": 0.8167
+     },
+     "multinli-telephone": {
+      "n": 60,
+      "accuracy": 0.7667
+     },
+     "multinli-travel": {
+      "n": 58,
+      "accuracy": 0.7931
+     }
+    }
+   },
+   "nimble-paws250": {
+    "n": 250,
+    "accuracy": 0.684,
+    "unsupported": 0,
+    "accuracy_received": 0.684
+   },
+   "nimble-pubmedqa250": {
+    "n": 250,
+    "accuracy": 0.516,
+    "unsupported": 0,
+    "accuracy_received": 0.516
+   },
+   "nimble-squad2-299": {
+    "n": 299,
+    "accuracy": 0.6388,
+    "unsupported": 0,
+    "accuracy_received": 0.6388
+   },
+   "nimble-summeval-consistency144": {
+    "n": 144,
+    "accuracy": 0.8403,
+    "unsupported": 0,
+    "accuracy_received": 0.8403
+   },
+   "nimble-summeval-relevance240": {
+    "n": 240,
+    "accuracy": 0.1375,
+    "unsupported": 0,
+    "accuracy_received": 0.1375
+   },
+   "nimble-vitaminc599": {
+    "n": 599,
+    "accuracy": 0.6928,
+    "unsupported": 0,
+    "accuracy_received": 0.6928,
+    "stages": {
+     "vitaminc-real": {
+      "n": 259,
+      "accuracy": 0.583
+     },
+     "vitaminc-synthetic": {
+      "n": 340,
+      "accuracy": 0.7765
+     }
+    }
+   },
+   "openjev-synthetic400": {
+    "n": 400,
+    "accuracy": 0.0,
+    "unsupported": 400,
+    "accuracy_received": null
+   },
+   "semif-authored144": {
+    "n": 144,
+    "accuracy": 0.7569,
+    "unsupported": 0,
+    "accuracy_received": 0.7569,
+    "stages": {
+     "candidate_selection": {
+      "n": 48,
+      "accuracy": 0.7083
+     },
+     "evidence_interpretation": {
+      "n": 48,
+      "accuracy": 0.875
+     },
+     "rule_application": {
+      "n": 48,
+      "accuracy": 0.6875
+     }
+    }
+   },
+   "semif-typesafe102": {
+    "n": 102,
+    "accuracy": 0.2353,
+    "unsupported": 66,
+    "accuracy_received": 0.6667,
+    "stages": {
+     "typesafe_agent_trace_observability": {
+      "n": 28,
+      "accuracy": 0.25
+     },
+     "typesafe_customer_service": {
+      "n": 24,
+      "accuracy": 0.6667
+     },
+     "typesafe_invoice_processing": {
+      "n": 29,
+      "accuracy": 0
+     },
+     "typesafe_security_incidents": {
+      "n": 21,
+      "accuracy": 0.0476
+     }
+    }
+   },
+   "semif-wanli256": {
+    "n": 256,
+    "accuracy": 0.6172,
+    "unsupported": 0,
+    "accuracy_received": 0.6172
+   },
+   "typed-decisions": {
+    "n": 2000,
+    "accuracy": 0.5555,
+    "unsupported": 0,
+    "accuracy_received": 0.5555,
+    "stages": {
+     "choice": {
+      "n": 600,
+      "accuracy": 0.565
+     },
+     "noul": {
+      "n": 600,
+      "accuracy": 0.5783
+     },
+     "score": {
+      "n": 800,
+      "accuracy": 0.5312
+     }
+    }
+   }
+  }
+ },
+ "csat": {
+  "jev-1.13.0": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.7833
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.6396
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.7477
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.8778
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.3812
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.5611
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.9556
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.75
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.85
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.5455
+   }
+  },
+  "kev": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.6167
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.5225
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.5614
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.7259
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.3187
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.4444
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.8222
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.3929
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.55
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2424
+   }
+  },
+  "semif": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.5667
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.4865
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.5455
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.7
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.25
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.4222
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.8889
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.5179
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.3
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2424
+   }
+  },
+  "open-jev": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.3417
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3829
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.4318
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.5593
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.275
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.3278
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.5778
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.4107
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.45
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2121
+   }
+  },
+  "jevmlx": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.3667
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3468
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.4068
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.5185
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2562
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.2778
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.5778
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.2679
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.4
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2727
+   }
+  },
+  "laya": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.2333
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.214
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.2545
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.3037
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.1812
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.1944
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.3111
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.1429
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.15
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2424
+   }
+  },
+  "clm": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.225
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.2117
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.2386
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.2519
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.175
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.2556
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.2
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.2143
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.15
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.1818
+   }
+  },
+  "julia": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.2333
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.25
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.2523
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.2519
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2687
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.2722
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.2667
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.2143
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.303
+   }
+  },
+  "jeff-0.8b": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.35
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3311
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.4
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.5
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2812
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.25
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.5556
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.3036
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.25
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.2727
+   }
+  },
+  "jeff-2b": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.3917
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3671
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.4295
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.5926
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2062
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.2833
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.5778
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.4107
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.35
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.1515
+   }
+  },
+  "jeff-gemma4-e2b": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.3833
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3919
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.4614
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.6222
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.1938
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.3278
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.7556
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.3571
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.35
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.3636
+   }
+  },
+  "d1": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.7333
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.6509
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.7295
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.8704
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.475
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.5611
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.9111
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.8036
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.6
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.3636
+   }
+  },
+  "nimble": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.6
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.5586
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.6386
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.8222
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.375
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.4333
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.9556
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.6607
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.65
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.1212
+   }
+  },
+  "tev1-4b": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.5583
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.5
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.5705
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.7444
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2938
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.4278
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.8667
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.4643
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.55
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.1515
+   }
+  },
+  "tev1-0.8b": {
+   "직업탐구": {
+    "n": 120,
+    "accuracy": 0.3167
+   },
+   "그림 있음": {
+    "n": 444,
+    "accuracy": 0.3063
+   },
+   "글만": {
+    "n": 440,
+    "accuracy": 0.3409
+   },
+   "제2외국어·한문": {
+    "n": 270,
+    "accuracy": 0.4407
+   },
+   "과학탐구": {
+    "n": 160,
+    "accuracy": 0.2562
+   },
+   "사회탐구": {
+    "n": 180,
+    "accuracy": 0.2556
+   },
+   "영어": {
+    "n": 45,
+    "accuracy": 0.4667
+   },
+   "국어": {
+    "n": 56,
+    "accuracy": 0.2321
+   },
+   "한국사": {
+    "n": 20,
+    "accuracy": 0.2
+   },
+   "수학": {
+    "n": 33,
+    "accuracy": 0.1212
+   }
+  }
+ },
+ "v1": {
+  "jev-1.13.0": {
+   "score": 0.37711128210684297,
+   "facets": {
+    "규칙 판정": 0.45511111820983446,
+    "확률·기댓값": 0.4421476332575471,
+    "필승 전략": 0.2677744107744108,
+    "논리·정보 추론": 0.25893608706108706,
+    "수 읽기": 0.307669899913074,
+    "경로·위험 회피": 0.2592592592592593,
+    "상대 파악": 0.5488505747126436
+   },
+   "stages": {
+    "1-판정": 0.5029647120556211,
+    "2-변형": 0.26330993804039626,
+    "3-한수": 0.36924511458409764,
+    "4-앞보기": 0.22024202420242026
+   },
+   "board_only_accuracy": 0.36607142857142855,
+   "board_annotated_accuracy": 0.6666666666666666,
+   "ece10": 0.054334283067140304
+  },
+  "kev": {
+   "score": 0.21370833261573874,
+   "facets": {
+    "규칙 판정": 0.24840380393767764,
+    "확률·기댓값": 0.2570372036966865,
+    "필승 전략": 0.0029968102073365463,
+    "논리·정보 추론": 0.20649551066217733,
+    "수 읽기": 0.20671733445161597,
+    "경로·위험 회피": 0.22150997150997154,
+    "상대 파악": 0.29374201787994897
+   },
+   "stages": {
+    "1-판정": 0.20029625256897984,
+    "2-변형": 0.1823178842720622,
+    "3-한수": 0.25961491427593125,
+    "4-앞보기": 0.197964796479648
+   },
+   "board_only_accuracy": 0.33035714285714285,
+   "board_annotated_accuracy": 0.5675675675675675,
+   "ece10": 0.09592160631577341
+  },
+  "semif": {
+   "score": 0.13280623354425009,
+   "facets": {
+    "규칙 판정": 0.11888613505747128,
+    "확률·기댓값": 0.08498938202601997,
+    "필승 전략": 0.1225316321105795,
+    "논리·정보 추론": 0.10381393298059965,
+    "수 읽기": 0.19861588812923392,
+    "경로·위험 회피": 0.25,
+    "상대 파악": 0.08971902937420181
+   },
+   "stages": {
+    "1-판정": 0.1799871004416459,
+    "2-변형": 0.07538680995554312,
+    "3-한수": 0.1910849414239245,
+    "4-앞보기": 0.1353135313531353
+   },
+   "board_only_accuracy": 0.33035714285714285,
+   "board_annotated_accuracy": 0.5945945945945946,
+   "ece10": 0.049452467329729154
+  },
+  "open-jev": {
+   "score": 0.05861311544562409,
+   "facets": {
+    "규칙 판정": 0.0682599879037754,
+    "확률·기댓값": 0.07736154530335566,
+    "필승 전략": 0.13897483608009925,
+    "논리·정보 추론": -0.05798210277376943,
+    "수 읽기": 0.0689669897532627,
+    "경로·위험 회피": 0.1616809116809117,
+    "상대 파악": -0.043422733077905465
+   },
+   "stages": {
+    "1-판정": 0.01622356319326018,
+    "2-변형": 0.08437591159963129,
+    "3-한수": 0.06304069753222297,
+    "4-앞보기": 0.12907040704070408
+   },
+   "board_only_accuracy": 0.25,
+   "board_annotated_accuracy": 0.4864864864864865,
+   "ece10": 0.2707457278519237
+  },
+  "jevmlx": {
+   "score": 0.05559453760220599,
+   "facets": {
+    "규칙 판정": 0.08688258096330624,
+    "확률·기댓값": -0.016315036735295333,
+    "필승 전략": 0.05903969519758994,
+    "논리·정보 추론": -0.0023358585858585844,
+    "수 읽기": 0.08088458027267903,
+    "경로·위험 회피": 0.14316239316239318,
+    "상대 파악": 0.002873563218390829
+   },
+   "stages": {
+    "1-판정": 0.042340431734371145,
+    "2-변형": 0.09041493098096873,
+    "3-한수": 0.02722674688776385,
+    "4-앞보기": 0.09763476347634764
+   },
+   "board_only_accuracy": 0.16964285714285715,
+   "board_annotated_accuracy": 0.44144144144144143,
+   "ece10": 0.1899683517330067
+  },
+  "laya": {
+   "score": 0.027894617444213694,
+   "facets": {
+    "규칙 판정": 0.0881296736417145,
+    "확률·기댓값": 0.014734050671550694,
+    "필승 전략": 0.05966702108807373,
+    "논리·정보 추론": 0.050696949655283,
+    "수 읽기": -0.11515238399301411,
+    "경로·위험 회피": 0.01495726495726497,
+    "상대 파악": 0.03033205619412518
+   },
+   "stages": {
+    "1-판정": 0.07056459253428952,
+    "2-변형": -0.021181783176392327,
+    "3-한수": -0.004814855577567428,
+    "4-앞보기": -0.05918591859185918
+   },
+   "board_only_accuracy": 0.15178571428571427,
+   "board_annotated_accuracy": 0.15315315315315314,
+   "ece10": 0.13669391749847698
+  },
+  "clm": {
+   "score": 0.012881045128675822,
+   "facets": {
+    "규칙 판정": 0.03341581529311103,
+    "확률·기댓값": -0.029376855185044824,
+    "필승 전략": -0.004305334042176141,
+    "논리·정보 추론": 0.004381112714446056,
+    "수 읽기": 0.018622409830765213,
+    "경로·위험 회피": -0.13319088319088318,
+    "상대 파악": 0.16922094508301405
+   },
+   "stages": {
+    "1-판정": -0.009006369612430204,
+    "2-변형": -0.0408326623960047,
+    "3-한수": 0.09528786655905301,
+    "4-앞보기": 0.0030253025302530365
+   },
+   "board_only_accuracy": 0.21428571428571427,
+   "board_annotated_accuracy": 0.26126126126126126,
+   "ece10": 0.3140801530498885
+  },
+  "julia": {
+   "score": 0.00602416204401814,
+   "facets": {
+    "규칙 판정": -0.03665113355569689,
+    "확률·기댓값": -0.013070765441455079,
+    "필승 전략": 0.09933563707247918,
+    "논리·정보 추론": 0.009970739137405808,
+    "수 읽기": 0.04254102701109299,
+    "경로·위험 회피": 0.06054131054131055,
+    "상대 파악": -0.03607918263090674
+   },
+   "stages": {
+    "1-판정": 0.0036454006150976,
+    "2-변형": 0.0008232109310276567,
+    "3-한수": 0.039869273852324714,
+    "4-앞보기": 0.0004400440044004485
+   },
+   "board_only_accuracy": 0.25892857142857145,
+   "board_annotated_accuracy": 0.17117117117117117,
+   "ece10": 0.26236530052877494
+  },
+  "jeff-0.8b": {
+   "score": 0.06578064044776971,
+   "facets": {
+    "규칙 판정": 0.05576774459992227,
+    "확률·기댓값": 0.05829563755210309,
+    "필승 전략": 0.05683253588516747,
+    "논리·정보 추론": -0.036040965207631864,
+    "수 읽기": 0.12888729861885254,
+    "경로·위험 회피": 0.047720797720797736,
+    "상대 파악": 0.20817369093231164
+   },
+   "stages": {
+    "1-판정": 0.057655195533983426,
+    "2-변형": 0.11430146672734275,
+    "3-한수": 0.07246887763836918,
+    "4-앞보기": 0.012596259625962607
+   },
+   "board_only_accuracy": 0.26785714285714285,
+   "board_annotated_accuracy": 0.2972972972972973,
+   "ece10": 0.10563839794828504
+  },
+  "jeff-2b": {
+   "score": 0.0915377857797083,
+   "facets": {
+    "규칙 판정": 0.1173290411296877,
+    "확률·기댓값": 0.12131982600732602,
+    "필승 전략": 0.036107744107744116,
+    "논리·정보 추론": 0.01630691839025173,
+    "수 읽기": 0.12182410531974952,
+    "경로·위험 회피": 0.047720797720797736,
+    "상대 파악": 0.10472541507024269
+   },
+   "stages": {
+    "1-판정": 0.039417260629381855,
+    "2-변형": 0.16447999439913188,
+    "3-한수": 0.07769229828551864,
+    "4-앞보기": 0.11963696369636964
+   },
+   "board_only_accuracy": 0.29464285714285715,
+   "board_annotated_accuracy": 0.36936936936936937,
+   "ece10": 0.09091412119234234
+  },
+  "jeff-gemma4-e2b": {
+   "score": 0.11056413506099,
+   "facets": {
+    "규칙 판정": 0.10909274245453032,
+    "확률·기댓값": 0.09428412224748434,
+    "필승 전략": 0.14731897926634768,
+    "논리·정보 추론": 0.019839265672599013,
+    "수 읽기": 0.15868144487115235,
+    "경로·위험 회피": 0.06623931623931625,
+    "상대 파악": 0.20083014048531292
+   },
+   "stages": {
+    "1-판정": 0.12365356304750245,
+    "2-변형": 0.05542992497170396,
+    "3-한수": 0.17152811407048696,
+    "4-앞보기": 0.14103410341034103
+   },
+   "board_only_accuracy": 0.32142857142857145,
+   "board_annotated_accuracy": 0.4774774774774775,
+   "ece10": 0.07484308288603625
+  },
+  "d1": {
+   "score": 0.33052879658931505,
+   "facets": {
+    "규칙 판정": 0.4002533845135513,
+    "확률·기댓값": 0.38184918529746115,
+    "필승 전략": 0.31988321814637605,
+    "논리·정보 추론": 0.25587822671156,
+    "수 읽기": 0.21494849130463817,
+    "경로·위험 회피": 0.24287749287749288,
+    "상대 파악": 0.4211366538952746
+   },
+   "stages": {
+    "1-판정": 0.4598335446820295,
+    "2-변형": 0.1938547974936115,
+    "3-한수": 0.3375435957639348,
+    "4-앞보기": 0.2430693069306931
+   },
+   "board_only_accuracy": 0.35714285714285715,
+   "board_annotated_accuracy": 0.6576576576576577,
+   "ece10": 0.13981127118693043
+  },
+  "nimble": {
+   "score": 0.241030111412418,
+   "facets": {
+    "규칙 판정": 0.2601958285377513,
+    "확률·기댓값": 0.35803064870952805,
+    "필승 전략": 0.08580382775119619,
+    "논리·정보 추론": 0.20710427689594357,
+    "수 읽기": 0.18004335624642342,
+    "경로·위험 회피": 0.27492877492877493,
+    "상대 파악": 0.33045977011494254
+   },
+   "stages": {
+    "1-판정": 0.3278827233372688,
+    "2-변형": 0.11346921272797285,
+    "3-한수": 0.28489740015163745,
+    "4-앞보기": 0.21925192519251926
+   },
+   "board_only_accuracy": 0.30357142857142855,
+   "board_annotated_accuracy": 0.6306306306306306,
+   "ece10": 0.15881943444987878
+  },
+  "tev1-4b": {
+   "score": 0.17044240618170647,
+   "facets": {
+    "규칙 판정": 0.18118877982094814,
+    "확률·기댓값": 0.16987554471390678,
+    "필승 전략": 0.028613503455608737,
+    "논리·정보 추론": 0.1439769721019721,
+    "수 읽기": 0.2129620207885676,
+    "경로·위험 회피": 0.17307692307692307,
+    "상대 파악": 0.27458492975734355
+   },
+   "stages": {
+    "1-판정": 0.15878663984724592,
+    "2-변형": 0.16027321734868905,
+    "3-한수": 0.23371462812140778,
+    "4-앞보기": 0.177997799779978
+   },
+   "board_only_accuracy": 0.3125,
+   "board_annotated_accuracy": 0.5945945945945946,
+   "ece10": 0.07348781574026159
+  },
+  "tev1-0.8b": {
+   "score": 0.03913407312986929,
+   "facets": {
+    "규칙 판정": 0.0383669744988617,
+    "확률·기댓값": 0.08904138246810663,
+    "필승 전략": 0.1072702463228779,
+    "논리·정보 추론": -0.02412417829084495,
+    "수 읽기": 0.02438583711928366,
+    "경로·위험 회피": 0.059116809116809124,
+    "상대 파악": -0.01564495530012769
+   },
+   "stages": {
+    "1-판정": -0.0019356625417231324,
+    "2-변형": 0.061430438384616294,
+    "3-한수": 0.04565204099102405,
+    "4-앞보기": 0.049697469746974705
+   },
+   "board_only_accuracy": 0.20535714285714285,
+   "board_annotated_accuracy": 0.27927927927927926,
+   "ece10": 0.04561805620479501
+  }
+ }
+}

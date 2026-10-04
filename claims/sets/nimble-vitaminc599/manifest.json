@@ -1,0 +1,83 @@
+{
+ "set": "nimble-vitaminc599",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "vitaminc-dev",
+  "dataset": "vitaminc",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/vitaminc-dev-manifest.json",
+   "sha256": "30bd72d23b3e58aeae8184024e05bcc3decbaf14a4b513cb659b3a6ee7d26fe3"
+  },
+  "upstream": {
+   "url": "https://github.com/TalSchuster/talschuster.github.io/raw/master/static/vitaminc.zip",
+   "sha256": "49d82dc1690cbee420d18e2c26f687a7937710bb211845d2571430dfd4dc0337",
+   "member": "vitaminc/dev.jsonl",
+   "exported_to": "vitaminc/dev.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/tals/vitaminc",
+   "license": "CC BY-SA 3.0",
+   "release_year": 2021
+  },
+  "source_sha256": "a3258bc959754c84bade150d3bf447fd9c91a529d93bb676f034fdafda5f26e5",
+  "dataset_sha256": "6144a345cb8846b6594f07a0037b1221b2d9633b20d8a9bfd14f9111d15965bc",
+  "seed": 20260918,
+  "limit": 600,
+  "ids_from": null,
+  "converted": 63054,
+  "skipped": 0,
+  "dropped_over_length": 0,
+  "families": 171,
+  "maker_code": [
+   "nimble/datasets/public_sources/vitaminc.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.766,
+  "jev-1.13.0": 0.801,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 599,
+ "sha256": {
+  "items.jsonl": "622660cdfd220d1cc277667fa6c6d86caecfc56319eddbf8126d980eb16f47ff",
+  "gold.json": "7a507bac28dbcbacdd5300988a414315d3f855af09468f9c46752ba60cb44ce2"
+ },
+ "type_counts": {
+  "choice": 599
+ },
+ "stats": {
+  "options": {
+   "3": 599
+  },
+  "answer_position": {
+   "1": 301,
+   "2": 232,
+   "3": 66
+  },
+  "label_by_position": {
+   "1": "SUPPORTS",
+   "2": "REFUTES",
+   "3": "NOT ENOUGH INFO"
+  },
+  "nimble_labels": {
+   "SUPPORTS": 301,
+   "REFUTES": 232,
+   "NOT ENOUGH INFO": 66
+  },
+  "stages": {
+   "vitaminc-real": 259,
+   "vitaminc-synthetic": 340
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/vitaminc.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain."
+ ]
+}

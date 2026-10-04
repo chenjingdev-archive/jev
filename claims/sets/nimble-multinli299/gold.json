@@ -1,0 +1,1198 @@
+{
+ "nimble-multinli299:multinli-100036c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-100036e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-100036n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-100640c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-100640e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-100640n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-101846c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-101846e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-101846n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102563c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102563n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102801c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102801e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102801n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102857c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102857e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-102857n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-105191c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-105191e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-105587c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-105587e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-105587n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-107693c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-107693e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-107693n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-109608c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-109608e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-109608n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-110237c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-110237e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-110237n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-112701c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-112701e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115224c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115224e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115224n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115478c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115478e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-115478n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-116405c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-116405e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-116405n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-117089c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-117089e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-117089n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-118415c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-118415e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-118415n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-119188c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-119188e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-119188n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120176c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120176e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120441c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120441e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120441n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120996c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120996e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-120996n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-123675c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-123675e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-123675n": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124388c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124388e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124388n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-12438c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-12438e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-12438n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124590c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124590e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-124590n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-125021c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-125021e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-126025c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-126025e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-126025n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-129980c": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-129980e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-129980n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-130680c": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-130680e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-130680n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-131063c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-131063e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-131063n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-132019c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-132019e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-132019n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133243c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133243e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133243n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133966c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133966e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-133966n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-134281c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-134281e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-134281n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-135021c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-135021e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-135021n": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-136864c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-136864e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-136864n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-143501c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-143501e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-143501n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-145377c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-145377e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-145377n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14649c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14649e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14649n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14937c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14937e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-14937n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15659c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15659e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15659n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15791c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15791e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-15791n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1682c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1682e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1682n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1735c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1735e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-1735n": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18636c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18636e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18636n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18920c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18920e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-18920n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-19167c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-19167e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-19167n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21287c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21287e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21287n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21297c": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21297e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21297n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21912c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21912e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-21912n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23319c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23319e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23319n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23365c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23365e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-23365n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25109c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25109e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25109n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25158c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25158e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-25158n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-27287c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-27287e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-27287n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-27400e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-27400n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-32754c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-32754e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-32754n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34043c": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34043e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34043n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34094c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34094e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-34094n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-36814c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-36814e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-36814n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-40103c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-40103e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-40103n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41052c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41052e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41052n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41432c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41432e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41432n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41958c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41958e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-41958n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-43365c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-43365e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-43365n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-44747c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-44747e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-44747n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-4795c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-4795e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-4795n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-48413c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-48413e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-48413n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-50071c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-50071e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-50071n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-54770c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-54770e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-54770n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5565c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5565e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5565n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-56495c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-56495e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-56495n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59383c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59383e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59383n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59453c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59453e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-59453n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5964c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5964e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-5964n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6030c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6030e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6030n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-62869c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-62869e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-62869n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-63602c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-63602e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-63602n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-67836c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-67836n": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6983c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6983e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-6983n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-71860c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-71860e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-71860n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-72389c": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-72389e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-72389n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-75259c": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-75259e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-75259n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-77871c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-77871e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-77871n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-7856c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-7856e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-7856n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82471c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82471e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82471n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82530c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82530e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-82530n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85309c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85309e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85309n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85403c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85403e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-85403n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-86793c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-86793e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-86793n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-87584c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-87584e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-87584n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-88227c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-88227e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-88227n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-90924c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-90924e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-90924n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-91601c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-91601n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-9301c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-9301e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93955c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93955e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93955n": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93958c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93958e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-93958n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-94811c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-94811e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-94811n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-9646c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-9646e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-9646n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96906c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96906e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96906n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96956c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96956e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-96956n": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-98065c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-98065e": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-98315c": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-98315e": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-multinli299:multinli-98315n": {
+  "answer": 2,
+  "n": 3
+ }
+}

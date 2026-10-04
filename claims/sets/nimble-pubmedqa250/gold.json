@@ -1,0 +1,1002 @@
+{
+ "nimble-pubmedqa250:pubmedqa-10135926": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10158597": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10201555": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10354335": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10381996": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10430303": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10575390": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10593212": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10605400": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10749257": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10781708": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10927144": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-10966943": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11034241": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11149643": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11247896": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11380492": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11411430": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11413427": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11481172": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11500608": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11713724": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11867487": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11955750": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-11978239": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12040336": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12090319": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12094116": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12098035": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12121321": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12221908": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12419743": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12442934": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12607120": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12607666": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12632437": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12913347": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12920330": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-12970636": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-14599616": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-14627582": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-14697414": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-14968373": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-14976655": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15052394": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15065192": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15125825": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15151701": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15208005": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15381614": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15466981": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15483019": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15670262": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15708048": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15800018": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15954832": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-15995461": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-16713745": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17008699": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17076091": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17224424": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17244100": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17274051": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17276182": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17276801": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17355582": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17453263": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17483607": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17489316": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17502203": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17606778": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17610439": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17682349": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17691856": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17715311": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-17910536": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18019905": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18096128": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18179827": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18182265": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18222909": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18243752": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18307476": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18378554": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18472368": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18537964": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18568290": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18570208": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18603989": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18607272": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18619710": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18667100": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18693227": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18714572": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18719011": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18832500": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-18926458": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19058191": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19100463": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19237087": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19302863": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19322056": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19327500": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19394934": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19401574": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19406119": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19409117": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19468282": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19504993": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19520213": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19578820": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19640728": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19643525": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19653482": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19694846": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19913785": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-19925761": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20064872": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20121683": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20130378": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20197761": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20297950": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20354380": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20488985": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20497146": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20571467": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-20594006": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21198823": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21228436": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21256734": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21361755": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21368683": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21394762": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21402341": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21431987": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21459725": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21569408": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21645374": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21669959": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21739621": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21745056": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21789019": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21823940": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21849531": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21880023": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-21946341": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22011946": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22108230": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22227642": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22251324": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22350859": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22497340": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22513023": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22519710": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22564465": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22658587": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22694248": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22706226": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22813804": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22825590": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22849512": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22954812": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-22990761": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23025584": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23149821": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23347337": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23412195": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23448747": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23449952": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23455575": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23497210": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23506394": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23719685": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23735520": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23736032": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23774337": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-23860049": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24019262": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24061619": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24074624": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24172579": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24183388": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24270957": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24318956": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24434052": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24577079": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24851767": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24946973": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-24995509": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25007420": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25034219": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25103647": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25155638": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25156467": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25186850": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25218577": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25255719": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25336163": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25394614": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25417760": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25480629": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25487603": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25501465": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25699562": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25735444": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25752725": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25793749": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25810292": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-25986020": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26085176": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26126304": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26175531": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26304701": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26419377": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26460153": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26471488": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26485091": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26556589": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26601554": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26686513": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26701174": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26907557": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-26999038": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27040842": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27044366": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27050505": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27078715": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27288618": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27549226": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27592038": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27643961": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27896825": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27909738": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-27928673": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-28011794": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-28196511": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-28707539": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-7497757": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-7860319": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-8199520": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-8847047": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-8916748": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9140335": {
+  "answer": 3,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9191526": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9199905": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9582182": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9602458": {
+  "answer": 2,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9745063": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9792366": {
+  "answer": 1,
+  "n": 3
+ },
+ "nimble-pubmedqa250:pubmedqa-9854965": {
+  "answer": 1,
+  "n": 3
+ }
+}

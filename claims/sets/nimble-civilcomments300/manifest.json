@@ -1,0 +1,82 @@
+{
+ "set": "nimble-civilcomments300",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "civil_comments",
+  "dataset": "civil_comments",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/civil_comments-manifest.json",
+   "sha256": "fba54a1619335382181ec4d9f874764d7cf710ac31ea80930e7d196459a04199"
+  },
+  "upstream": {
+   "url": "https://huggingface.co/datasets/google/civil_comments/resolve/f2970eb3a55777454c94069077cc8d9b5866312d/data/test-00000-of-00001.parquet",
+   "repo": "google/civil_comments",
+   "revision": "f2970eb3a55777454c94069077cc8d9b5866312d",
+   "file": "data/test-00000-of-00001.parquet",
+   "sha256": "410f803ff161e7c4ba005db7de5b444cac413f4861bf056b0fd69d670d75aa08",
+   "exported_to": "civil_comments/test.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/google/civil_comments",
+   "license": "CC0 1.0",
+   "release_year": 2019
+  },
+  "source_sha256": "655a9eebb8c6f93981955782a9ec6fc26015136890bc99cc6080a05dc456f5ea",
+  "dataset_sha256": "7f76c916faa51a8e67325dd4a8a1b70ee678ef124f1a551f5a32f26ebd66234e",
+  "seed": 20260918,
+  "limit": 300,
+  "ids_from": null,
+  "converted": 97320,
+  "skipped": 0,
+  "dropped_over_length": 0,
+  "families": 300,
+  "maker_code": [
+   "nimble/datasets/public_sources/civil_comments.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.703,
+  "jev-1.13.0": 0.81,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 300,
+ "sha256": {
+  "items.jsonl": "66e478bd44d9f1f92a758064bec49e80e53bd2d5e4c35b917db6891386e2ef24",
+  "gold.json": "17c746c3668e770d4f1d9a165451298d3fc5f71f9eb6c06bad5921aea3d135cc"
+ },
+ "type_counts": {
+  "noul": 300
+ },
+ "stats": {
+  "options": {
+   "2": 300
+  },
+  "answer_position": {
+   "1": 268,
+   "2": 32
+  },
+  "label_by_position": {
+   "1": "False",
+   "2": "True"
+  },
+  "nimble_labels": {
+   "False": 268,
+   "True": 32
+  },
+  "stages": {
+   "civil_comments": 300
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/civil_comments.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain.",
+  "noul -> two options [criteria[\"false\"], criteria[\"true\"]]: public_records.record_for (public_records.py:63-64) fixes that order and evaluate_pilot.py:29-30 (adapt_input) renders choices [False, True]. answer 2 = true. Jev was asked a native noul (P(true)); here every system gets the same two-option choice."
+ ]
+}

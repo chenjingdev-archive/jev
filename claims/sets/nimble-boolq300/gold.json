@@ -1,0 +1,1202 @@
+{
+ "nimble-boolq300:boolq-000d96b58fa78f9b": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-00580330d6a70a4f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-009f03ed4e3d4a27": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-02738b66ae7328d2": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-02ac8a5876845b91": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-02d381dd9b7d5695": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-03a1c4a8f1331272": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-03c91e19b668e89b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-04051c4ba9245330": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-04424a2a43ad20f9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-04d95bddbd6c7fa9": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-04eaca4d64f0df32": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-058d8482704b7a04": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0771b9356ddfa3d8": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-07d28f4e7751d0f0": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-07e24698add98a25": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-08361d73d28ce03b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0a88325f99836c22": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0ac34ee02c454cc7": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0bd2fda40c19e2c2": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0d8b87f27f1ec76f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0da7d3d8c052006f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0e0e664c466088ae": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-0f368f69c23ddfb0": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-10bd53a26e4e2eaa": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-11527ebaf5db0884": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-128d8c60a7b97e19": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-12962f56a7cf8429": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1314a83c2e31c715": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1359d6411568917b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1375df6fed59af31": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-139dc5aad7035798": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-13e97d32df9508fd": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1409be7912b18331": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-15499e723d2d0fd9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-15901ee23b03c9bf": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1659e34d0b185c78": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-16ad5cee8a01b80b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-18ac82173fa1b317": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-18eaf8e214d65c4c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-18fbb8cbeb53fe8d": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-191633ba28cd6162": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1a4c3aa8086ae8a4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1e1608d9c0d2e844": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-1ed8b745db8fa8e9": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2096b6b371ac1ce9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-21ac5da2676de627": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-225cd2da5f2e922b": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-247c1aa168402110": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-24e31bae6ffb432a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-25c0248962fc2f09": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2668487664cbb0c6": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-270a781cf1f8827d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-273d4a51e73b1cae": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-28067e85bfb90010": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-28315fffa25aa703": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-29382aadcc9e5d1e": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-297199e8e99d02a6": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2ac18d1158661563": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2b26749e88a7d800": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2c7a780c0403d5b4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2cc3cfaee20f6aa0": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2cd23f0333f843b2": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2d5d2dd03f76f602": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2dcb56c878b2322e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-2f93f8f1d38cc33f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-30d6200397851764": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-310bf98d272b5386": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-314cd4d9bb85a545": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-32a045e42e3f088a": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-332181256db1f4df": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-360a034fc87db957": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-361319c5d8cdf1f9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-36cbe42e381c585b": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-386b3e98599e5d77": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-3885cd91c7357a41": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-388c475f9b00abc4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-396f4ecdaa18ea9a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-3a3f3fcf82e7dd57": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-3bbb63c90fbf4d0c": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-3c9745b32a746c1d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-3fb6040a77ee74b2": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-43a57e4ce10560a8": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-43f077e72a6fc1cb": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-45273a828ebb35b1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4594e682a4c60a4d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4637c4707c763a0d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-48d110e19e125676": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4a19045e7d6a2663": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4a1c1d5c3905ac0e": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4aa875c0daf7c022": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4af7f54088c74f1a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4b25def7235b2168": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4c4b414ba58c8bba": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4ca045b4cccf96e3": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4db7a1e8a60ce264": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4e8c67ebc4ec247d": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4e91e165dcdc58e9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4ee109ea22956bad": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4f511f01a7873574": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-4fd382e75edcecb1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5172c569ea7ac6e0": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-553518c88cbe1c0c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-59f75f74354a99b7": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5ad23558f86e6527": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5c76c171ad7bd658": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5cfb4ce749e54a20": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5ea6d9e2887691e6": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-5f0705ff2966a09d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-60d158bfe6648431": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6125bbf6466d5ba1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-628ea1001ed7f0c6": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6361784aa024ac36": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6382a9d59c6b1bab": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-645daf17f7243b81": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-649b26996262c435": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-65b67f7c0fc1e987": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-65ec8f0b1f92d9c5": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-666747807b5aebfc": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-667726643e30f211": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-68096c55fb8f4f21": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-68c0d1d5acb3793e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-690432d570e2827d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-69167e2ea4cd3d75": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-69fdb5d97223ec3c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6a7e754ec8d403a1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6adb6581b8a3f1e3": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6c51821b061ea7bc": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6e687809dd6fba8d": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6ecd51b25bda10c0": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-6fe55e335ba99371": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-72940df219b5dad5": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-73ec5d231c5d597e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7492543150590172": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-759f738e0ec899ef": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-75e874a9cb71368b": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7709831b4032c827": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-77d7c01e5a4d5f10": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-78286a7bbcb8c26f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-783d34e669c1dddd": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-790bb45f237f4595": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7a84d4705d912133": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7b00cf67ea4e5255": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7b1930e418800eb3": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7b2f27734ae16ced": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7b72c3de023d5141": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7bd3e331b2790463": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7ca51ce6a7477b32": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7cdabc251340e544": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7d7355433c1cd17f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7e4f8ccc33575282": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-7e62fe2b11e44f25": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-81b1c340cf7c9933": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-81b44ee5473227a0": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-81b6ee822c1a825c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-83c0c0a3462bca0e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-84ce1abf9d8f799f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-86fafadd90add84e": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-872ce18d8d098d60": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-87beef3975930250": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-88a6c66cd9c299e6": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-892d7adff9189726": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-897085dfd65c86c7": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8b1877f483377a69": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8b33dbfe18532a2e": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8c2d5c3f2a991895": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8e0251664ded26a5": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8e4f11f98e41eef4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8ef4429c6cfb5462": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-8fd089d325756d29": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-905381598696f82e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9080cbc6a7e9d7a8": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-92835ba8f54b553f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-92dc25d1a45fed81": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-934123bad7e50c9f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-93f2658e6759e240": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-94b45013a53fea03": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-94f51a0ab3f6cd2c": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-94f9a263990a01c8": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9653c36a97a97da9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-972d54b920e160b6": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9a6c0000e3b436d4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9b8293f40be606e6": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9bbcf575ab7ef647": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9bc2f0a5dc991356": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9c05fb7201922472": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9d720dea0ff34b8f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9db1ccb3071f39ab": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9e8afa0edfa19d05": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-9e8e104403d65c05": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a0dba9f09e555043": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a1d0a4f56a4ebb94": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a2c9ab67d3983eca": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a3a765b12c5f67ff": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a40e4904d225862a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a4bb2ad2ca115dde": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a566a4d2758939db": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a7abb4a4fe98b776": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a817a946588101ca": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a85511d9f07d118b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a92848045cadaafd": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-a9fbe47fbeb85ce7": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ab3d313611e803b1": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ab9f5725ecdf2852": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-acc41567eb79c8b3": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ace6d6fae118389c": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-aeb9abf1c1f8f9f5": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-aebaa72bfecf0b9d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b23be44c054f8d5e": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b2e42fd9be020604": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b39611502298433f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b3db8db215eabcbb": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b3f3700638585219": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b5702c997245a220": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b5b2822e85f4ab2f": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b6b024d6a37d58c4": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b6b9baf22e977cee": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b90dae7ca0fdfd7a": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b9320cd5c94fb485": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b936fb8fa98791aa": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-b99d81bb349caf2b": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-bc6467ada42df013": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-bde0e9c0fdfe2555": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-be5d4c938ae81865": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-be7e3d810a4934bf": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c107c20eda8ecc7c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c12e7087dbae5054": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c209deb7028f7527": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c42b9305b39153f1": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c48d8b28a851b25d": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c4c203e3c4d13053": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c66b86c2065907d0": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c69104f1f6bdf308": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c7341cfa2fab1924": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c840dcef5118b3a1": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c9a8cdd7265ba6d0": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-c9b0a7c1f7766730": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ca04b6f3ddbd9e9c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-cbb3d862a1c7873f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-cbdb90121ad59032": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-cc38d637ba302d4d": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ccc62f43a9e4b37e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-cece0d50287df864": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-cfe1d3ff9e73ad09": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d1579fd79b0894ae": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d1ab26ee015d7039": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d20cbc6f0a14c199": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d357a6d3753ab0a3": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d45c6e17cd1f28e3": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d494300251395c15": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d4c11d3ad399df1d": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d5f7a5df23d7b790": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d66c036f25f641ad": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d693f094b98e0956": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-d9bb9ddc3ec5de2a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-dcfa70d2e89b2a4a": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ded28a47dffbedf4": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ded79e34c709a618": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e088898e564a6098": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e1c9d8599dfc6715": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e20d6b62034db8ff": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e411d712c54ad912": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e5b53b5f01e17c95": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e6ffd630f4a49e55": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e79c524402588bf0": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e88273234e342e04": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e8d723cb7e2b13be": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e962154d8b89d895": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-e9c253a1f7a17e92": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ea322236edc53b94": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ea39e99a44d158a5": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-eb3591110ae3f308": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ee9b18181251f6fe": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-eeee90a1090fd269": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-ef995f392efa5e7c": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f00936160824b5c9": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f082412f4a6c2c00": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f10d141e39adb7ab": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f1f000c5e1b0b558": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f29aca5788d4f811": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f2a71272c73594c2": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f334dfc4e4a5ecf9": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f40d23989afb6828": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f62ed8aa31256408": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f719e15d0b4d85ae": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f7387a771c6cf3f1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f7708efa2272b3a1": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f7721016740dc261": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f779ab590456e3c1": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f801406aa0a8006e": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-f8edd69e3bf9c4c3": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fb3e80a2d0e1b883": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fbf6e0f1f5de0732": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fc502254a85af60f": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fc7dcbaf270b3db1": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fce6a159a5931e09": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fd5e21c3e480e277": {
+  "answer": 1,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fde14439f58f370a": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fe351c4e46e6b2c3": {
+  "answer": 2,
+  "n": 2
+ },
+ "nimble-boolq300:boolq-fe6b95f320d16b9f": {
+  "answer": 2,
+  "n": 2
+ }
+}

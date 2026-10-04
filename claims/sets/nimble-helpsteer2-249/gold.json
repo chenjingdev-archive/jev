@@ -1,0 +1,998 @@
+{
+ "nimble-helpsteer2-249:helpsteer2-10": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1008": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1009": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1018": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1019": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-102": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1024": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1025": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1028": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1029": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-103": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1032": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-1033": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-11": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-122": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-123": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-14": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-148": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-149": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-15": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-16": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-162": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-163": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-17": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-172": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-173": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-182": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-183": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-186": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-187": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-194": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-195": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-20": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-202": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-203": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-21": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-22": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-23": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-234": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-235": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-238": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-239": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-242": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-243": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-245": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-256": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-257": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-264": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-265": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-268": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-269": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-270": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-271": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-274": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-275": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-284": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-285": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-308": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-309": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-326": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-327": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-330": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-331": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-336": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-337": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-338": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-339": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-340": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-341": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-358": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-359": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-36": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-366": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-367": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-37": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-390": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-391": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-40": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-400": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-401": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-402": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-403": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-41": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-410": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-411": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-416": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-417": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-418": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-419": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-422": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-423": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-432": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-433": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-436": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-437": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-44": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-442": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-443": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-448": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-449": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-45": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-454": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-455": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-456": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-457": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-470": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-471": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-48": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-480": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-481": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-488": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-489": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-49": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-496": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-497": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-498": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-499": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-50": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-508": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-509": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-51": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-520": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-521": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-544": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-545": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-546": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-547": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-552": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-553": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-564": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-565": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-570": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-571": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-58": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-59": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-596": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-597": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-600": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-601": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-602": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-603": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-618": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-619": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-622": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-623": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-624": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-625": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-648": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-649": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-650": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-651": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-652": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-653": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-654": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-655": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-658": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-659": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-666": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-667": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-670": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-671": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-678": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-679": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-682": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-683": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-684": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-685": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-686": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-687": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-688": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-689": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-700": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-701": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-712": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-713": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-714": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-715": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-722": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-723": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-724": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-725": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-746": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-747": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-756": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-757": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-760": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-761": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-766": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-767": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-776": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-777": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-778": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-779": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-784": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-785": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-798": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-799": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-8": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-80": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-81": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-82": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-820": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-821": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-828": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-829": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-83": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-858": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-859": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-864": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-865": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-868": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-869": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-888": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-889": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-898": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-899": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-9": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-908": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-909": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-910": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-911": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-912": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-913": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-920": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-921": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-926": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-927": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-932": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-933": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-934": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-935": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-940": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-941": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-942": {
+  "answer": 1,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-943": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-944": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-945": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-970": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-971": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-98": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-980": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-981": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-986": {
+  "answer": 4,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-987": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-988": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-989": {
+  "answer": 3,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-99": {
+  "answer": 2,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-990": {
+  "answer": 5,
+  "n": 5
+ },
+ "nimble-helpsteer2-249:helpsteer2-991": {
+  "answer": 3,
+  "n": 5
+ }
+}

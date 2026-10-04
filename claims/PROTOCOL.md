@@ -82,3 +82,71 @@ Jeff(firelex/jeff@2c1bfce)가 README에서 인용한 패널을 세트로 추가�
 - Laya·laya-typed의 새 세트는 `amd`(torch 2.9.1+rocm7.2.1, transformers는 Mac과 같은 버전)에서 돌렸다. Mac 기록과 표본 비교에서 Laya 36/36, laya-typed 18/18 같은 답, 확률 차이 최대 0.02였다. laya-typed가 앞 13세트에서 비어 있던 부분도 이때 채웠다.
 - Julia도 `amd`에서 돌려 봤으나 표본 255개 중 252개만 같은 답(확률 차이 최대 0.16)이라 Mac(MPS)에서 다시 돌렸다. 점수는 Mac 결과이고, `amd` 결과는 `julia-amd`로 따로 두었다. 새 6세트 정확도 차이는 세트마다 1%p 이내였다.
 - Jeff 세 모델은 CSAT(`2027-09`), 게임 v1(`v1`), 언어 시험(`lang-en`)도 같은 장치로 돌렸다.
+
+## 5. 추가: Nimble (2026-09-30 고정, 실행 전)
+
+Nimble(bespokelabs/nimble@62076b4)이 `docs/PUBLIC_BENCHMARKS.md`에서 Bespoke-Nimble-9B와 Jev 1.13.0을 맞댄 공개 벤치 13개(3,880문항)를 세트로 추가한다. 앞 세트와 문항·요청이 겹치지 않으므로 태그는 `claims` 그대로 쓰고, 기존 시스템은 새 세트만 추가로 돈다.
+
+**세트** (`claims/build_nimble.py`). Nimble 변환 코드(`nimble/datasets/public_sources/*.py`)를 그대로 import해 돌리고, Nimble이 커밋한 subset manifest의 ids로 같은 레코드를 고른다. 원본을 내보낸 파일이 manifest의 `source_sha256`과, 고른 레코드가 `dataset_sha256`과 13개 모두 바이트 단위로 같다(다르면 빌드가 멈춘다).
+
+| 세트 | 문항 | Nimble subset | 원래 형식 | Nimble / Jev 발표 정확도 |
+|---|---:|---|---|---|
+| nimble-vitaminc599 | 599 | vitaminc-dev | choice 3 | 0.766 / 0.801 |
+| nimble-massive-en350 | 350 | massive-en-US | choice 18 | 0.869 / 0.874 |
+| nimble-massive-de350 | 350 | massive-de-DE (en-US와 같은 id) | choice 18 | 0.834 / 0.869 |
+| nimble-boolq300 | 300 | boolq | noul | 0.860 / 0.897 |
+| nimble-squad2-299 | 299 | squad2 | noul | 0.806 / 0.829 |
+| nimble-paws250 | 250 | paws | noul | 0.828 / 0.892 |
+| nimble-multinli299 | 299 | multinli | choice 3 | 0.853 / 0.829 |
+| nimble-civilcomments300 | 300 | civil_comments | noul | 0.703 / 0.810 |
+| nimble-aegis2-250 | 250 | aegis2 | noul | 0.812 / 0.804 |
+| nimble-helpsteer2-249 | 249 | helpsteer2 | score 5 | 0.390 / 0.341 |
+| nimble-summeval-relevance240 | 240 | summeval-relevance | score 5 | 0.492 / 0.350 |
+| nimble-summeval-consistency144 | 144 | summeval-consistency | score 5 | 0.757 / 0.812 |
+| nimble-pubmedqa250 | 250 | pubmedqa | choice 3 | 0.756 / 0.772 |
+
+- **noul 변환:** [false 설명, true 설명] 두 보기. Nimble `record_for`가 criteria를 이 순서로 고정하고 `adapt_input`이 `choices=[False, True]`로 내보낸다. Jev는 원래 noul(P(true))로 받았다.
+- **score 변환:** 5단계 설명(LEVELS)을 순서대로 보기로 준다. 정답은 기준 단계. Nimble 표의 정확도도 단계가 정확히 맞아야 맞음이다(`evaluate_pilot.assess`: argmax 키 == 기준 단계, `evaluate_public_jev.jev_row`도 같다). Nimble 문서는 이 세 세트에서 기대 단계 MAE를 보라고 한다.
+- **보기 문구:** criteria 설명만 쓰고 키 이름(SUPPORTS, alarm, "0"~"4" 등)은 버린다(Jeff·typed-decisions와 같다). Nimble 프롬프트와 Jev 요청은 키 이름도 보였다는 점이 다르다.
+- **state·질문:** Nimble 레코드의 `input.state`(civil_comments만 문자열, 나머지 객체)와 `instructions`를 그대로 쓴다. stage는 Nimble domain이다.
+- **원본:** aegis2·helpsteer2의 `source_sha256`은 저장소 원본이 아니라 HF `refs/convert/parquet` 내보내기와 맞는다. 길이 필터(Qwen3.5 토크나이저 2,048토큰)는 ids에 이미 반영돼 있고 자르지 않는다.
+- **비교 조건 차이:** Nimble 발표 수치는 원래 순서 한 번, 원래 형식(noul·score) 질문이다. 우리 값은 보기 순환 평균이고 모든 형식이 보기 고르기다.
+- **긴 보기:** nimble-aegis2-250의 true 보기(위험 범주 12개 나열)는 69토큰으로 `OPTION_TOKEN_CAP`(48)을 넘는다. Julia는 처리 못 함(오답)으로, Laya는 잘라서 받는다. 제작자 문구라 그대로 둔다.
+
+## 6. 추가: Ollama 판단 모델(Nimble·Tev1)과 Liquid d1 (2026-09-30)
+
+Ollama 0.35.0이 TypeSafe System One과 같은 모양의 `/v1/systemone`을 열면서 Nimble(Bespoke Labs)과 Tev1-4B·0.8B(Together AI)를 배포했다. Liquid AI도 같은 모양의 API로 d1을 냈다. 넷을 기존 시스템과 같은 계약으로 수능(2027-09), 게임 v1, 언어 시험(lang-en), claims 32세트에 돌린다.
+
+| 시스템 | 모델 | 실행 경로 | 기기 | 입력 한도 |
+|---|---|---|---|---|
+| nimble | `nimble:latest` (Bespoke-Nimble-9B, Q8_0 GGUF, digest `24e550a16a70`) | Ollama 0.35.0 `/v1/systemone` | `amd` (Radeon 8060S, ROCm) | 8,194토큰 (modelfile `num_ctx`) |
+| tev1-4b | `tev1:latest` (Tev1-4B-experimental, Q8_0, digest `cef45ef93cf6`) | 같음 | `amd` | 2,050토큰 |
+| tev1-0.8b | `tev1:0.8b` (Tev1-0.8B-experimental, Q8_0, digest `d45e875d63fe`) | 같음 | Mac Studio (Metal) | 2,050토큰 |
+| d1 | `d1:free` | TypeSafe SDK 0.6.0, `base_url=https://api.liquid.ai/decisions` | Liquid API | 공개 안 됨 |
+
+- **어댑터:** `OllamaAdapter`는 Ollama의 System One에 choice 질문 하나를 바로 보낸다(shim 없음). `LiquidAdapter`는 Jev와 같은 SDK를 쓰고, 키는 `op://Agent/Liquid API/credential`(`csat/.env.tpl`)이다. state·지시문·보기는 다른 시스템과 같다.
+- **Ollama 서버:** 사용자의 기존 Ollama 앱(0.34)과 섞지 않으려고 0.35.0 실행 파일을 따로 받아 다른 포트와 모델 폴더로 띄웠다(Mac 11435, `amd` 11436을 Mac 11437로 터널). `ollama pull`이 Cloudflare R2의 IP 하나에 연결하지 못해 멈췄다. 그래서 레이어를 curl로 받아 manifest의 sha256과 맞춘 뒤 넣었다. `amd`에는 Mac에서 복사했고 해시가 같다.
+- **처리 못 함(시스템 자체 거부):** 세 경우다. 입력이 modelfile `num_ctx`를 넘을 때(Ollama 400, "input is never truncated"), 보기가 2~26개 밖일 때(Ollama), 지시문이 비었을 때(Ollama 400, d1 422)다. 어댑터는 입력을 고치지 않고 처리 못 함으로 적는다. 세트별 수는 `README.md`에 있다.
+- **같은 분포 학습:**
+  - Jeff는 Nimble 공개 벤치와 같은 데이터셋 9개의 학습 split으로 학습했다. 근거는 `jeff/src/jeff/data.py`의 `TASKS`·`TRAIN_QUOTAS`다. Nimble 레코드와 그 family는 해시를 확인해 뺐다.
+  - Tev1은 MultiNLI·BoolQ·Banking77·AG News·SST-5로 학습했다(tev1 `DATA_SOURCES.md`).
+  - Nimble 학습 데이터(2,676문항)에는 공개 데이터셋이 없다.
+  - d1은 학습 데이터를 공개하지 않았다.
+
+**실행 중 결정 (2026-09-30 ~ 10-01)**
+
+- **Nimble은 `amd` 하나로 돌렸다.**
+  - 처음에는 Mac과 `amd`에 나눠 돌렸다. 같은 v1 40문항(192호출)을 두 기기에서 비교하니 189호출의 답이 같았고, 확률 차이는 최대 0.142였다.
+  - Julia를 `amd`에서 Mac으로 되돌렸을 때(252/255, 0.16)와 같은 수준이라 한 기기로 모았다. 기록 대부분(49,175건)이 `amd`에서 나와 `amd`로 정했다.
+  - Mac에서 나온 386건은 `gamebench/results/v1/nimble-mac`에 따로 두었다. 비교 기록은 `gamebench/results/parity-mac`·`parity-amd`에 있다.
+  - 호출당 속도는 `amd` 0.31초, Mac 0.93초였다.
+- **Tev1:** Tev1-4B는 `amd`에서만, Tev1-0.8B는 Mac에서만 돌렸다.
+- **어댑터 오류 처리 변경:**
+  - Ollama의 거부 응답(토큰 초과, 보기 수, 빈 지시문)이 처음에는 일반 오류로 잡혔다. 실행 중에 이를 처리 못 함으로 분류하도록 고쳤다. 같은 요청을 시스템이 거부한 것을 오류 대신 처리 못 함으로 적는 변경이라, 완료된 답은 하나도 바뀌지 않는다. 3절 10번의 새 태그 대상이 아니다.
+  - d1의 일시 오류(429·502·시간 초과) 136호출은 다시 불러 모두 완료했다.
+- **다른 세션의 실행:**
+  - 2026-09-30 22:37 ~ 10-01 07:00에 Codex 세션이 사용자 요청으로 자체 분배기(`gamebench/dispatch.py`, 나중에 사용자 요청으로 삭제)를 만들어 일부를 돌렸다. 기존 Mac 시스템 6개(Julia, Jeff-0.8B·2B, SemIf, open-jev, jevmlx)의 Nimble 세트와 새 시스템 일부가 여기서 나왔다.
+  - 그 기록의 health(체크포인트·revision·가중치 sha256)는 예전 실행과 같다. Jeff는 가중치 해시의 표기 형식만 바뀌었다.
+  - 그 세션이 `gamebench/run.py`, `csat/bench/run.py`, `csat/bench/adapters/__init__.py`에 넣은 변경은 남겨 두었다. 새 기록은 `device`(`JEV_BENCH_DEVICE`)와 `execution`(health)을 함께 적는다. 408·429를 뺀 4xx는 다시 부르지 않는다(`retryable`). Ollama·d1 어댑터는 빈 지시문과 2~26개 밖의 보기를 부르기 전에 처리 못 함으로 돌린다. 답에는 영향이 없다.
+- **Jev:** Nimble 세트 12,907호출을 2026-09-30 22:11~22:18에 돌렸다(workers 8).
+- **5절 정정:** `nimble-aegis2-250`에서 Laya도 Julia처럼 처리 못 함이다. Laya는 보기를 잘라야 받을 수 있는데, shim이 몰래 자르지 않고 413으로 돌려보낸다("Laya would truncate"). 5절의 "Laya는 잘라서 받는다"는 실행 전 예상이었다.

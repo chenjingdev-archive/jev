@@ -1,0 +1,82 @@
+{
+ "set": "nimble-boolq300",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "boolq",
+  "dataset": "boolq",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/boolq-manifest.json",
+   "sha256": "7568f509ad62dd1115427d0215c418ed112b7a0a3d2c7cbe5621aa9b49944d8e"
+  },
+  "upstream": {
+   "url": "https://huggingface.co/datasets/google/boolq/resolve/35b264d03638db9f4ce671b711558bf7ff0f80d5/data/validation-00000-of-00001.parquet",
+   "repo": "google/boolq",
+   "revision": "35b264d03638db9f4ce671b711558bf7ff0f80d5",
+   "file": "data/validation-00000-of-00001.parquet",
+   "sha256": "52355d11524b4b874a9b9dcc278feb10f672d52c4f4eff9872e695ede59820f8",
+   "exported_to": "boolq/validation.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/google/boolq",
+   "license": "CC BY-SA 3.0",
+   "release_year": 2019
+  },
+  "source_sha256": "dbad2984e58eaa2184b6d0acfe2e94a73b9868381046255d6be6c3bed9088b68",
+  "dataset_sha256": "2c239fdc3e4d5f2d015a7ab9def82d0c2ff6fb49d39c96dc233d3e5911583b58",
+  "seed": 20260918,
+  "limit": 300,
+  "ids_from": null,
+  "converted": 3270,
+  "skipped": 0,
+  "dropped_over_length": 0,
+  "families": 274,
+  "maker_code": [
+   "nimble/datasets/public_sources/boolq.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.86,
+  "jev-1.13.0": 0.897,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 300,
+ "sha256": {
+  "items.jsonl": "f8e842711b5be14bf84faa34939659754da543fc412162b942e97a19eb595fe6",
+  "gold.json": "fab7b7ef3da8408b93c9a975b21fb776a7142c245b31b5b6484dbc164f409a2f"
+ },
+ "type_counts": {
+  "noul": 300
+ },
+ "stats": {
+  "options": {
+   "2": 300
+  },
+  "answer_position": {
+   "1": 126,
+   "2": 174
+  },
+  "label_by_position": {
+   "1": "False",
+   "2": "True"
+  },
+  "nimble_labels": {
+   "False": 126,
+   "True": 174
+  },
+  "stages": {
+   "boolq": 300
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/boolq.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain.",
+  "noul -> two options [criteria[\"false\"], criteria[\"true\"]]: public_records.record_for (public_records.py:63-64) fixes that order and evaluate_pilot.py:29-30 (adapt_input) renders choices [False, True]. answer 2 = true. Jev was asked a native noul (P(true)); here every system gets the same two-option choice."
+ ]
+}

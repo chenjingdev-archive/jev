@@ -1,0 +1,85 @@
+{
+ "set": "nimble-aegis2-250",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "aegis2",
+  "dataset": "aegis2",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/aegis2-manifest.json",
+   "sha256": "5c76ac713ec33eb5515349a6b04bc03696805cc5e08ebdafbd1695ed08f8846b"
+  },
+  "upstream": {
+   "url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0/resolve/c28676823546b8128ae1d3e7a53e26a4984d5ce8/default/test/0000.parquet",
+   "repo": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+   "revision": "c28676823546b8128ae1d3e7a53e26a4984d5ce8",
+   "file": "default/test/0000.parquet",
+   "sha256": "e887e19c628e5667fb10e0bf540a2a7bdb038395a3b418b948d2e97846c7758a",
+   "exported_to": "aegis2/test.jsonl",
+   "nimble_source_url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+   "license": "CC BY 4.0",
+   "release_year": 2025
+  },
+  "source_sha256": "b63f6febd9f7392862d1d48c5ba7be5d7efef32b1f998f70d19adec24cb096fd",
+  "dataset_sha256": "2d10424f7d2b06e9c38fe443f9cfb10eb958b4eb37cbec2bed4d990d109374b2",
+  "seed": 20260918,
+  "limit": 250,
+  "ids_from": null,
+  "converted": 1927,
+  "skipped": 36,
+  "dropped_over_length": 1,
+  "families": 250,
+  "maker_code": [
+   "nimble/datasets/public_sources/aegis2.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.812,
+  "jev-1.13.0": 0.804,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 250,
+ "sha256": {
+  "items.jsonl": "558208adecd0a65880c92de028faca5d4b35b882d32e2348c7b58ceddfe3ad28",
+  "gold.json": "1f0c0f12fcf95332936216ec6024f4c74a768a2f750a85dd97c57b54499112ce"
+ },
+ "type_counts": {
+  "noul": 250
+ },
+ "stats": {
+  "options": {
+   "2": 250
+  },
+  "answer_position": {
+   "1": 108,
+   "2": 142
+  },
+  "label_by_position": {
+   "1": "False",
+   "2": "True"
+  },
+  "nimble_labels": {
+   "True": 142,
+   "False": 108
+  },
+  "stages": {
+   "aegis2": 250
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/aegis2.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain.",
+  "noul -> two options [criteria[\"false\"], criteria[\"true\"]]: public_records.record_for (public_records.py:63-64) fixes that order and evaluate_pilot.py:29-30 (adapt_input) renders choices [False, True]. answer 2 = true. Jev was asked a native noul (P(true)); here every system gets the same two-option choice.",
+  "source_sha256 matches the HF refs/convert/parquet export, not the repository's own json/jsonl.gz on main; both convert to the same dataset_sha256.",
+  "The \"true\" option (Nimble's twelve unsafe categories) is 69 tokens by build.py's tokenizer, over OPTION_TOKEN_CAP 48: Julia refuses such items (unsupported, scored wrong) and Laya truncates. Kept verbatim; it is the maker's criterion.",
+  "Nimble dropped 1 over-length row(s) (Qwen3.5-9B tokenizer, 2,048 tokens) before selection; the id list already reflects that. Nothing is truncated here."
+ ]
+}

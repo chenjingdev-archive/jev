@@ -1,6 +1,6 @@
 # Jev-like 지식 벤치마크 — 2027학년도 9월 모의평가 (2026-09-27)
 
-Jev와 Jev-like 6개를 같은 조건에서 시험했다. 설계와 규칙은 `PROTOCOL.md`에 있다.
+Jev와 Jev-like 6개를 같은 조건에서 시험했다. 설계와 규칙은 `PROTOCOL.md`에 있다. 나중에 나온 8개(d1, Nimble, Tev1 두 모델, Jeff 세 모델, Julia-1)는 아래 '추가 시스템' 절에 있다.
 
 - 모든 모델은 같은 텍스트 입력(`canonical-2027-09.json`, sha256 `9b5f8f17…`)을 받는다.
 - 지시문은 하나로 고정했고, 호출 형식은 `choose(state, instructions, criteria)` 하나다.
@@ -51,6 +51,42 @@ Jev와 Jev-like 6개를 같은 조건에서 시험했다. 설계와 규칙은 `P
 - 과학탐구는 Jev도 0.38로 낮다. 그림·그래프를 글로 옮긴 문항이 많고, 계산이 필요한 영역이다.
 - 제2외국어·한문은 270문항으로 가장 커서 전체 점수에 미치는 비중이 크다. 영역 평균을 따로 보고한 이유다.
 
+## 추가 시스템 (2026-09-29 ~ 10-01)
+
+처음 7개를 돌린 뒤 나온 Jev-like 8개를 같은 입력·지시문·보기 순환으로 더 돌렸다. 위 표와 위 본문은 처음 7개 그대로 둔다.
+
+| 모델 | 정확도 | 95% 구간 | 원래 순서만 | Brier | ECE | 처리 못 함 | 호출 지연 중앙값 |
+|---|---:|---|---:|---:|---:|---:|---:|
+| d1 (Liquid API, `d1:free`) | **69.0%** (610) | 64.9–73.0 | 68.0% | 0.405 | 0.066 | 0 | 0.38초 |
+| Nimble-9B (Qwen3.5-9B, Ollama Q8_0, amd ROCm) | 59.8% (529) | 55.3–64.2 | 57.5% | 0.506 | 0.093 | 0 | 1.43초 |
+| Tev1-4B (Qwen3.5-4B, Ollama Q8_0, amd ROCm) | 53.5% (473) | 48.8–58.0 | 51.6% | 0.567 | 0.063 | 10 | 0.87초 |
+| Jeff-Gemma4-E2B (Gemma 4 E2B, amd ROCm) | 42.6% (377) | 38.3–47.0 | 39.7% | 0.685 | 0.069 | 0 | 0.42초 |
+| Jeff-2B (Qwen3.5-2B, MLX) | 39.8% (352) | 35.7–44.0 | 37.8% | 0.731 | 0.114 | 0 | 0.24초 |
+| Jeff-0.8B (Qwen3.5-0.8B, MLX) | 36.5% (323) | 32.7–40.2 | 35.1% | 0.762 | 0.113 | 0 | 0.12초 |
+| Tev1-0.8B (Qwen3.5-0.8B, Ollama Q8_0, Mac Metal) | 32.4% (286) | 28.9–35.8 | 30.3% | 0.758 | 0.039 | 10 | 0.24초 |
+| Julia-1 (mmBERT-small 144M, MPS) | 25.1% (222) | 22.3–27.9 | 24.5% | 0.885 | 0.222 | 31 | 0.09초 |
+
+- **d1은 이 시험에서 Jev와 차이를 확인하지 못한 첫 Jev-like다.** 같은 문항에서 Jev만 맞힌 것이 70개, d1만 맞힌 것이 67개다(McNemar p = 0.86). 그렇다고 Jev와 같은 모델은 아니다. 두 시스템이 같은 답을 고른 문항은 76.6%다. Jev를 두 번 돌리면 97.7%가 같다. 정확도가 비슷한 다른 모델이다.
+- d1은 보정이 Jev보다 거칠다(ECE 0.066 대 0.023). d1은 가중치도 버전 해시도 없는 API라, 이 수치는 2026-09-30에 부른 `d1:free`의 값이다. 나중에 부르면 달라질 수 있다.
+- **Nimble은 공개 가중치 모델 중 가장 높다.** Kev보다 50문항 더 맞혔다(Nimble만 맞힘 117, Kev만 맞힘 67, p = 0.0003). Jev와 d1보다는 확실히 낮다(p < 1e-8).
+- Tev1-4B는 Kev(p = 0.71), SemIf(p = 0.22)와 차이를 확정하지 못했다. Kev의 절반 크기다. Tev1-0.8B는 같은 크기의 Jeff-0.8B보다 낮다(p = 0.0098).
+- Tev1의 처리 못 함 10문항은 입력이 2,048토큰을 넘은 문항이다. 이 한도는 Tev1 배포본(Ollama modelfile `num_ctx` 2050)의 것이다. 기반 모델(262,144)의 한도가 아니고, Tev1의 학습 길이와 같다. Jeff의 8,192토큰과 같은 처리다. Nimble의 배포본 한도는 8,194다.
+- Nimble·Tev1은 Ollama 0.35.0의 `/v1/systemone`으로, d1은 Jev와 같은 TypeSafe SDK로 Liquid API를 불렀다. 기기와 한도는 `../../claims/PROTOCOL.md` 6절에 있다.
+
+| 모델 | 국어(56) | 수학(33) | 영어(45) | 한국사(20) | 사회탐구(180) | 과학탐구(160) | 직업탐구(120) | 제2외국어·한문(270) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| d1 | 0.80 | 0.36 | 0.91 | 0.60 | 0.56 | 0.47 | 0.73 | 0.87 |
+| Nimble | 0.66 | 0.12 | 0.96 | 0.65 | 0.43 | 0.38 | 0.60 | 0.82 |
+| Tev1-4B | 0.46 | 0.15 | 0.87 | 0.55 | 0.43 | 0.29 | 0.56 | 0.74 |
+| Jeff-Gemma4-E2B | 0.36 | 0.36 | 0.76 | 0.35 | 0.33 | 0.19 | 0.38 | 0.62 |
+| Jeff-2B | 0.41 | 0.15 | 0.58 | 0.35 | 0.28 | 0.21 | 0.39 | 0.59 |
+| Jeff-0.8B | 0.30 | 0.27 | 0.56 | 0.25 | 0.25 | 0.28 | 0.35 | 0.50 |
+| Tev1-0.8B | 0.23 | 0.12 | 0.47 | 0.20 | 0.26 | 0.26 | 0.32 | 0.44 |
+| Julia-1 | 0.21 | 0.30 | 0.27 | 0.00 | 0.27 | 0.27 | 0.23 | 0.25 |
+
+- d1은 과학탐구에서 Jev보다 높고(0.47 대 0.38), 수학과 한국사에서 낮다(0.36 대 0.55, 0.60 대 0.85). 문항 수가 적은 영역이라 차이는 참고로만 본다.
+- Nimble은 영어에서 Jev와 같고(0.96), 수학은 33문항 중 4문항만 맞혔다(0.12).
+
 ## 해석의 한계
 
 - 그림·듣기는 글로 옮긴 입력이다. 자동 검수를 통과한 쪽에도 전사 오류가 남아 있을 수 있다. 점검 후보 61쪽은 `../exams/2027-09/README.md`에 있다. 모든 모델이 같은 입력을 받으므로 비교에는 공통으로 작용하지만, 절대 정확도는 확정치가 아니다.
@@ -73,6 +109,13 @@ op-away run op run --env-file=csat/.env.tpl -- .venv/bin/python csat/bench/run.p
 # 로컬 모델: 하나씩 띄우고 내린다
 csat/bench/run_all.sh csat/bench/canonical-2027-09.json 2027-09 laya kev open-jev semif jevmlx
 # CLM: amd에서 shim을 띄우고 터널로 부른다 (shims/clm/README.md)
+# 추가 시스템. d1(API): LIQUID_API_KEY가 csat/.env.tpl에 있다
+op-away run op run --env-file=csat/.env.tpl -- .venv/bin/python csat/bench/run.py --system d1 \
+  --dataset csat/bench/canonical-2027-09.json --tag 2027-09 --workers 8
+# Nimble·Tev1: Ollama 0.35.0 서버(Mac 11435, amd 11436을 Mac 11437로 터널)에 바로 붙는다. 포트는 adapters.OLLAMA
+JEV_BENCH_DEVICE=amd JEV_OLLAMA_PORT=11437 .venv/bin/python csat/bench/run.py --system nimble \
+  --dataset csat/bench/canonical-2027-09.json --tag 2027-09 --workers 2
 .venv/bin/python csat/bench/score.py --tag 2027-09 --dataset csat/bench/canonical-2027-09.json --gold csat/exams/2027-09/gold.json
-.venv/bin/python csat/bench/report.py --systems jev-1.13.0 kev semif open-jev jevmlx laya clm
+.venv/bin/python csat/bench/report.py --systems jev-1.13.0 d1 kev nimble tev1-4b semif open-jev jevmlx laya clm \
+  julia jeff-0.8b jeff-2b jeff-gemma4-e2b tev1-0.8b
 ```

@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import sys
 import time
@@ -33,17 +34,26 @@ def run_one(adapter, q, rotation, out_dir):
     rec = {'id': q['id'], 'system': adapter.name, 'rotation': rotation, 'choice_to_original': mapping,
            'request_sha256': digest, 'input_chars': sum(len(str(v)) for v in req['state'].values()),
            'attempts': [], 'status': 'error'}
+    if os.environ.get('JEV_BENCH_DEVICE'):
+        rec['device'] = os.environ['JEV_BENCH_DEVICE']
+    if hasattr(adapter, 'execution'):
+        rec['execution'] = adapter.execution
     for attempt in range(3):
         started = time.perf_counter()
         try:
             probs = adapter.choose(req['state'], req['instructions'], req['criteria'])
             rec.update(status='complete', latency_ms=round((time.perf_counter() - started) * 1000, 2),
                        probabilities=probs, original_probabilities={mapping[k]: v for k, v in probs.items()})
+            if hasattr(adapter, 'last_response_metadata'):
+                rec['response_metadata'] = adapter.last_response_metadata()
             break
         except adapters.Unsupported as exc:
             rec.update(status='unsupported', reason=str(exc)); break
         except Exception as exc:
             rec['attempts'].append({'error_type': type(exc).__name__, 'message': str(exc)[:200]})
+            rec['retryable'] = adapters.retryable(exc) and getattr(adapter, 'fatal_error', None) is None
+            if not rec['retryable'] or attempt == 2:
+                break
             time.sleep(2 ** attempt)
     out_dir.mkdir(parents=True, exist_ok=True)
     tmp = target.with_suffix('.tmp'); tmp.write_text(json.dumps(rec, ensure_ascii=False, indent=1)); tmp.replace(target)
@@ -61,7 +71,8 @@ def main():
     a = ap.parse_args()
     adapter = adapters.get(a.system)
     if hasattr(adapter, 'health'):
-        print('health', json.dumps(adapter.health(), ensure_ascii=False), flush=True)
+        adapter.execution = adapter.health()
+        print('health', json.dumps(adapter.execution, ensure_ascii=False), flush=True)
     qs = json.loads(a.dataset.read_text())['questions']
     if a.ids:
         qs = [q for q in qs if q['id'] in set(a.ids)]
@@ -74,7 +85,12 @@ def main():
             counts[f.result()] = counts.get(f.result(), 0) + 1
             if i % 100 == 0 or i == len(tasks):
                 print(i, counts, flush=True)
+            if getattr(adapter, 'fatal_error', None) is not None:
+                print('Stopped: non-retryable execution condition', str(adapter.fatal_error), flush=True)
+                ex.shutdown(wait=True, cancel_futures=True)
+                break
+    return 1 if counts.get('error') else 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

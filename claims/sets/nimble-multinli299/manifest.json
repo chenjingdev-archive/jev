@@ -1,0 +1,86 @@
+{
+ "set": "nimble-multinli299",
+ "builder": "claims/build_nimble.py",
+ "source": {
+  "maker": "bespokelabs/nimble",
+  "commit": "62076b4f2d365b5879dafcf7f6dd072a1fe76df7",
+  "subset": "multinli",
+  "dataset": "multinli",
+  "dataset_subset": "",
+  "subset_manifest": {
+   "path": "docs/assets/public-benchmarks/subsets/multinli-manifest.json",
+   "sha256": "df22dfeebc3dcf8c31a8c9c7c66b0157c44f91336782517773f9fd5bf4983382"
+  },
+  "upstream": {
+   "url": "https://cims.nyu.edu/~sbowman/multinli/multinli_1.0.zip",
+   "sha256": "049f507b9e36b1fcb756cfd5aeb3b7a0cfcb84bf023793652987f7e7e0957822",
+   "member": "multinli_1.0/multinli_1.0_dev_matched.jsonl",
+   "exported_to": "multinli/multinli_1.0/multinli_1.0_dev_matched.jsonl",
+   "nimble_source_url": "https://cims.nyu.edu/~sbowman/multinli/multinli_1.0.zip",
+   "license": "Mixed per genre: OANC public domain; fiction and other sources CC BY-SA 3.0 or similar",
+   "release_year": 2018
+  },
+  "source_sha256": "9db14e02591c51b7c0401802382f01602ce97c21697a68a263f8c4b5958229a6",
+  "dataset_sha256": "e0349ce46c796b08ecddbfc3b525dd4528e02595cc64921911babc7e3620b2f1",
+  "seed": 20260918,
+  "limit": 300,
+  "ids_from": null,
+  "converted": 9815,
+  "skipped": 185,
+  "dropped_over_length": 0,
+  "families": 103,
+  "maker_code": [
+   "nimble/datasets/public_sources/multinli.py",
+   "nimble/datasets/public_records.py",
+   "nimble/datasets/public_benchmarks.py",
+   "nimble/evaluation/evaluate_pilot.py:19-73",
+   "nimble/evaluation/evaluate_public_jev.py"
+  ],
+  "maker_command": "docs/PUBLIC_BENCHMARKS.md:150-162"
+ },
+ "published": {
+  "nimble-9b": 0.853,
+  "jev-1.13.0": 0.829,
+  "source": "docs/PUBLIC_BENCHMARKS.md:380-394 (accuracy vs human label, no option shuffling)"
+ },
+ "items": 299,
+ "sha256": {
+  "items.jsonl": "ede2e586bd0c299eec339e5ea1e409534d9a7845c57b5a02eaad6eea9b59dc85",
+  "gold.json": "3e6ee1558c2f8ab5cabf42e8b8d3e1e6a3a7bfb21a8905c83b2a4ac46ccbb01c"
+ },
+ "type_counts": {
+  "choice": 299
+ },
+ "stats": {
+  "options": {
+   "3": 299
+  },
+  "answer_position": {
+   "1": 108,
+   "2": 91,
+   "3": 100
+  },
+  "label_by_position": {
+   "1": "entailment",
+   "2": "neutral",
+   "3": "contradiction"
+  },
+  "nimble_labels": {
+   "contradiction": 100,
+   "entailment": 108,
+   "neutral": 91
+  },
+  "stages": {
+   "multinli-travel": 58,
+   "multinli-fiction": 60,
+   "multinli-slate": 60,
+   "multinli-government": 61,
+   "multinli-telephone": 60
+  }
+ },
+ "notes": [
+  "Records are exactly the ids in Nimble's committed subset manifest, converted by Nimble's own public_sources/multinli.py; the selected records re-serialize to Nimble's dataset_sha256 (verified).",
+  "Option text is the criteria description only, in Nimble's key order; the key names are dropped (as in build_jeff.py / typed-decisions). Nimble's prompt (nimble/scoring/parallel_schema.py:95-101) and the Jev request ({key: description}, dataset_io.request_for) also showed the key name.",
+  "state and instructions are Nimble's input.state / decision.instructions unchanged; stage = Nimble domain."
+ ]
+}
