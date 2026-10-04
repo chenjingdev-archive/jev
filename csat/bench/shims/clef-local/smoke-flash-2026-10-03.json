@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-10-03T08:46:58.527945+00:00",
+  "source": "public model-card invoice example",
+  "request": {
+    "model": "clef-flash",
+    "state": {
+      "invoice": {
+        "vendor": "Acme",
+        "total": 1250.0,
+        "currency": "USD",
+        "status": "overdue"
+      }
+    },
+    "questions": {
+      "status": {
+        "type": "choice",
+        "instructions": "What is the invoice status?",
+        "criteria": {
+          "paid": "Invoice is paid.",
+          "overdue": "Invoice is past due.",
+          "draft": "Not sent."
+        }
+      },
+      "large": {
+        "type": "noul",
+        "instructions": "Is the total above 1000 USD?"
+      }
+    }
+  },
+  "results": [
+    {
+      "model": "clef-flash",
+      "answers": {
+        "status": {
+          "type": "choice",
+          "choice": "overdue",
+          "confidence": 0.9732,
+          "probabilities": {
+            "paid": 0.0175,
+            "overdue": 0.9732,
+            "draft": 0.0094
+          }
+        },
+        "large": {
+          "type": "noul",
+          "noul": 0.9732
+        }
+      },
+      "usage": {
+        "input_tokens": 260,
+        "output_tokens": 0
+      },
+      "metadata": {
+        "repo": "Cloudflare/clef-flash",
+        "model": "clef-flash",
+        "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+        "device": "mps:0",
+        "weight_dtype": "torch.bfloat16",
+        "parameter_dtypes": {
+          "torch.bfloat16": 9531576564
+        },
+        "torch": "2.11.0",
+        "transformers": "5.10.2",
+        "batch_size": 1,
+        "attention": "sdpa",
+        "cpu_threads": 4,
+        "quantization": "none",
+        "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+        "compatibility_changes": [],
+        "truncation": "reject before inference",
+        "max_input_tokens": 16384,
+        "load_seconds": 65.57367083290592,
+        "started_at": "2026-10-03T08:45:30.618854+00:00",
+        "inference_seconds": 8.694682625005953
+      },
+      "client_seconds": 8.715594749897718
+    },
+    {
+      "model": "clef-flash",
+      "answers": {
+        "status": {
+          "type": "choice",
+          "choice": "overdue",
+          "confidence": 0.9732,
+          "probabilities": {
+            "paid": 0.0175,
+            "overdue": 0.9732,
+            "draft": 0.0094
+          }
+        },
+        "large": {
+          "type": "noul",
+          "noul": 0.9732
+        }
+      },
+      "usage": {
+        "input_tokens": 260,
+        "output_tokens": 0
+      },
+      "metadata": {
+        "repo": "Cloudflare/clef-flash",
+        "model": "clef-flash",
+        "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+        "device": "mps:0",
+        "weight_dtype": "torch.bfloat16",
+        "parameter_dtypes": {
+          "torch.bfloat16": 9531576564
+        },
+        "torch": "2.11.0",
+        "transformers": "5.10.2",
+        "batch_size": 1,
+        "attention": "sdpa",
+        "cpu_threads": 4,
+        "quantization": "none",
+        "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+        "compatibility_changes": [],
+        "truncation": "reject before inference",
+        "max_input_tokens": 16384,
+        "load_seconds": 65.57367083290592,
+        "started_at": "2026-10-03T08:45:30.618854+00:00",
+        "inference_seconds": 1.0931554170092568
+      },
+      "client_seconds": 1.0951178749091923
+    }
+  ],
+  "health": {
+    "name": "clef-flash",
+    "ready": true,
+    "returns_probabilities": true,
+    "max_input_tokens": 16384,
+    "metadata": {
+      "repo": "Cloudflare/clef-flash",
+      "model": "clef-flash",
+      "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+      "device": "mps:0",
+      "weight_dtype": "torch.bfloat16",
+      "parameter_dtypes": {
+        "torch.bfloat16": 9531576564
+      },
+      "torch": "2.11.0",
+      "transformers": "5.10.2",
+      "batch_size": 1,
+      "attention": "sdpa",
+      "cpu_threads": 4,
+      "quantization": "none",
+      "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+      "compatibility_changes": [],
+      "truncation": "reject before inference",
+      "max_input_tokens": 16384,
+      "load_seconds": 65.57367083290592,
+      "started_at": "2026-10-03T08:45:30.618854+00:00"
+    },
+    "completed_requests": 2,
+    "busy": false,
+    "last_seconds": 1.0931554170092568,
+    "memory": {
+      "rss_bytes": 1258487808,
+      "mps_allocated_bytes": 19063166720,
+      "mps_driver_bytes": 19964674048,
+      "mps_recommended_max_bytes": 55662788608
+    }
+  }
+}

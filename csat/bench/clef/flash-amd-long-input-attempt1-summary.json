@@ -1,0 +1,8 @@
+{
+  "status": "error",
+  "seconds": 6.061047077178955,
+  "input_tokens": 10819,
+  "id": "jevmlx-typesafe45:typesafe/invoice_processing/ap_00149::line_1_rebilled",
+  "rotation": 0,
+  "tag": "claims-clef-local-amd-20261003"
+}

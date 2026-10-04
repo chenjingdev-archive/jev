@@ -1,0 +1,192 @@
+
+## jeff-bbh750
+jev-1.13.0   acc 0.908 [0.887,0.928] (681/750)  r0 0.905  norm 0.857  unsup 0
+d1           acc 0.852 [0.827,0.877] (639/750)  r0 0.84  norm 0.772  unsup 0  vs jev +24/-66 p=1.1e-05
+nimble       acc 0.729 [0.697,0.760] (547/750)  r0 0.711  norm 0.590  unsup 0  vs jev +23/-157 p=1e-25
+clef-flash   acc 0.708 [0.676,0.740] (531/750)  r0 0.704  norm 0.560  unsup 0  vs jev +23/-173 p=1.2e-29
+
+## jeff-fpb999
+jev-1.13.0   acc 0.822 [0.798,0.845] (821/999)  r0 0.826  norm 0.733  unsup 0
+d1           acc 0.868 [0.847,0.889] (867/999)  r0 0.863  norm 0.802  unsup 0  vs jev +64/-18 p=3.3e-07
+nimble       acc 0.794 [0.769,0.819] (793/999)  r0 0.803  norm 0.691  unsup 0  vs jev +54/-82 p=0.02
+clef-flash   acc 0.910 [0.892,0.928] (909/999)  r0 0.915  norm 0.865  unsup 0  vs jev +112/-24 p=8.7e-15
+
+## jeff-jevbenchhard105
+jev-1.13.0   acc 0.752 [0.667,0.829] (79/105)  r0 0.733  norm 0.600  unsup 0
+d1           acc 0.790 [0.705,0.867] (83/105)  r0 0.79  norm 0.672  unsup 0  vs jev +8/-4 p=0.39
+nimble       acc 0.619 [0.524,0.714] (65/105)  r0 0.61  norm 0.394  unsup 0  vs jev +3/-17 p=0.0026
+clef-flash   acc 0.657 [0.562,0.743] (69/105)  r0 0.676  norm 0.452  unsup 0  vs jev +4/-14 p=0.031
+
+## jeff-judgebench350
+jev-1.13.0   acc 0.814 [0.774,0.854] (285/350)  r0 0.803  norm 0.629  unsup 0
+d1           acc 0.774 [0.729,0.817] (271/350)  r0 0.783  norm 0.549  unsup 0  vs jev +17/-31 p=0.059
+nimble       acc 0.643 [0.591,0.691] (225/350)  r0 0.651  norm 0.286  unsup 0  vs jev +21/-81 p=1.7e-09
+clef-flash   acc 0.640 [0.589,0.689] (224/350)  r0 0.646  norm 0.280  unsup 0  vs jev +21/-82 p=1.1e-09
+
+## jeff-ragtruth1500
+jev-1.13.0   acc 0.817 [0.797,0.837] (1225/1500)  r0 0.818  norm 0.633  unsup 0
+d1           acc 0.870 [0.853,0.887] (1305/1500)  r0 0.867  norm 0.740  unsup 0  vs jev +173/-93 p=1.1e-06
+nimble       acc 0.779 [0.758,0.799] (1168/1500)  r0 0.781  norm 0.557  unsup 0  vs jev +195/-252 p=0.008
+clef-flash   acc 0.653 [0.629,0.678] (980/1500)  r0 0.657  norm 0.307  unsup 0  vs jev +218/-463 p=3.3e-21
+
+## jeff-winogrande1000
+jev-1.13.0   acc 0.912 [0.894,0.929] (912/1000)  r0 0.909  norm 0.824  unsup 0
+d1           acc 0.873 [0.852,0.893] (873/1000)  r0 0.875  norm 0.746  unsup 0  vs jev +35/-74 p=0.00024
+nimble       acc 0.710 [0.682,0.738] (710/1000)  r0 0.7  norm 0.420  unsup 0  vs jev +15/-217 p=4.5e-47
+clef-flash   acc 0.973 [0.962,0.983] (973/1000)  r0 0.973  norm 0.946  unsup 0  vs jev +73/-12 p=8.1e-12
+
+## jevbench-agnews100
+jev-1.13.0   acc 0.910 [0.850,0.960] (91/100)  r0 0.91  norm 0.880  unsup 0
+d1           acc 0.930 [0.880,0.970] (93/100)  r0 0.93  norm 0.907  unsup 0  vs jev +3/-1 p=0.62
+nimble       acc 0.950 [0.900,0.990] (95/100)  r0 0.95  norm 0.933  unsup 0  vs jev +6/-2 p=0.29
+clef-flash   acc 0.950 [0.900,0.990] (95/100)  r0 0.96  norm 0.933  unsup 0  vs jev +7/-3 p=0.34
+
+## jevbench-banking77-100
+jev-1.13.0   acc 0.890 [0.830,0.950] (89/100)  r0 0.89  norm 0.888  unsup 0
+d1           acc 0.900 [0.840,0.950] (90/100)  r0 0.9  norm 0.899  unsup 0  vs jev +3/-2 p=1
+nimble       acc 0.000 [0.000,0.000] (0/100)  r0 0  norm -0.014  unsup 100  vs jev +0/-89 p=3.2e-27
+clef-flash   acc 0.920 [0.860,0.970] (92/100)  r0 0.93  norm 0.919  unsup 0  vs jev +5/-2 p=0.45
+
+## jevbench-emotion100
+jev-1.13.0   acc 0.450 [0.360,0.550] (45/100)  r0 0.47  norm 0.340  unsup 0
+d1           acc 0.530 [0.430,0.630] (53/100)  r0 0.52  norm 0.436  unsup 0  vs jev +9/-1 p=0.021
+nimble       acc 0.440 [0.340,0.540] (44/100)  r0 0.44  norm 0.328  unsup 0  vs jev +8/-9 p=1
+clef-flash   acc 0.420 [0.320,0.520] (42/100)  r0 0.44  norm 0.304  unsup 0  vs jev +6/-9 p=0.61
+
+## jevmlx-typesafe45
+jev-1.13.0   acc 0.835 [0.796,0.873] (303/363)  r0 0.86  norm 0.753  unsup 0
+d1           acc 0.807 [0.766,0.848] (293/363)  r0 0.793  norm 0.713  unsup 0  vs jev +14/-24 p=0.14
+nimble       acc 0.488 [0.435,0.540] (177/363)  r0 0.493  norm 0.152  unsup 134  vs jev +14/-140 p=2.6e-27
+clef-flash   acc 0.848 [0.810,0.884] (308/363)  r0 0.848  norm 0.785  unsup 0  vs jev +24/-19 p=0.54
+
+## kev-transfer-v4
+jev-1.13.0   acc 0.869 [0.844,0.891] (664/764)  r0 0.864  norm 0.799  unsup 0
+d1           acc 0.885 [0.863,0.907] (676/764)  r0 0.88  norm 0.826  unsup 0  vs jev +36/-24 p=0.16
+nimble       acc 0.817 [0.789,0.843] (624/764)  r0 0.83  norm 0.722  unsup 0  vs jev +27/-67 p=4.5e-05
+clef-flash   acc 0.844 [0.817,0.869] (645/764)  r0 0.84  norm 0.759  unsup 0  vs jev +31/-50 p=0.045
+
+## laya-agnews400
+jev-1.13.0   acc 0.868 [0.835,0.900] (347/400)  r0 0.86  norm 0.823  unsup 0
+d1           acc 0.882 [0.850,0.912] (353/400)  r0 0.875  norm 0.843  unsup 0  vs jev +10/-4 p=0.18
+nimble       acc 0.885 [0.853,0.915] (354/400)  r0 0.877  norm 0.847  unsup 0  vs jev +13/-6 p=0.17
+clef-flash   acc 0.890 [0.858,0.920] (356/400)  r0 0.895  norm 0.853  unsup 0  vs jev +18/-9 p=0.12
+
+## laya-banking77-400
+jev-1.13.0   acc 0.850 [0.812,0.885] (340/400)  r0 0.84  norm 0.848  unsup 0
+d1           acc 0.885 [0.853,0.915] (354/400)  r0 0.86  norm 0.883  unsup 0  vs jev +20/-6 p=0.0094
+nimble       acc 0.000 [0.000,0.000] (0/400)  r0 0  norm -0.013  unsup 400  vs jev +0/-340 p=8.9e-103
+clef-flash   acc 0.955 [0.935,0.975] (382/400)  r0 0.955  norm 0.954  unsup 0  vs jev +48/-6 p=3.3e-09
+
+## laya-emotion400
+jev-1.13.0   acc 0.588 [0.540,0.635] (235/400)  r0 0.595  norm 0.505  unsup 0
+d1           acc 0.675 [0.630,0.720] (270/400)  r0 0.68  norm 0.610  unsup 0  vs jev +43/-8 p=6.9e-07
+nimble       acc 0.578 [0.527,0.625] (231/400)  r0 0.585  norm 0.493  unsup 0  vs jev +13/-17 p=0.58
+clef-flash   acc 0.615 [0.565,0.662] (246/400)  r0 0.618  norm 0.538  unsup 0  vs jev +37/-26 p=0.21
+
+## nimble-aegis2-250
+jev-1.13.0   acc 0.804 [0.756,0.852] (201/250)  r0 0.804  norm 0.608  unsup 0
+d1           acc 0.820 [0.772,0.868] (205/250)  r0 0.816  norm 0.640  unsup 0  vs jev +11/-7 p=0.48
+nimble       acc 0.832 [0.784,0.876] (208/250)  r0 0.832  norm 0.664  unsup 0  vs jev +16/-9 p=0.23
+clef-flash   acc 0.784 [0.732,0.836] (196/250)  r0 0.788  norm 0.568  unsup 0  vs jev +13/-18 p=0.47
+
+## nimble-boolq300
+jev-1.13.0   acc 0.887 [0.850,0.920] (266/300)  r0 0.877  norm 0.773  unsup 0
+d1           acc 0.887 [0.850,0.920] (266/300)  r0 0.883  norm 0.773  unsup 0  vs jev +7/-7 p=1
+nimble       acc 0.863 [0.823,0.900] (259/300)  r0 0.853  norm 0.727  unsup 0  vs jev +8/-15 p=0.21
+clef-flash   acc 0.863 [0.823,0.900] (259/300)  r0 0.867  norm 0.727  unsup 0  vs jev +9/-16 p=0.23
+
+## nimble-civilcomments300
+jev-1.13.0   acc 0.813 [0.767,0.857] (244/300)  r0 0.813  norm 0.627  unsup 0
+d1           acc 0.890 [0.853,0.923] (267/300)  r0 0.89  norm 0.780  unsup 0  vs jev +29/-6 p=0.00012
+nimble       acc 0.793 [0.747,0.837] (238/300)  r0 0.8  norm 0.587  unsup 0  vs jev +14/-20 p=0.39
+clef-flash   acc 0.900 [0.863,0.933] (270/300)  r0 0.897  norm 0.800  unsup 0  vs jev +33/-7 p=4.2e-05
+
+## nimble-helpsteer2-249
+jev-1.13.0   acc 0.341 [0.281,0.402] (85/249)  r0 0.341  norm 0.177  unsup 0
+d1           acc 0.386 [0.325,0.446] (96/249)  r0 0.361  norm 0.232  unsup 0  vs jev +48/-37 p=0.28
+nimble       acc 0.353 [0.297,0.414] (88/249)  r0 0.345  norm 0.192  unsup 0  vs jev +64/-61 p=0.86
+clef-flash   acc 0.378 [0.317,0.438] (94/249)  r0 0.373  norm 0.222  unsup 0  vs jev +66/-57 p=0.47
+
+## nimble-massive-de350
+jev-1.13.0   acc 0.860 [0.823,0.894] (301/350)  r0 0.869  norm 0.852  unsup 0
+d1           acc 0.880 [0.846,0.914] (308/350)  r0 0.877  norm 0.873  unsup 0  vs jev +8/-1 p=0.039
+nimble       acc 0.854 [0.817,0.891] (299/350)  r0 0.849  norm 0.846  unsup 0  vs jev +12/-14 p=0.85
+clef-flash   acc 0.903 [0.871,0.931] (316/350)  r0 0.897  norm 0.897  unsup 0  vs jev +23/-8 p=0.011
+
+## nimble-massive-en350
+jev-1.13.0   acc 0.871 [0.837,0.906] (305/350)  r0 0.869  norm 0.864  unsup 0
+d1           acc 0.883 [0.849,0.914] (309/350)  r0 0.874  norm 0.876  unsup 0  vs jev +5/-1 p=0.22
+nimble       acc 0.877 [0.843,0.911] (307/350)  r0 0.86  norm 0.870  unsup 0  vs jev +8/-6 p=0.79
+clef-flash   acc 0.906 [0.874,0.934] (317/350)  r0 0.909  norm 0.900  unsup 0  vs jev +15/-3 p=0.0075
+
+## nimble-multinli299
+jev-1.13.0   acc 0.823 [0.779,0.866] (246/299)  r0 0.819  norm 0.734  unsup 0
+d1           acc 0.883 [0.846,0.916] (264/299)  r0 0.883  norm 0.824  unsup 0  vs jev +26/-8 p=0.0029
+nimble       acc 0.900 [0.863,0.933] (269/299)  r0 0.896  norm 0.849  unsup 0  vs jev +37/-14 p=0.0018
+clef-flash   acc 0.833 [0.789,0.873] (249/299)  r0 0.836  norm 0.749  unsup 0  vs jev +21/-18 p=0.75
+
+## nimble-paws250
+jev-1.13.0   acc 0.900 [0.864,0.936] (225/250)  r0 0.896  norm 0.800  unsup 0
+d1           acc 0.916 [0.880,0.948] (229/250)  r0 0.912  norm 0.832  unsup 0  vs jev +10/-6 p=0.45
+nimble       acc 0.764 [0.712,0.816] (191/250)  r0 0.748  norm 0.528  unsup 0  vs jev +8/-42 p=1.2e-06
+clef-flash   acc 0.812 [0.764,0.860] (203/250)  r0 0.804  norm 0.624  unsup 0  vs jev +5/-27 p=0.00011
+
+## nimble-pubmedqa250
+jev-1.13.0   acc 0.780 [0.728,0.828] (195/250)  r0 0.776  norm 0.670  unsup 0
+d1           acc 0.796 [0.744,0.844] (199/250)  r0 0.808  norm 0.694  unsup 0  vs jev +15/-11 p=0.56
+nimble       acc 0.768 [0.716,0.820] (192/250)  r0 0.76  norm 0.652  unsup 0  vs jev +20/-23 p=0.76
+clef-flash   acc 0.772 [0.716,0.824] (193/250)  r0 0.78  norm 0.658  unsup 0  vs jev +18/-20 p=0.87
+
+## nimble-squad2-299
+jev-1.13.0   acc 0.836 [0.793,0.876] (250/299)  r0 0.833  norm 0.672  unsup 0
+d1           acc 0.903 [0.870,0.936] (270/299)  r0 0.9  norm 0.806  unsup 0  vs jev +27/-7 p=0.00082
+nimble       acc 0.759 [0.709,0.806] (227/299)  r0 0.749  norm 0.518  unsup 0  vs jev +8/-31 p=0.00029
+clef-flash   acc 0.789 [0.742,0.836] (236/299)  r0 0.799  norm 0.579  unsup 0  vs jev +15/-29 p=0.049
+
+## nimble-summeval-consistency144
+jev-1.13.0   acc 0.812 [0.750,0.875] (117/144)  r0 0.799  norm 0.766  unsup 0
+d1           acc 0.812 [0.750,0.875] (117/144)  r0 0.799  norm 0.766  unsup 0  vs jev +7/-7 p=1
+nimble       acc 0.861 [0.806,0.917] (124/144)  r0 0.833  norm 0.826  unsup 0  vs jev +9/-2 p=0.065
+clef-flash   acc 0.819 [0.757,0.882] (118/144)  r0 0.812  norm 0.774  unsup 0  vs jev +5/-4 p=1
+
+## nimble-summeval-relevance240
+jev-1.13.0   acc 0.358 [0.300,0.421] (86/240)  r0 0.362  norm 0.198  unsup 0
+d1           acc 0.496 [0.433,0.558] (119/240)  r0 0.471  norm 0.370  unsup 0  vs jev +65/-32 p=0.001
+nimble       acc 0.475 [0.412,0.537] (114/240)  r0 0.496  norm 0.344  unsup 0  vs jev +67/-39 p=0.0084
+clef-flash   acc 0.463 [0.400,0.525] (111/240)  r0 0.483  norm 0.328  unsup 0  vs jev +84/-59 p=0.044
+
+## nimble-vitaminc599
+jev-1.13.0   acc 0.780 [0.746,0.811] (467/599)  r0 0.781  norm 0.669  unsup 0
+d1           acc 0.746 [0.711,0.781] (447/599)  r0 0.748  norm 0.619  unsup 0  vs jev +20/-40 p=0.013
+nimble       acc 0.793 [0.760,0.825] (475/599)  r0 0.79  norm 0.689  unsup 0  vs jev +34/-26 p=0.37
+clef-flash   acc 0.756 [0.721,0.790] (453/599)  r0 0.758  norm 0.634  unsup 0  vs jev +38/-52 p=0.17
+
+## openjev-synthetic400
+jev-1.13.0   acc 1.000 [1.000,1.000] (400/400)  r0 1  norm 1.000  unsup 0
+d1           acc 0.000 [0.000,0.000] (0/400)  r0 0  norm -0.377  unsup 400  vs jev +0/-400 p=7.7e-121
+nimble       acc 0.000 [0.000,0.000] (0/400)  r0 0  norm -0.377  unsup 400  vs jev +0/-400 p=7.7e-121
+clef-flash   acc 1.000 [1.000,1.000] (400/400)  r0 1  norm 1.000  unsup 0  vs jev +0/-0 p=1
+
+## semif-authored144
+jev-1.13.0   acc 0.979 [0.951,1.000] (141/144)  r0 0.972  norm 0.969  unsup 0
+d1           acc 0.951 [0.917,0.986] (137/144)  r0 0.951  norm 0.927  unsup 0  vs jev +0/-4 p=0.12
+nimble       acc 0.917 [0.868,0.958] (132/144)  r0 0.924  norm 0.875  unsup 0  vs jev +0/-9 p=0.0039
+clef-flash   acc 0.910 [0.861,0.951] (131/144)  r0 0.917  norm 0.865  unsup 0  vs jev +0/-10 p=0.002
+
+## semif-typesafe102
+jev-1.13.0   acc 0.902 [0.843,0.951] (92/102)  r0 0.892  norm 0.833  unsup 0
+d1           acc 0.853 [0.784,0.922] (87/102)  r0 0.863  norm 0.736  unsup 0  vs jev +2/-7 p=0.18
+nimble       acc 0.765 [0.686,0.843] (78/102)  r0 0.765  norm 0.605  unsup 13  vs jev +6/-20 p=0.0094
+clef-flash   acc 0.892 [0.833,0.951] (91/102)  r0 0.902  norm 0.806  unsup 0  vs jev +5/-6 p=1
+
+## semif-wanli256
+jev-1.13.0   acc 0.746 [0.691,0.797] (191/256)  r0 0.75  norm 0.619  unsup 0
+d1           acc 0.746 [0.691,0.797] (191/256)  r0 0.758  norm 0.619  unsup 0  vs jev +21/-21 p=1
+nimble       acc 0.715 [0.660,0.770] (183/256)  r0 0.738  norm 0.572  unsup 0  vs jev +18/-26 p=0.29
+clef-flash   acc 0.680 [0.621,0.738] (174/256)  r0 0.672  norm 0.520  unsup 0  vs jev +13/-30 p=0.014
+
+## typed-decisions
+jev-1.13.0   acc 0.735 [0.716,0.754] (1470/2000)  r0 0.734  norm 0.609  unsup 0
+d1           acc 0.754 [0.736,0.773] (1509/2000)  r0 0.752  norm 0.649  unsup 0  vs jev +168/-129 p=0.027
+nimble       acc 0.707 [0.687,0.727] (1414/2000)  r0 0.699  norm 0.574  unsup 0  vs jev +154/-210 p=0.0039
+clef-flash   acc 0.703 [0.682,0.723] (1405/2000)  r0 0.706  norm 0.563  unsup 0  vs jev +234/-299 p=0.0055

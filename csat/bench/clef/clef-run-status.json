@@ -1,0 +1,52 @@
+{
+  "system": "clef",
+  "status": "cancelled_by_user",
+  "updated_at_utc": "2026-10-03T09:45:05.986210+00:00",
+  "api_cost_usd": 0,
+  "completed_suites": [],
+  "successful_inference_calls": 0,
+  "checkpoint_downloaded": true,
+  "checkpoint_revision": "2f3de3dd85f379784083b0814d997ab627200f0c",
+  "checkpoint_weight_bytes_approx": 54970000000,
+  "host": "amd Windows ROCm",
+  "observed_windows_commit_limit_bytes": 47622119424,
+  "observed_windows_committed_baseline_bytes": 25970413568,
+  "gpu_allocation_probe": {
+    "requested_gpu_bytes": 2147483648,
+    "commit_before_bytes": 29912969216,
+    "commit_after_bytes": 32317423616,
+    "same_probe_ssh_and_cim": "both allocated and filled three 2.37GiB tensors successfully"
+  },
+  "load_attempts": [
+    {
+      "path": "official mmap and allocator warmup",
+      "outcome": "HIP OOM reserving 50.96GiB before weight loading"
+    },
+    {
+      "path": "mmap, allocator warmup disabled",
+      "outcome": "HIP OOM on second 2.37GiB tensor, while 51.33GiB GPU free was reported"
+    },
+    {
+      "path": "mmap, bounded 32MiB weight copy",
+      "outcome": "first tensor 76 chunks passed torch.equal; same second tensor allocation OOM"
+    },
+    {
+      "path": "official safetensors pread backend, warmup disabled",
+      "outcome": "advanced to 571/1184 weight tensors (48%), then CPU MemoryError during safetensors materialization",
+      "peak_observed_cpu_working_set_bytes": 5606694912
+    }
+  ],
+  "constraints": [
+    "No global BIOS/UMA/pagefile settings changed",
+    "No existing files removed",
+    "No unrelated workloads stopped",
+    "No quantization, precision, attention, or model formula changed",
+    "Failed partial loads exited; checkpoint preserved"
+  ],
+  "interpretation": "The reported GPU free memory is not a usable overall model-loading budget on this host: GPU allocations also increase Windows system commit. Current full BF16 loading failed under the existing commit limit. This is an execution limitation, not model accuracy evidence.",
+  "source_note": "https://github.com/huggingface/transformers/issues/48285",
+  "next_step": "Flash benchmark continues. Do not repeat the same full-load attempts or report Clef as scored without a supported resource path.",
+  "previous_status": "blocked_host_commit_limit",
+  "cancelled_at_utc": "2026-10-03T12:01:32.803925+00:00",
+  "cancellation_scope": "No more Clef27B benchmarking or loading; retain existing weights and logs"
+}

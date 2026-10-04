@@ -1,0 +1,24 @@
+[WARNING] failed to run offload-arch: binary not found.
+{"event": "loading", "model": "clef", "device": "cuda", "dtype": "bfloat16", "revision": "2f3de3dd85f379784083b0814d997ab627200f0c"}
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Traceback (most recent call last):
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 182, in <module>
+    main()
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 176, in main
+    runner = Runner(args)
+             ^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 45, in __init__
+    self.model, self.processor = load_release_model(
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\checkpoint\joint_schema_model.py", line 508, in load_release_model
+    backbone = Qwen3_5ForConditionalGeneration.from_pretrained(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4308, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4389, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 5069, in caching_allocator_warmup
+    _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: HIP out of memory. Tried to allocate 50.96 GiB. GPU 0 has a total capacity of 53.87 GiB of which 53.72 GiB is free. Of the allocated memory 0 bytes is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

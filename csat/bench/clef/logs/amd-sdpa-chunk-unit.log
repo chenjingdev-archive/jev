@@ -1,0 +1,71 @@
+[WARNING] failed to run offload-arch: binary not found.
+{
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "torch": "2.9.1+rocm7.2.1",
+  "head_dim": 256,
+  "numeric_cases": [
+    {
+      "case": "causal-offset-tail",
+      "length": 1025,
+      "source": 1025,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 5,
+      "passed": true
+    },
+    {
+      "case": "gqa-causal-nonsquare-scale",
+      "length": 513,
+      "source": 769,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 3,
+      "passed": true
+    },
+    {
+      "case": "boolean-batched-full-mask",
+      "length": 769,
+      "source": 513,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 4,
+      "passed": true
+    },
+    {
+      "case": "float-head-specific-mask",
+      "length": 1024,
+      "source": 769,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 4,
+      "passed": true
+    },
+    {
+      "case": "gqa-broadcast-key-mask",
+      "length": 2048,
+      "source": 513,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 8,
+      "passed": true
+    },
+    {
+      "case": "float-broadcast-nonsquare",
+      "length": 513,
+      "source": 1024,
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "chunks": 3,
+      "passed": true
+    }
+  ],
+  "production_dispatch_checks": "passed"
+}
+
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+#< CLIXML
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04"><Obj S="progress" RefId="0"><TN RefId="0"><T>System.Management.Automation.PSCustomObject</T><T>System.Object</T></TN><MS><I64 N="SourceId">1</I64><PR N="Record"><AV>ó�� ����ϱ� ���� ����� �غ��ϴ� ���Դϴ�.</AV><AI>0</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD> </SD></PR></MS></Obj><Obj S="progress" RefId="1"><TNRef RefId="0" /><MS><I64 N="SourceId">2</I64><PR N="Record"><AV>ó�� ����ϱ� ���� ����� �غ��ϴ� ���Դϴ�.</AV><AI>0</AI><Nil /><PI>-1</PI><PC>-1</PC><T>Completed</T><SR>-1</SR><SD> </SD></PR></MS></Obj></Objs>
+exit=0

@@ -1,0 +1,379 @@
+{
+  "created_at_utc": "2026-10-03T12:04:18.313562+00:00",
+  "status": "pre_registered_before_amd_flash_inference",
+  "model": "clef-flash",
+  "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+  "baseline_device": "mac-mps",
+  "target_device": "amd-rocm",
+  "n": 40,
+  "selection": "input-only: available complete CSAT requests; subject anchors plus token-length quantiles; one request per distinct question, rotations cycle 0..4; no correctness labels used",
+  "thresholds": {
+    "answer_agreement_min": 0.99,
+    "max_absolute_option_probability_delta_max": 0.02,
+    "required_agreeing_answers_for_n40": 40,
+    "all_40_valid_required": true
+  },
+  "on_failure": "Do not mix devices in a suite. Preserve completed Mac CSAT; remaining suites run exclusively on AMD with separate tags. Never relax thresholds after observing outputs.",
+  "requests": [
+    {
+      "id": "english:38",
+      "subject": "english",
+      "rotation": 0,
+      "tokens": 564,
+      "request_sha256": "4fd3a2cedec5e239a7a7c8a239cc512143b44a20ebb9b54028f681a008aca860",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/english-38-r0-4fd3a2cedec5.json",
+      "baseline_file_sha256": "70798620efdec75be9819cd60c22b7480cf7cb67e7c577deabaf947acc85cfa6"
+    },
+    {
+      "id": "korean-history:14",
+      "subject": "korean-history",
+      "rotation": 1,
+      "tokens": 541,
+      "request_sha256": "e2b1fe349c5ac963f6126f0c2d7b5211ae9bd3b39db7716aa257bc4eae9f9de5",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/korean-history-14-r1-e2b1fe349c5a.json",
+      "baseline_file_sha256": "ea46eb8851d1da2d3c810d7307887d71cfbf0de1bd878d73c02b25026ead04d9"
+    },
+    {
+      "id": "life-ethics:20",
+      "subject": "life-ethics",
+      "rotation": 2,
+      "tokens": 516,
+      "request_sha256": "ebbdc010b581e2c853c6df529d684b0bc9e39184c1afb665ec8f9d3bedd8277d",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/life-ethics-20-r2-ebbdc010b581.json",
+      "baseline_file_sha256": "0ef56ed65b3be76c25eebd3e496c13724fc6aa5b0c6415b78a38ea652ed5dd07"
+    },
+    {
+      "id": "biology-1:18",
+      "subject": "biology-1",
+      "rotation": 3,
+      "tokens": 789,
+      "request_sha256": "66f85a12d0cfefe6d480802f1eb649104e57a97daa431da96a5e7b9c57225dc9",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/biology-1-18-r3-66f85a12d0cf.json",
+      "baseline_file_sha256": "3f4e6eaefa132915b4153d393b649c2bc692e42e08a261cbb285dabc72ac8cfd"
+    },
+    {
+      "id": "agriculture:16",
+      "subject": "agriculture",
+      "rotation": 4,
+      "tokens": 595,
+      "request_sha256": "4067431565faefd85408f51aaf30dd55d321cb40a582fe856eafe005b1876bcf",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/agriculture-16-r4-4067431565fa.json",
+      "baseline_file_sha256": "e11541c24c7dbba88e363c23425eb7781d513a857df3df2e02a12da7c2eddec1"
+    },
+    {
+      "id": "japanese-1:19",
+      "subject": "japanese-1",
+      "rotation": 0,
+      "tokens": 464,
+      "request_sha256": "ac308d67394706a0fa363294dcfb65d6083f5bfbd0b00cacc8ed4e794795c18f",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/japanese-1-19-r0-ac308d673947.json",
+      "baseline_file_sha256": "1dbc27569090978b7ccd291d8d580cd5ce849cdb1b274a72e9e0bba73c0123ca"
+    },
+    {
+      "id": "chinese-1:29",
+      "subject": "chinese-1",
+      "rotation": 1,
+      "tokens": 326,
+      "request_sha256": "f0b1725987a05b7b72e37e770a15d51f5fca1616418b5266696201c2658fe1f6",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/chinese-1-29-r1-f0b1725987a0.json",
+      "baseline_file_sha256": "a8e166bdb202538da1ce2ca39acf69a6eac833539840d8f0672be87e9c0631ca"
+    },
+    {
+      "id": "math-common:1",
+      "subject": "math",
+      "rotation": 2,
+      "tokens": 350,
+      "request_sha256": "982eff0f75a1801862b6ca77b95beaa09cd1a15a45dd47361312a16ce580de82",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/math-common-1-r2-982eff0f75a1.json",
+      "baseline_file_sha256": "4174a97c888c593faa0ae326d6df00a3549bebf6d14e801e45a6dabc43cab399"
+    },
+    {
+      "id": "german-1:8",
+      "subject": "german-1",
+      "rotation": 3,
+      "tokens": 359,
+      "request_sha256": "0770ebac1082818248d16d4227b47226b7813c83a19a851334eb2009fccbb420",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/german-1-8-r3-0770ebac1082.json",
+      "baseline_file_sha256": "602f15de1e7563ec5839302a19d044594c7d2cca32a6c23e2d83aae60f44f347"
+    },
+    {
+      "id": "french-1:29",
+      "subject": "french-1",
+      "rotation": 4,
+      "tokens": 377,
+      "request_sha256": "26a7a506422aed5f5bee353ac575607a2391d9aa349165ac9db8912221dba14d",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/french-1-29-r4-26a7a506422a.json",
+      "baseline_file_sha256": "b84fa7619390c8b956ab4427a506ac374c9af4967d8370c4937b1ea71d1dd024"
+    },
+    {
+      "id": "chinese-1:13",
+      "subject": "chinese-1",
+      "rotation": 0,
+      "tokens": 386,
+      "request_sha256": "cdf4c007cb65d6d7d1e72d1c9194a8c1a5b54721e2969cfacc3eaa4c9067bb7c",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/chinese-1-13-r0-cdf4c007cb65.json",
+      "baseline_file_sha256": "02885d0c028964dcd4b9924beff7ae14c721755cc8059fe668f91c215f70c08e"
+    },
+    {
+      "id": "hanja-1:6",
+      "subject": "hanja-1",
+      "rotation": 1,
+      "tokens": 405,
+      "request_sha256": "a1b700221e31fb8c1f5289d71e86525df2cdf2e42e03816aa8d3bfa87fdadd4f",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/hanja-1-6-r1-a1b700221e31.json",
+      "baseline_file_sha256": "4e42463be70503c6b0809b9bacc6a14f9245b0e71c24ebaf9d3f4edf48954058"
+    },
+    {
+      "id": "french-1:15",
+      "subject": "french-1",
+      "rotation": 2,
+      "tokens": 420,
+      "request_sha256": "e0053bc10831a27f15ddaeb2399b8511f0f3071cd91fc22418a944e8b53de52e",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/french-1-15-r2-e0053bc10831.json",
+      "baseline_file_sha256": "f005181c68bcbabeae11a5c7d1a23a1ea3e45d14ceaf981fb75363acf55542e0"
+    },
+    {
+      "id": "arabic-1:24",
+      "subject": "arabic-1",
+      "rotation": 3,
+      "tokens": 437,
+      "request_sha256": "105da80fc19826082b9aa9b66903f473e7510c81efe9b2734a7530d81aaff2ec",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/arabic-1-24-r3-105da80fc198.json",
+      "baseline_file_sha256": "74808b7d8d863a6ebfcabfe660433c918d51844ba3c155399ea0582667e50273"
+    },
+    {
+      "id": "arabic-1:10",
+      "subject": "arabic-1",
+      "rotation": 4,
+      "tokens": 460,
+      "request_sha256": "b4f3588b1dd9ad6e4065690dece55581b8bf33239e64c59c0a84528a7006e2eb",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/arabic-1-10-r4-b4f3588b1dd9.json",
+      "baseline_file_sha256": "6ef95c954ab856590df24198b9355270ef69ea16bfd08ce720b3ccec9aaad14f"
+    },
+    {
+      "id": "successful-career:15",
+      "subject": "successful-career",
+      "rotation": 0,
+      "tokens": 476,
+      "request_sha256": "28d4b5d60df36fd6846e7f02255fbb6adb2e123190701bcb2c7fb6aeaac4e69e",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/successful-career-15-r0-28d4b5d60df3.json",
+      "baseline_file_sha256": "0d67bce0ef1c2bf8d6d02ad4e2463b999da6cfa69577ac8c13f1364240783d8b"
+    },
+    {
+      "id": "vietnamese-1:10",
+      "subject": "vietnamese-1",
+      "rotation": 1,
+      "tokens": 499,
+      "request_sha256": "f7002fe5829e7143f17cd69ee5e6f1f8b99e0bb629f5765c1e88d5ef38b8fc22",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/vietnamese-1-10-r1-f7002fe5829e.json",
+      "baseline_file_sha256": "aff1c3d980774827fc437f4e7d790e3dbf924d86bf3fbd09bd5d6f6dc4fa6c15"
+    },
+    {
+      "id": "chinese-1:6",
+      "subject": "chinese-1",
+      "rotation": 2,
+      "tokens": 515,
+      "request_sha256": "4b8e9d03d309692274c9c9987bbec469b42468f154243c099f179c9bac33c83e",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/chinese-1-6-r2-4b8e9d03d309.json",
+      "baseline_file_sha256": "16a1a4080cdf8ae00f8825a754aaf4c29f2d311c661c043bf7adc50e05906689"
+    },
+    {
+      "id": "chinese-1:8",
+      "subject": "chinese-1",
+      "rotation": 3,
+      "tokens": 531,
+      "request_sha256": "0ff2ef853dff54d58c07683656027cdd36d2aab493bf1c42007d26dcddcacec1",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/chinese-1-8-r3-0ff2ef853dff.json",
+      "baseline_file_sha256": "c8bc7b997878423120075422ba96daf3578e5e02eb1d1d70d98b698e4e92a8c3"
+    },
+    {
+      "id": "spanish-1:26",
+      "subject": "spanish-1",
+      "rotation": 4,
+      "tokens": 542,
+      "request_sha256": "aa37fcd323a3a5059ad16c442a4a7103c35f0f650d817d9c3ff7db65e0bf0090",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/spanish-1-26-r4-aa37fcd323a3.json",
+      "baseline_file_sha256": "67ea07682be99dd310a0f1c853f5e5810aee57c56239cabf079aa441a540228e"
+    },
+    {
+      "id": "english:24",
+      "subject": "english",
+      "rotation": 0,
+      "tokens": 555,
+      "request_sha256": "be593b5be6e896a5790a1b448ce841d6cf1ad87358ecec7a46e187bafadd5ae0",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/english-24-r0-be593b5be6e8.json",
+      "baseline_file_sha256": "e6797f18dedc9bad3ba4d774d15f9338f6099f2cc11ffaa9d09eceb1bf532a3e"
+    },
+    {
+      "id": "korean-history:3",
+      "subject": "korean-history",
+      "rotation": 1,
+      "tokens": 566,
+      "request_sha256": "d20dd1b9fa2e025ce888b500fbcb2e9f7d60e84117a809433aec478623dc2ea1",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/korean-history-3-r1-d20dd1b9fa2e.json",
+      "baseline_file_sha256": "f6a9f026cf9e849f45b7765c22cecb28f30d3053efc36f90eb28cb5492616b3f"
+    },
+    {
+      "id": "fishery-maritime:2",
+      "subject": "fishery-maritime",
+      "rotation": 2,
+      "tokens": 579,
+      "request_sha256": "8ad8abcba25f7d2fdb1bc0b5f1b47113f6d79218345aa4eae7261343789beec4",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/fishery-maritime-2-r2-8ad8abcba25f.json",
+      "baseline_file_sha256": "de2f3b6bef11e0c9c5a0eafdbe845ae34b4f0e4db668c88436984f7e801883d1"
+    },
+    {
+      "id": "earth-science-1:5",
+      "subject": "earth-science-1",
+      "rotation": 3,
+      "tokens": 592,
+      "request_sha256": "25c2465621ae1314a7164bb1bca6cf868df6d62657f479276ed11e99cc4e9ad7",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/earth-science-1-5-r3-25c2465621ae.json",
+      "baseline_file_sha256": "4c0ab213418d8b97f1d61e06ba22c97a5bc69cc25db8c35ecbe232576c9b4129"
+    },
+    {
+      "id": "social-culture:9",
+      "subject": "social-culture",
+      "rotation": 4,
+      "tokens": 608,
+      "request_sha256": "3c870b327ff15bcf0492987d2bf76f972b41fe8b51804cd3fa89fd2ed17c1e15",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/social-culture-9-r4-3c870b327ff1.json",
+      "baseline_file_sha256": "4bf181a18e279ee9c9ab7ee07c808b65dc492aaf9525c7b1d54e8a395346037f"
+    },
+    {
+      "id": "human-development:6",
+      "subject": "human-development",
+      "rotation": 0,
+      "tokens": 621,
+      "request_sha256": "55c995b34748665311370e8b75fac5c013ed6153d6789a07ed04fe83707aa5a7",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/human-development-6-r0-55c995b34748.json",
+      "baseline_file_sha256": "1b7b040772bc938e7312e6db3568e540ac3700a77376140bcd2733a1bec506be"
+    },
+    {
+      "id": "successful-career:9",
+      "subject": "successful-career",
+      "rotation": 1,
+      "tokens": 639,
+      "request_sha256": "5c766656db6d80699ec060573454ca8ecd4f21d22a164e5b7765b70c5b7cd53a",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/successful-career-9-r1-5c766656db6d.json",
+      "baseline_file_sha256": "77eb83556fd59a83e74f2c13a49bb88d0b98ec12bd8c803b9c9e798260540400"
+    },
+    {
+      "id": "world-geography:20",
+      "subject": "world-geography",
+      "rotation": 2,
+      "tokens": 664,
+      "request_sha256": "e43c43cf34165ce0fc73851d00d54a2b7a1f29e411e72af4e7786719b080da23",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/world-geography-20-r2-e43c43cf3416.json",
+      "baseline_file_sha256": "4d47c84ccb0343678808a434a5c66cf85abaafc8ff953c0aec8a321548af170a"
+    },
+    {
+      "id": "social-culture:11",
+      "subject": "social-culture",
+      "rotation": 3,
+      "tokens": 681,
+      "request_sha256": "5b52724e86d1b165a2f582a79a21981f5416cc8d9e8e67a339f5ca638e236f7d",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/social-culture-11-r3-5b52724e86d1.json",
+      "baseline_file_sha256": "ea8f27f5340a5e68bcff75828fb91f72cae9e530b1b08146b8e0f935edc78080"
+    },
+    {
+      "id": "korean-geography:13",
+      "subject": "korean-geography",
+      "rotation": 4,
+      "tokens": 710,
+      "request_sha256": "99e44959cfec2fcc3957e29aa152835d241ac4bd215bc4198b7e9bcc6fc7f353",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/korean-geography-13-r4-99e44959cfec.json",
+      "baseline_file_sha256": "5807ebf1850bb0fd377ace54d7c1a88f7b3e5fa6ab68a0b7bc02bd9e5e9ffdf6"
+    },
+    {
+      "id": "east-asia-history:6",
+      "subject": "east-asia-history",
+      "rotation": 0,
+      "tokens": 731,
+      "request_sha256": "35732485955e119c054750c70a95fb0b69351b915925e94f091fb079b7c67b5c",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/east-asia-history-6-r0-35732485955e.json",
+      "baseline_file_sha256": "3fe7b0cb1295afd3879f9088bb854f8b1afb2a9f2c5739644b3fced2d2f27c5d"
+    },
+    {
+      "id": "commerce-economics:20",
+      "subject": "commerce-economics",
+      "rotation": 1,
+      "tokens": 773,
+      "request_sha256": "0178db8768236a2cdd6cbacc708eb8dcd9fac2663d9dc9df044ff2fcacdf298b",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/commerce-economics-20-r1-0178db876823.json",
+      "baseline_file_sha256": "62fb9405a3224cc738f4ccca4f1a087d8ad24b649cce97e26612b4061188aca0"
+    },
+    {
+      "id": "agriculture:1",
+      "subject": "agriculture",
+      "rotation": 2,
+      "tokens": 831,
+      "request_sha256": "2d2e0c74fc666e180254fac599c685943af6f26ce7153e59c2a59cde13b73d28",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/agriculture-1-r2-2d2e0c74fc66.json",
+      "baseline_file_sha256": "7b4f93350de1d77e1ba645cce62329658631c2819ace38b939b5dd5f0cd39166"
+    },
+    {
+      "id": "earth-science-2:4",
+      "subject": "earth-science-2",
+      "rotation": 3,
+      "tokens": 895,
+      "request_sha256": "473c06807f2990c67ccdf88c8ae4f242cde08455f31840e9180e1dad4242ec9c",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/earth-science-2-4-r3-473c06807f29.json",
+      "baseline_file_sha256": "75e27bffd4aac93f4adc3243b48ece14933e3348466ca242d6cccc4d423d9d88"
+    },
+    {
+      "id": "social-culture:5",
+      "subject": "social-culture",
+      "rotation": 4,
+      "tokens": 972,
+      "request_sha256": "29b2ad701f37bd511b2cc2ba4cd7493fbb4006dd16b900fa0b2f5ef2443e5379",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/social-culture-5-r4-29b2ad701f37.json",
+      "baseline_file_sha256": "0582ed69d22c86fa2ce4230c1c8f4e7f3cecb8ab4ca308dc1a4842c724c2ae56"
+    },
+    {
+      "id": "earth-science-1:9",
+      "subject": "earth-science-1",
+      "rotation": 0,
+      "tokens": 1125,
+      "request_sha256": "53638dd0444d9e254f65699e013e96543a9e559004d43b9ef75c4fc90cbc9b20",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/earth-science-1-9-r0-53638dd0444d.json",
+      "baseline_file_sha256": "6e0ff2d3c103e9cbe4cd471fb40ca226030e15a12550ace40552b1de20bb6395"
+    },
+    {
+      "id": "korean-common:18",
+      "subject": "korean",
+      "rotation": 1,
+      "tokens": 1664,
+      "request_sha256": "bcba9de3133b7002c7f4974849058cb4da012b4ed3724374332751b8e9255155",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/korean-common-18-r1-bcba9de3133b.json",
+      "baseline_file_sha256": "65b4585f64a11849cbee4f138b7c9b037a624109ee78ad94ab2ddbce02e16fbe"
+    },
+    {
+      "id": "korean-language:41",
+      "subject": "korean",
+      "rotation": 2,
+      "tokens": 2359,
+      "request_sha256": "2829dd6b37d2e39fecf7b1f7665a519ee7bb827dcb61653f8d4bc155d3899cf9",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/korean-language-41-r2-2829dd6b37d2.json",
+      "baseline_file_sha256": "293a0fe795046ad9adf1c33f971b5525e5dc92115e0a63ea71153915431c4955"
+    },
+    {
+      "id": "math-common:5",
+      "subject": "math",
+      "rotation": 3,
+      "tokens": 331,
+      "request_sha256": "18f90bb354db2b0aaf0b6fe21ba8815d77a782f0ea59df3f5f72cea64f28aab4",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/math-common-5-r3-18f90bb354db.json",
+      "baseline_file_sha256": "cc276f4c7d8553d6de356d6737c5bbfcdfaaabed3848787d121841e23db37c26"
+    },
+    {
+      "id": "chinese-1:4",
+      "subject": "chinese-1",
+      "rotation": 4,
+      "tokens": 333,
+      "request_sha256": "30060b589361a187e66bb1ee0683e937744cc09d7a5a19487d4338023ac496cf",
+      "baseline_path": "csat/bench/results/2027-09-clef-local-20261003/clef-flash/chinese-1-4-r4-30060b589361.json",
+      "baseline_file_sha256": "f982aa73ecbaf8d980c867c99b84a2acbe1d0b4ed946a9c977c16576fc4c0d09"
+    }
+  ]
+}

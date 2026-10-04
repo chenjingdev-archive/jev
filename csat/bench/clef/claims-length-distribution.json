@@ -1,0 +1,21 @@
+{
+  "suite": "claims",
+  "threshold_tokens": 4096,
+  "groups": {
+    "at_most_4096": {
+      "calls": 44659,
+      "tokens": 22563854
+    },
+    "over_4096": {
+      "calls": 674,
+      "tokens": 5668670
+    }
+  },
+  "long_item_count": 213,
+  "items": 14113,
+  "total_calls": 45333,
+  "total_tokens": 28232524,
+  "seconds_to_count": 5.629086256027222,
+  "long_token_share": 0.20078509452431528,
+  "long_call_share": 0.014867756380561621
+}

@@ -1,0 +1,1043 @@
+{
+  "records": 25,
+  "health": {
+    "name": "clef-flash",
+    "ready": true,
+    "returns_probabilities": true,
+    "max_input_tokens": 16384,
+    "metadata": {
+      "repo": "Cloudflare/clef-flash",
+      "model": "clef-flash",
+      "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+      "device": "mps:0",
+      "weight_dtype": "torch.bfloat16",
+      "parameter_dtypes": {
+        "torch.bfloat16": 9531576564
+      },
+      "torch": "2.11.0",
+      "transformers": "5.10.2",
+      "batch_size": 1,
+      "attention": "sdpa",
+      "cpu_threads": 4,
+      "quantization": "none",
+      "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+      "compatibility_changes": [],
+      "truncation": "reject before inference",
+      "max_input_tokens": 16384,
+      "load_seconds": 65.57367083290592,
+      "started_at": "2026-10-03T08:45:30.618854+00:00"
+    },
+    "completed_requests": 27,
+    "busy": false,
+    "last_seconds": 2.6387741660000756,
+    "memory": {
+      "rss_bytes": 1587560448,
+      "mps_allocated_bytes": 19063166720,
+      "mps_driver_bytes": 21031092224,
+      "mps_recommended_max_bytes": 55662788608
+    }
+  },
+  "disk_free_bytes": 16456495104,
+  "per_request": [
+    {
+      "id": "vietnamese-1:9",
+      "rotation": 3,
+      "status": "complete",
+      "latency_ms": 1413.62,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 377,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.411529624951072
+        },
+        "request_started_at_utc": "2026-10-03T08:49:17.114000+00:00",
+        "network_latency_ms": 1413.56,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "vietnamese-1:9",
+      "rotation": 1,
+      "status": "complete",
+      "latency_ms": 1411.63,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 377,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.409589665941894
+        },
+        "request_started_at_utc": "2026-10-03T08:49:14.242500+00:00",
+        "network_latency_ms": 1411.56,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "east-asia-history:10",
+      "rotation": 3,
+      "status": "complete",
+      "latency_ms": 2097.38,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 574,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.094955083099194
+        },
+        "request_started_at_utc": "2026-10-03T08:48:16.522002+00:00",
+        "network_latency_ms": 2097.32,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "life-ethics:9",
+      "rotation": 2,
+      "status": "complete",
+      "latency_ms": 1767.08,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 458,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.7648120420053601
+        },
+        "request_started_at_utc": "2026-10-03T08:49:07.131585+00:00",
+        "network_latency_ms": 1767.02,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "east-asia-history:10",
+      "rotation": 2,
+      "status": "complete",
+      "latency_ms": 2092.47,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 574,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.090227207983844
+        },
+        "request_started_at_utc": "2026-10-03T08:48:14.428887+00:00",
+        "network_latency_ms": 2092.41,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "world-geography:9",
+      "rotation": 0,
+      "status": "complete",
+      "latency_ms": 3153.16,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 711,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 3.1504884170135483
+        },
+        "request_started_at_utc": "2026-10-03T08:49:19.940994+00:00",
+        "network_latency_ms": 3153.09,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "korean-language:41",
+      "rotation": 1,
+      "status": "complete",
+      "latency_ms": 8282.0,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 2359,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 8.277370790950954
+        },
+        "request_started_at_utc": "2026-10-03T08:48:29.820670+00:00",
+        "network_latency_ms": 8281.91,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "life-ethics:9",
+      "rotation": 4,
+      "status": "complete",
+      "latency_ms": 1762.13,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 458,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.7597642090404406
+        },
+        "request_started_at_utc": "2026-10-03T08:49:10.663046+00:00",
+        "network_latency_ms": 1762.08,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "life-ethics:9",
+      "rotation": 1,
+      "status": "complete",
+      "latency_ms": 1770.79,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 458,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.768649832927622
+        },
+        "request_started_at_utc": "2026-10-03T08:49:05.360256+00:00",
+        "network_latency_ms": 1770.74,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "world-geography:9",
+      "rotation": 4,
+      "status": "complete",
+      "latency_ms": 2641.22,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 711,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.6387741660000756
+        },
+        "request_started_at_utc": "2026-10-03T08:49:30.979565+00:00",
+        "network_latency_ms": 2641.16,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "korean-language:41",
+      "rotation": 2,
+      "status": "complete",
+      "latency_ms": 8290.31,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 2359,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 8.285891292034648
+        },
+        "request_started_at_utc": "2026-10-03T08:48:38.103188+00:00",
+        "network_latency_ms": 8290.22,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "korean-language:41",
+      "rotation": 4,
+      "status": "complete",
+      "latency_ms": 8268.61,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 2359,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 8.264345583040267
+        },
+        "request_started_at_utc": "2026-10-03T08:48:54.672546+00:00",
+        "network_latency_ms": 8268.53,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "life-ethics:9",
+      "rotation": 3,
+      "status": "complete",
+      "latency_ms": 1763.41,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 458,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.7611792500829324
+        },
+        "request_started_at_utc": "2026-10-03T08:49:08.899130+00:00",
+        "network_latency_ms": 1763.35,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "east-asia-history:10",
+      "rotation": 4,
+      "status": "complete",
+      "latency_ms": 2094.56,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 574,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.0920500000938773
+        },
+        "request_started_at_utc": "2026-10-03T08:48:18.619861+00:00",
+        "network_latency_ms": 2094.5,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "korean-language:41",
+      "rotation": 3,
+      "status": "complete",
+      "latency_ms": 8278.29,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 2359,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 8.273956833058037
+        },
+        "request_started_at_utc": "2026-10-03T08:48:46.393887+00:00",
+        "network_latency_ms": 8278.21,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "vietnamese-1:9",
+      "rotation": 2,
+      "status": "complete",
+      "latency_ms": 1458.76,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 377,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.4568088749656454
+        },
+        "request_started_at_utc": "2026-10-03T08:49:15.654644+00:00",
+        "network_latency_ms": 1458.71,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "vietnamese-1:9",
+      "rotation": 4,
+      "status": "complete",
+      "latency_ms": 1412.32,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 377,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.4101742500206456
+        },
+        "request_started_at_utc": "2026-10-03T08:49:18.528104+00:00",
+        "network_latency_ms": 1412.26,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "world-geography:9",
+      "rotation": 1,
+      "status": "complete",
+      "latency_ms": 2623.25,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 711,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.620889625046402
+        },
+        "request_started_at_utc": "2026-10-03T08:49:23.094722+00:00",
+        "network_latency_ms": 2623.19,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "world-geography:9",
+      "rotation": 2,
+      "status": "complete",
+      "latency_ms": 2636.24,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 711,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.633624624926597
+        },
+        "request_started_at_utc": "2026-10-03T08:49:25.718537+00:00",
+        "network_latency_ms": 2636.19,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "east-asia-history:10",
+      "rotation": 0,
+      "status": "complete",
+      "latency_ms": 2971.93,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 574,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.9684509580256417
+        },
+        "request_started_at_utc": "2026-10-03T08:48:09.369362+00:00",
+        "network_latency_ms": 2971.65,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "world-geography:9",
+      "rotation": 3,
+      "status": "complete",
+      "latency_ms": 2623.66,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 711,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.6212794999592006
+        },
+        "request_started_at_utc": "2026-10-03T08:49:28.355316+00:00",
+        "network_latency_ms": 2623.61,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "korean-language:41",
+      "rotation": 0,
+      "status": "complete",
+      "latency_ms": 9105.25,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 2359,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 9.099857124965638
+        },
+        "request_started_at_utc": "2026-10-03T08:48:20.715018+00:00",
+        "network_latency_ms": 9105.15,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "east-asia-history:10",
+      "rotation": 1,
+      "status": "complete",
+      "latency_ms": 2086.49,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 574,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.084214707952924
+        },
+        "request_started_at_utc": "2026-10-03T08:48:12.341873+00:00",
+        "network_latency_ms": 2086.42,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "vietnamese-1:9",
+      "rotation": 0,
+      "status": "complete",
+      "latency_ms": 1731.07,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 377,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 1.7285908750491217
+        },
+        "request_started_at_utc": "2026-10-03T08:49:12.425721+00:00",
+        "network_latency_ms": 1731.01,
+        "api_cost_usd": 0
+      }
+    },
+    {
+      "id": "life-ethics:9",
+      "rotation": 0,
+      "status": "complete",
+      "latency_ms": 2418.33,
+      "metadata": {
+        "provider": "publicweights-local",
+        "model": "clef-flash",
+        "usage": {
+          "input_tokens": 458,
+          "output_tokens": 0
+        },
+        "local_inference": {
+          "repo": "Cloudflare/clef-flash",
+          "model": "clef-flash",
+          "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+          "device": "mps:0",
+          "weight_dtype": "torch.bfloat16",
+          "parameter_dtypes": {
+            "torch.bfloat16": 9531576564
+          },
+          "torch": "2.11.0",
+          "transformers": "5.10.2",
+          "batch_size": 1,
+          "attention": "sdpa",
+          "cpu_threads": 4,
+          "quantization": "none",
+          "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+          "compatibility_changes": [],
+          "truncation": "reject before inference",
+          "max_input_tokens": 16384,
+          "load_seconds": 65.57367083290592,
+          "started_at": "2026-10-03T08:45:30.618854+00:00",
+          "inference_seconds": 2.4157355410279706
+        },
+        "request_started_at_utc": "2026-10-03T08:49:02.941476+00:00",
+        "network_latency_ms": 2418.28,
+        "api_cost_usd": 0
+      }
+    }
+  ]
+}

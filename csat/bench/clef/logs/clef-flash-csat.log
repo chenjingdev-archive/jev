@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "/Users/chenjing/dev/jev/csat/bench/run.py", line 15, in <module>
+    from run_exam import INSTRUCTIONS  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenjing/dev/jev/csat/run_exam.py", line 13, in <module>
+    from typesafe_sdk import Choice, TypeSafeClient
+ModuleNotFoundError: No module named 'typesafe_sdk'
+health {"name": "clef-flash", "ready": true, "returns_probabilities": true, "max_input_tokens": 16384, "metadata": {"repo": "Cloudflare/clef-flash", "model": "clef-flash", "revision": "17f0b0ad64efb65d273590632833508766b2aae6", "device": "mps:0", "weight_dtype": "torch.bfloat16", "parameter_dtypes": {"torch.bfloat16": 9531576564}, "torch": "2.11.0", "transformers": "5.10.2", "batch_size": 1, "attention": "sdpa", "cpu_threads": 4, "quantization": "none", "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3", "compatibility_changes": [], "truncation": "reject before inference", "max_input_tokens": 16384, "load_seconds": 65.57367083290592, "started_at": "2026-10-03T08:45:30.618854+00:00"}, "completed_requests": 27, "busy": false, "last_seconds": 2.6387741660000756, "memory": {"rss_bytes": 1587511296, "mps_allocated_bytes": 19063166720, "mps_driver_bytes": 21031092224, "mps_recommended_max_bytes": 55662788608}}
+884 questions x 5 rotations = 4420 calls
+100 {'complete': 100}
+200 {'complete': 200}
+300 {'complete': 300}
+400 {'complete': 400}
+500 {'complete': 500}
+600 {'complete': 600}
+700 {'complete': 700}
+800 {'complete': 800}
+900 {'complete': 900}
+1000 {'complete': 1000}
+1100 {'complete': 1100}
+1200 {'complete': 1195, 'cached': 5}
+1300 {'complete': 1295, 'cached': 5}
+1400 {'complete': 1395, 'cached': 5}
+1500 {'complete': 1495, 'cached': 5}
+1600 {'complete': 1595, 'cached': 5}
+1700 {'complete': 1695, 'cached': 5}
+1800 {'complete': 1795, 'cached': 5}
+1900 {'complete': 1895, 'cached': 5}
+2000 {'complete': 1995, 'cached': 5}
+2100 {'complete': 2095, 'cached': 5}
+2200 {'complete': 2195, 'cached': 5}
+2300 {'complete': 2295, 'cached': 5}
+2400 {'complete': 2395, 'cached': 5}
+2500 {'complete': 2495, 'cached': 5}
+2600 {'complete': 2595, 'cached': 5}
+2700 {'complete': 2695, 'cached': 5}
+2800 {'complete': 2795, 'cached': 5}
+2900 {'complete': 2895, 'cached': 5}
+3000 {'complete': 2990, 'cached': 10}
+3100 {'complete': 3085, 'cached': 15}
+3200 {'complete': 3185, 'cached': 15}
+3300 {'complete': 3285, 'cached': 15}
+3400 {'complete': 3385, 'cached': 15}
+3500 {'complete': 3485, 'cached': 15}
+3600 {'complete': 3585, 'cached': 15}
+3700 {'complete': 3685, 'cached': 15}
+3800 {'complete': 3785, 'cached': 15}
+3900 {'complete': 3885, 'cached': 15}
+4000 {'complete': 3985, 'cached': 15}
+4100 {'complete': 4085, 'cached': 15}
+4200 {'complete': 4180, 'cached': 20}
+4300 {'complete': 4275, 'cached': 25}
+4400 {'complete': 4375, 'cached': 25}
+4420 {'complete': 4395, 'cached': 25}

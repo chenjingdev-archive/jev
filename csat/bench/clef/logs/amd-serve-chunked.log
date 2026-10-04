@@ -1,0 +1,41 @@
+[WARNING] failed to run offload-arch: binary not found.
+{"event": "loading", "model": "clef", "device": "cuda", "dtype": "bfloat16", "revision": "2f3de3dd85f379784083b0814d997ab627200f0c"}
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/1184 [00:00<?, ?it/s]{'event': 'chunked_weight_verified', 'shape': (248320, 5120), 'counts': {'tensors': 1, 'chunks': 76, 'bytes': 2542796800, 'bitwise_verified': True}}
+Loading weights:   0%|          | 1/1184 [00:02<39:55,  2.03s/it]Loading weights:   0%|          | 1/1184 [00:02<39:55,  2.03s/it]
+Traceback (most recent call last):
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\amd_chunked_bootstrap.py", line 56, in <module>
+    server.main()
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 176, in main
+    runner = Runner(args)
+             ^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\amd_chunked_bootstrap.py", line 50, in annotated_init
+    original_init(self,args)
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 45, in __init__
+    self.model, self.processor = load_release_model(
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\checkpoint\joint_schema_model.py", line 508, in load_release_model
+    backbone = Qwen3_5ForConditionalGeneration.from_pretrained(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4308, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4438, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1462, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 830, in convert
+    collected_tensors = self.materialize_tensors()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 797, in materialize_tensors
+    tensors = [func() for func in tensors]
+               ^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1005, in _job
+    return _materialize_copy(tensor, device, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\amd_chunked_bootstrap.py", line 26, in bounded_materialize
+    destination=torch.empty(shape,device=device,dtype=dtype)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: HIP out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 53.87 GiB of which 51.33 GiB is free. Of the allocated memory 2.37 GiB is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

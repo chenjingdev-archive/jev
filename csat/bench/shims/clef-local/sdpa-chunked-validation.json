@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-03",
+  "status": "local_tensor_validation_complete_amd_model_validation_pending",
+  "production_config": {
+    "query_chunk_size": 512,
+    "min_query_tokens_exclusive": 4096,
+    "device_types": ["cuda"],
+    "inference_only": true,
+    "dropout_p": 0.0,
+    "full_kv_context": true,
+    "dtype_changes": false
+  },
+  "memory_inference": {
+    "query_heads": 16,
+    "input_tokens": 10819,
+    "float32_dense_score_matrix_gib": 6.976769030094147,
+    "float32_chunk_score_matrix_gib": 0.330169677734375,
+    "basis": "official Clef-flash config and tensor dimensions; matches reported 6.98 GiB allocation",
+    "traceback_confirmed": false
+  },
+  "local_validation": {
+    "torch": "2.11.0",
+    "reference": "original SDPA with SDPBackend.MATH",
+    "fixture_head_dim": 32,
+    "fixture_qkv_equal_head_dim": true,
+    "fixture_query_lengths": [513, 769, 1024, 1025, 2048],
+    "fixture_query_chunk_size": 256,
+    "cases": [
+      "causal absolute query offset and partial tail",
+      "GQA causal nonsquare Q/K lengths and custom scale",
+      "batched boolean full mask including fully masked row",
+      "head-specific float full mask including fully masked row",
+      "GQA broadcast key mask",
+      "nonsquare float broadcast key mask"
+    ],
+    "cpu_float32": {"passed": 6, "max_abs_delta": 3.5762786865234375e-7},
+    "cpu_bfloat16": {"passed": 6, "max_abs_delta": 0.0},
+    "mps_bfloat16": {"passed": 6, "max_abs_delta": 0.000030517578125},
+    "dispatch_checks": "passed: query length <=4096, nonzero dropout, autograd delegate unchanged"
+  },
+  "earlier_failures_retained": [
+    {
+      "case": "is_causal=True combined with explicit float attention mask",
+      "failure": "original math SDPA rejects this combination",
+      "resolution": "wrapper delegates this combination unchanged; final mask fixture uses valid noncausal API"
+    },
+    {
+      "case": "MPS BF16 nonsquare float broadcast mask, Q/K head dim32 but V dim24",
+      "failure": "dense vs chunked max absolute difference 0.40625; 90.8 percent elements exceeded tolerance",
+      "resolution": "not claimed supported on MPS; production selector excludes MPS. Rechecked actual Qwen equal-QKV-head-dimension layout once and all six cases passed. Cause of unequal-V MPS discrepancy was not investigated further."
+    }
+  ],
+  "remaining_gate": "AMD HIP tensor test with --head-dim 256, existing 40-request parity, then original 10819-token inference; do not claim model/long-input success from local tensor tests"
+}

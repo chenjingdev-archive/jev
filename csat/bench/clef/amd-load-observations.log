@@ -1,0 +1,61 @@
+{"time": 1791019020.7144141, "own": [], "ram_available": 6831403008}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4438, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1462, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 830, in convert
+    collected_tensors = self.materialize_tensors()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 797, in materialize_tensors
+    tensors = [func() for func in tensors]
+               ^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1005, in _job
+    return _materialize_copy(tensor, device, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 991, in _materialize_copy
+    tensor = tensor.to(device=device, dtype=dtype)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: HIP out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 53.87 GiB of which 51.33 GiB is free. Of the allocated memory 2.37 GiB is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+
+{"time": 1791019476.1968625, "own": [], "ram_available": 6869700608}
+ers\chenj\dev\jev-likes\clef-20261003\serve.py", line 176, in main
+    runner = Runner(args)
+             ^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\amd_chunked_bootstrap.py", line 50, in annotated_init
+    original_init(self,args)
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\serve.py", line 45, in __init__
+    self.model, self.processor = load_release_model(
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\checkpoint\joint_schema_model.py", line 508, in load_release_model
+    backbone = Qwen3_5ForConditionalGeneration.from_pretrained(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4308, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4438, in _load_pretrained_model
+    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1462, in convert_and_load_state_dict_in_model
+    realized_value = mapping.convert(
+                     ^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 830, in convert
+    collected_tensors = self.materialize_tensors()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 797, in materialize_tensors
+    tensors = [func() for func in tensors]
+               ^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\.venv\Lib\site-packages\transformers\core_model_loading.py", line 1005, in _job
+    return _materialize_copy(tensor, device, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chenj\dev\jev-likes\clef-20261003\amd_chunked_bootstrap.py", line 26, in bounded_materialize
+    destination=torch.empty(shape,device=device,dtype=dtype)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: HIP out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 53.87 GiB of which 51.33 GiB is free. Of the allocated memory 2.37 GiB is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+
+{"time": 1791020074.9158359, "own": [{"pid": 10356, "name": "conhost.exe", "rss": 10240000, "peak_wset": 10260480, "vms": 1650688}, {"pid": 45624, "name": "python.exe", "rss": 4354048, "peak_wset": 4382720, "vms": 757760}, {"pid": 44248, "name": "python.exe", "rss": 697901056, "peak_wset": 5606694912, "vms": 4564234240}], "ram_available": 6081359872}
+

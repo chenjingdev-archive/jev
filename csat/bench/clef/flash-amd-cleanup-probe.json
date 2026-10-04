@@ -1,0 +1,139 @@
+{
+  "id": "chinese-1:29",
+  "tokens": 326,
+  "seconds": 1.3875060081481934,
+  "max_delta_vs_previous_amd": 0.0,
+  "same_answer": true,
+  "before": {
+    "name": "clef-flash",
+    "ready": true,
+    "returns_probabilities": true,
+    "max_input_tokens": 16384,
+    "metadata": {
+      "repo": "Cloudflare/clef-flash",
+      "model": "clef-flash",
+      "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+      "device": "cuda:0",
+      "weight_dtype": "torch.bfloat16",
+      "parameter_dtypes": {
+        "torch.bfloat16": 9531576564
+      },
+      "torch": "2.9.1+rocm7.2.1",
+      "transformers": "5.10.2",
+      "batch_size": 1,
+      "attention": "sdpa",
+      "cpu_threads": 4,
+      "quantization": "none",
+      "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+      "compatibility_changes": [
+        {
+          "kind": "file_io_only",
+          "change": "safetensors official pread/get_tensor materialization avoids COW mmap and double-buffer get_slice full materialization"
+        },
+        {
+          "kind": "allocation_only",
+          "change": "disabled caching_allocator_warmup"
+        },
+        {
+          "kind": "allocation_only",
+          "change": "synchronize/gc/empty_cache between completed requests; guard thresholds unchanged"
+        }
+      ],
+      "truncation": "reject before inference",
+      "max_input_tokens": 16384,
+      "load_seconds": 21.29699999996228,
+      "started_at": "2026-10-03T12:34:34.479461+00:00",
+      "hip": "7.2.53211-158bd99533",
+      "loader_wrapper_sha256": "18aac735d5cb53e5ef66ee76c90c4621378d49eab75054e751db121f14f9404b"
+    },
+    "completed_requests": 0,
+    "busy": false,
+    "last_seconds": null,
+    "memory": {
+      "rss_bytes": 1496674304,
+      "cuda_allocated_bytes": 19109836288,
+      "cuda_reserved_bytes": 28466741248
+    },
+    "resources": {
+      "disk_free_bytes": 19314147328,
+      "system_committed_bytes": 61208453120,
+      "system_commit_limit_bytes": 68338032640,
+      "system_commit_available_bytes": 7129579520,
+      "physical_available_bytes": 4955762688,
+      "cpu_rss_bytes": 1496674304
+    },
+    "last_allocator_cleanup": null
+  },
+  "after": {
+    "name": "clef-flash",
+    "ready": true,
+    "returns_probabilities": true,
+    "max_input_tokens": 16384,
+    "metadata": {
+      "repo": "Cloudflare/clef-flash",
+      "model": "clef-flash",
+      "revision": "17f0b0ad64efb65d273590632833508766b2aae6",
+      "device": "cuda:0",
+      "weight_dtype": "torch.bfloat16",
+      "parameter_dtypes": {
+        "torch.bfloat16": 9531576564
+      },
+      "torch": "2.9.1+rocm7.2.1",
+      "transformers": "5.10.2",
+      "batch_size": 1,
+      "attention": "sdpa",
+      "cpu_threads": 4,
+      "quantization": "none",
+      "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3",
+      "compatibility_changes": [
+        {
+          "kind": "file_io_only",
+          "change": "safetensors official pread/get_tensor materialization avoids COW mmap and double-buffer get_slice full materialization"
+        },
+        {
+          "kind": "allocation_only",
+          "change": "disabled caching_allocator_warmup"
+        },
+        {
+          "kind": "allocation_only",
+          "change": "synchronize/gc/empty_cache between completed requests; guard thresholds unchanged"
+        }
+      ],
+      "truncation": "reject before inference",
+      "max_input_tokens": 16384,
+      "load_seconds": 21.29699999996228,
+      "started_at": "2026-10-03T12:34:34.479461+00:00",
+      "hip": "7.2.53211-158bd99533",
+      "loader_wrapper_sha256": "18aac735d5cb53e5ef66ee76c90c4621378d49eab75054e751db121f14f9404b"
+    },
+    "completed_requests": 1,
+    "busy": false,
+    "last_seconds": 1.172000000020489,
+    "memory": {
+      "rss_bytes": 1592643584,
+      "cuda_allocated_bytes": 19189528064,
+      "cuda_reserved_bytes": 19249758208
+    },
+    "resources": {
+      "disk_free_bytes": 19985879040,
+      "system_committed_bytes": 54009237504,
+      "system_commit_limit_bytes": 67670085632,
+      "system_commit_available_bytes": 13660848128,
+      "physical_available_bytes": 4881182720,
+      "cpu_rss_bytes": 1592643584
+    },
+    "last_allocator_cleanup": {
+      "reserved_before": 19314769920,
+      "reserved_after": 19249758208,
+      "commit_available_before": 14378696704,
+      "commit_available_after": 14378696704
+    }
+  },
+  "probabilities": {
+    "A": 0.8334,
+    "B": 0.0541,
+    "C": 0.0193,
+    "D": 0.0769,
+    "E": 0.0162
+  }
+}

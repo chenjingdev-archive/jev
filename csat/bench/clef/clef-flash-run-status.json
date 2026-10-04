@@ -1,0 +1,31 @@
+{
+  "system": "clef-flash",
+  "device_label": "amd-rocm",
+  "pid": 28311,
+  "started_at_utc": "2026-10-03T14:54:51.983676+00:00",
+  "completed_suites": [
+    "csat",
+    "game",
+    "lang-en",
+    "claims"
+  ],
+  "blocked_suites": {},
+  "api_cost_usd": 0,
+  "status": "complete",
+  "suite": "claims",
+  "command": [
+    "/Users/chenjing/dev/jev/.venv/bin/python",
+    "-u",
+    "gamebench/run.py",
+    "--system",
+    "clef-flash",
+    "--items",
+    "claims/sets/all/items.jsonl",
+    "--tag",
+    "claims-clef-local-amd-20261003",
+    "--workers",
+    "1"
+  ],
+  "updated_at_utc": "2026-10-04T07:50:11.531870+00:00",
+  "remaining_suites": []
+}

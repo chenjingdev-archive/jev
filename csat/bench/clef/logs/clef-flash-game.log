@@ -1,0 +1,29 @@
+health {"name": "clef-flash", "ready": true, "returns_probabilities": true, "max_input_tokens": 16384, "metadata": {"repo": "Cloudflare/clef-flash", "model": "clef-flash", "revision": "17f0b0ad64efb65d273590632833508766b2aae6", "device": "cuda:0", "weight_dtype": "torch.bfloat16", "parameter_dtypes": {"torch.bfloat16": 9531576564}, "torch": "2.9.1+rocm7.2.1", "transformers": "5.10.2", "batch_size": 1, "attention": "sdpa", "cpu_threads": 4, "quantization": "none", "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3", "compatibility_changes": [{"kind": "file_io_only", "change": "safetensors official pread/get_tensor materialization avoids COW mmap and double-buffer get_slice full materialization"}, {"kind": "allocation_only", "change": "disabled caching_allocator_warmup"}, {"kind": "allocation_only", "change": "synchronize/gc/empty_cache between completed requests; guard thresholds unchanged"}], "truncation": "reject before inference", "max_input_tokens": 16384, "load_seconds": 21.29699999996228, "started_at": "2026-10-03T12:34:34.479461+00:00", "hip": "7.2.53211-158bd99533", "loader_wrapper_sha256": "18aac735d5cb53e5ef66ee76c90c4621378d49eab75054e751db121f14f9404b"}, "completed_requests": 1, "busy": false, "last_seconds": 1.172000000020489, "memory": {"rss_bytes": 1432174592, "cuda_allocated_bytes": 19189528064, "cuda_reserved_bytes": 28546433024}, "resources": {"disk_free_bytes": 19315400704, "system_committed_bytes": 61722279936, "system_commit_limit_bytes": 68340912128, "system_commit_available_bytes": 6618632192, "physical_available_bytes": 4960096256, "cpu_rss_bytes": 1432174592}, "last_allocator_cleanup": {"reserved_before": 19314769920, "reserved_after": 19249758208, "commit_available_before": 14378696704, "commit_available_after": 14378696704}}
+1064 items, 4216 calls
+200 {'complete': 200}
+400 {'complete': 400}
+600 {'complete': 600}
+health {"name": "clef-flash", "ready": true, "returns_probabilities": true, "max_input_tokens": 16384, "metadata": {"repo": "Cloudflare/clef-flash", "model": "clef-flash", "revision": "17f0b0ad64efb65d273590632833508766b2aae6", "device": "cuda:0", "weight_dtype": "torch.bfloat16", "parameter_dtypes": {"torch.bfloat16": 9531576564}, "torch": "2.9.1+rocm7.2.1", "transformers": "5.10.2", "batch_size": 1, "attention": "sdpa", "cpu_threads": 4, "quantization": "none", "official_code_sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3", "compatibility_changes": [{"kind": "file_io_only", "change": "safetensors official pread/get_tensor materialization avoids COW mmap and double-buffer get_slice full materialization"}, {"kind": "allocation_only", "change": "disabled caching_allocator_warmup"}, {"kind": "allocation_only", "change": "synchronize/gc/empty_cache between completed requests; guard thresholds unchanged"}], "truncation": "reject before inference", "max_input_tokens": 16384, "load_seconds": 21.29700000002049, "started_at": "2026-10-03T13:04:04.052017+00:00", "hip": "7.2.53211-158bd99533", "attention_chunking": {"query_chunk_size": 512, "min_query_tokens": 4096, "device_types": ["cuda"], "full_key_value_context": true, "changes_dtype": false, "inference_only": true, "dropout_p": 0.0}, "sdpa_chunked_sha256": "361d793587aebb3f86588447be3af4651c93e4f5d2c6cae8ae072bbaf7963f41", "loader_wrapper_sha256": "20aeb5f0a3f62d724f1839331ef04983bc47109a595fd1390ffb3fb638a61c7d"}, "completed_requests": 41, "busy": false, "last_seconds": 34.125, "memory": {"rss_bytes": 1664704512, "cuda_allocated_bytes": 19189528064, "cuda_reserved_bytes": 19249758208}, "resources": {"disk_free_bytes": 197129752576, "system_committed_bytes": 58401222656, "system_commit_limit_bytes": 59574771712, "system_commit_available_bytes": 1173549056, "physical_available_bytes": 5001691136, "cpu_rss_bytes": 1664704512}, "last_allocator_cleanup": {"reserved_before": 24440209408, "reserved_after": 19249758208, "commit_available_before": 1054871552, "commit_available_after": 1054871552}, "attention_chunking_counters": {"chunked_calls": 8, "delegated_calls": 566, "largest_query_tokens": 10819}}
+1064 items, 4216 calls
+200 {'cached': 200}
+400 {'cached': 400}
+600 {'cached': 600}
+800 {'cached': 735, 'complete': 65}
+1000 {'cached': 735, 'complete': 265}
+1200 {'cached': 735, 'complete': 465}
+1400 {'cached': 735, 'complete': 665}
+1600 {'cached': 735, 'complete': 865}
+1800 {'cached': 735, 'complete': 1065}
+2000 {'cached': 735, 'complete': 1265}
+2200 {'cached': 735, 'complete': 1465}
+2400 {'cached': 735, 'complete': 1665}
+2600 {'cached': 735, 'complete': 1865}
+2800 {'cached': 735, 'complete': 2065}
+3000 {'cached': 735, 'complete': 2265}
+3200 {'cached': 735, 'complete': 2465}
+3400 {'cached': 735, 'complete': 2665}
+3600 {'cached': 735, 'complete': 2865}
+3800 {'cached': 735, 'complete': 3065}
+4000 {'cached': 735, 'complete': 3265}
+4200 {'cached': 735, 'complete': 3465}
+4216 {'cached': 735, 'complete': 3481}

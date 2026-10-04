@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "seconds": 3.3672890663146973,
+  "input_tokens": 10819,
+  "id": "jevmlx-typesafe45:typesafe/invoice_processing/ap_00149::line_1_rebilled",
+  "rotation": 0,
+  "tag": "claims-clef-local-amd-20261003",
+  "retry_reason": "Unused allocations released after resource failure; original input and guard thresholds unchanged"
+}

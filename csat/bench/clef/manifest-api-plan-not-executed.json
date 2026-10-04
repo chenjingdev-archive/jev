@@ -1,0 +1,101 @@
+{
+  "created_at_utc": "2026-10-03T05:27:42Z",
+  "status": "awaiting_mac_unlock",
+  "systems": [
+    "clef",
+    "clef-flash"
+  ],
+  "model_revisions": {
+    "clef": "2f3de3dd85f379784083b0814d997ab627200f0c",
+    "clef-flash": "17f0b0ad64efb65d273590632833508766b2aae6"
+  },
+  "api_revision_pinned": false,
+  "price_per_million_input_tokens_usd": {
+    "clef": 0.24,
+    "clef-flash": 0.09
+  },
+  "tokenizer_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+  "suites": {
+    "csat": {
+      "path": "csat/bench/canonical-2027-09.json",
+      "sha256": "9b5f8f17e45cc80e3cc9599c99c6a13379984cc1ab749270d11bd49cbf0492a8",
+      "items": 884,
+      "calls_per_model": 4420,
+      "maximum_full_input_tokens": 2359,
+      "total_full_input_tokens": 2864845,
+      "estimated_input_cost_usd": {
+        "clef": 0.6875627999999999,
+        "clef-flash": 0.25783605
+      },
+      "tag": "2027-09-clef-20261003",
+      "answer_path": "csat/exams/2027-09/gold.json",
+      "answer_sha256": "aef7b53616f252d5cbcb074871b07f1e1c29c70a6187b60ae7799493be0ffea9"
+    },
+    "game": {
+      "path": "gamebench/sets/v1/items.jsonl",
+      "sha256": "185638a16d2ec199ce949564a214fcc24c168d3e049619ef3af80ac5db6a3155",
+      "items": 1064,
+      "calls_per_model": 4216,
+      "maximum_full_input_tokens": 1102,
+      "total_full_input_tokens": 1817344,
+      "estimated_input_cost_usd": {
+        "clef": 0.43616256,
+        "clef-flash": 0.16356096
+      },
+      "tag": "v1-clef-20261003",
+      "answer_path": "gamebench/sets/v1/gold.json",
+      "answer_sha256": "daff87ce3e00b535dab8bb28cab145ff4571ddb98ac104e86457dc4d2b0e9643"
+    },
+    "lang-en": {
+      "path": "gamebench/lang/set/en.jsonl",
+      "sha256": "f70c01a939819a7b02b6cbe3113aa9e9d15c13364faea80ec2255902fa0af8e6",
+      "items": 180,
+      "calls_per_model": 694,
+      "maximum_full_input_tokens": 1098,
+      "total_full_input_tokens": 282679,
+      "estimated_input_cost_usd": {
+        "clef": 0.06784296,
+        "clef-flash": 0.02544111
+      },
+      "tag": "lang-en-clef-20261003",
+      "answer_path": "gamebench/sets/v1/gold.json",
+      "answer_sha256": "daff87ce3e00b535dab8bb28cab145ff4571ddb98ac104e86457dc4d2b0e9643"
+    },
+    "claims": {
+      "path": "claims/sets/all/items.jsonl",
+      "sha256": "a782c483962353f1fd2efa95c7faa57a3160bd00fbcccfc3bbe332485b484d79",
+      "items": 14113,
+      "calls_per_model": 45333,
+      "maximum_full_input_tokens": 10819,
+      "total_full_input_tokens": 28232524,
+      "estimated_input_cost_usd": {
+        "clef": 6.77580576,
+        "clef-flash": 2.54092716
+      },
+      "tag": "claims-clef-20261003",
+      "answer_path": "claims/sets/all/gold.json",
+      "answer_sha256": "ff743fb302fbe1162b348d3d4313efd0935e9513b6607493121c37726dac766b"
+    }
+  },
+  "reference_tokenizers_identical": true,
+  "reference_tokenizer_files": {
+    "clef": {
+      "blob_id": "5520bfd2dd834ce386c1312c410fa71af56db5ad",
+      "lfs": {
+        "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+        "size": 19989325,
+        "pointerSize": 133
+      }
+    },
+    "clef-flash": {
+      "blob_id": "5520bfd2dd834ce386c1312c410fa71af56db5ad",
+      "lfs": {
+        "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+        "size": 19989325,
+        "pointerSize": 133
+      }
+    }
+  },
+  "status_detail": "Root UI check reported Mac locked; Agent-vault access awaits manual unlock. No Clef API requests have been sent.",
+  "status_updated_at_utc": "2026-10-03T05:37:39.623566+00:00"
+}
