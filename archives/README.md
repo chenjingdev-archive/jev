@@ -21,6 +21,8 @@ for f in archives/*.tar.gz; do tar xzf "$f"; done
 | `claims-results-3.tar.gz` | `gamebench/results/claims/`의 d1·nimble·tev1-4b·tev1-0.8b: 제작자 벤치 32세트 호출별 기록(시스템당 45,333개) |
 | `claims-results-4.tar.gz` | `gamebench/results/claims/`의 기존 13개 시스템에 더한 Nimble 13세트 호출별 기록(시스템당 12,907개)과 로그 |
 | `clef-results.tar.gz` | Clef-flash 네 태그(`csat/bench/results/2027-09-clef-local-20261003/`, `gamebench/results/{v1,lang-en,claims}-clef-local-amd-20261003/`)의 clef-flash 호출별 기록 54,663개. 같은 태그의 d1·jev-1.13.0·nimble은 원래 태그 폴더를 가리키는 상대 링크로 저장소에 있다. |
+| `openai-decisions-results.tar.gz` | OpenAI Decisions 세 태그(`csat/bench/results/2027-09-openai-20261024/`, `gamebench/results/{v1,claims}-openai-20261024/`)의 openai-decisions 호출별 기록 53,969개. 같은 태그의 비교 시스템은 원래 태그 폴더를 가리키는 상대 링크로 저장소에 있다. |
+| `jev-1.14.0-results.tar.gz` | Jev 1.14.0 세 태그(`csat/bench/results/2027-09-jev114-20261025/`, `gamebench/results/{v1,claims}-jev114-20261025/`)의 jev-1.14.0 호출별 기록 53,969개. 같은 태그의 비교 시스템은 원래 태그 폴더를 가리키는 상대 링크로 저장소에 있다. |
 | `amd-run-logs.tar.gz` | `amd`에서만 남았던 실행 로그 50개: Jeff 학습·평가 로그, Clef·Clef-flash 서버 로그, shim 로그. 원래 경로가 아니라 `amd-run-logs/` 아래에 풀린다. |
 | `chess-matches-full.tar.gz` | `chess/matches/*.json` 중 2MB 넘는 대국 통합 기록 15개(수별 Jev 확률 포함) |
 

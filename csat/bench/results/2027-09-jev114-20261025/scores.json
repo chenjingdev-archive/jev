@@ -1,0 +1,288 @@
+{
+ "tag": "2027-09-jev114-20261025",
+ "rotations": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "chance": 0.2,
+ "systems": [
+  {
+   "system": "jev-1.14.0",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.7070135746606335,
+   "correct": 625,
+   "accuracy_rotation0": 0.6900452488687783,
+   "macro_section_accuracy": 0.6700708664840659,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.3636959231237546,
+   "log_loss": 0.7245192206353688,
+   "ece10": 0.03400136818003523,
+   "median_latency_ms": 742.2
+  },
+  {
+   "system": "jev-1.13.0",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.6934389140271493,
+   "correct": 613,
+   "accuracy_rotation0": 0.6821266968325792,
+   "macro_section_accuracy": 0.6591416315232671,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.37746715336235637,
+   "log_loss": 0.7542127030005112,
+   "ece10": 0.02313537482204229,
+   "median_latency_ms": 225.08
+  },
+  {
+   "system": "openai-decisions",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.6583710407239819,
+   "correct": 582,
+   "accuracy_rotation0": 0.6357466063348416,
+   "macro_section_accuracy": 0.6030375490920684,
+   "unsupported": 32,
+   "coverage": 0.9638009049773756,
+   "brier": 0.41488935746606337,
+   "log_loss": 0.8583620183653369,
+   "ece10": 0.12166666666666667,
+   "median_latency_ms": 230.95
+  },
+  {
+   "system": "d1",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.6900452488687783,
+   "correct": 610,
+   "accuracy_rotation0": 0.6798642533936652,
+   "macro_section_accuracy": 0.6469494079967537,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.4050138321995164,
+   "log_loss": 0.8290466107218125,
+   "ece10": 0.06574294689743676,
+   "median_latency_ms": 380.78
+  },
+  {
+   "system": "kev",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.5418552036199095,
+   "correct": 479,
+   "accuracy_rotation0": 0.5237556561085973,
+   "macro_section_accuracy": 0.496363926206107,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.5590061664307443,
+   "log_loss": 1.1555099044027597,
+   "ece10": 0.028527803640335483,
+   "median_latency_ms": 820.46
+  },
+  {
+   "system": "nimble",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.5984162895927602,
+   "correct": 529,
+   "accuracy_rotation0": 0.5746606334841629,
+   "macro_section_accuracy": 0.5391685868730345,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.5060187505981096,
+   "log_loss": 1.0364320488806584,
+   "ece10": 0.09251876673796532,
+   "median_latency_ms": 1426.065
+  },
+  {
+   "system": "clef-flash",
+   "items_scored": 884,
+   "items_expected": 884,
+   "accuracy": 0.6085972850678733,
+   "correct": 538,
+   "accuracy_rotation0": 0.6052036199095022,
+   "macro_section_accuracy": 0.5578916858687304,
+   "unsupported": 0,
+   "coverage": 1.0,
+   "brier": 0.4906870790750954,
+   "log_loss": 0.9960063305946998,
+   "ece10": 0.0779440374533887,
+   "median_latency_ms": 2250.545
+  }
+ ],
+ "pairs": [
+  {
+   "a": "jev-1.14.0",
+   "b": "jev-1.13.0",
+   "common": 884,
+   "a_only": 38,
+   "b_only": 26,
+   "mcnemar_p": 0.16864291143970336
+  },
+  {
+   "a": "jev-1.14.0",
+   "b": "openai-decisions",
+   "common": 884,
+   "a_only": 111,
+   "b_only": 68,
+   "mcnemar_p": 0.001619181270785971
+  },
+  {
+   "a": "jev-1.14.0",
+   "b": "d1",
+   "common": 884,
+   "a_only": 74,
+   "b_only": 59,
+   "mcnemar_p": 0.22462992985836266
+  },
+  {
+   "a": "jev-1.14.0",
+   "b": "kev",
+   "common": 884,
+   "a_only": 197,
+   "b_only": 51,
+   "mcnemar_p": 1.9867902749951078e-21
+  },
+  {
+   "a": "jev-1.14.0",
+   "b": "nimble",
+   "common": 884,
+   "a_only": 150,
+   "b_only": 54,
+   "mcnemar_p": 1.208570721277427e-11
+  },
+  {
+   "a": "jev-1.14.0",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 144,
+   "b_only": 57,
+   "mcnemar_p": 7.157293314035383e-10
+  },
+  {
+   "a": "jev-1.13.0",
+   "b": "openai-decisions",
+   "common": 884,
+   "a_only": 102,
+   "b_only": 71,
+   "mcnemar_p": 0.022282345888707315
+  },
+  {
+   "a": "jev-1.13.0",
+   "b": "d1",
+   "common": 884,
+   "a_only": 70,
+   "b_only": 67,
+   "mcnemar_p": 0.8644049750099483
+  },
+  {
+   "a": "jev-1.13.0",
+   "b": "kev",
+   "common": 884,
+   "a_only": 185,
+   "b_only": 51,
+   "mcnemar_p": 4.889486112768147e-19
+  },
+  {
+   "a": "jev-1.13.0",
+   "b": "nimble",
+   "common": 884,
+   "a_only": 140,
+   "b_only": 56,
+   "mcnemar_p": 1.7356518340910988e-09
+  },
+  {
+   "a": "jev-1.13.0",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 135,
+   "b_only": 60,
+   "mcnemar_p": 8.138605037501731e-08
+  },
+  {
+   "a": "openai-decisions",
+   "b": "d1",
+   "common": 884,
+   "a_only": 86,
+   "b_only": 114,
+   "mcnemar_p": 0.05596574049426464
+  },
+  {
+   "a": "openai-decisions",
+   "b": "kev",
+   "common": 884,
+   "a_only": 174,
+   "b_only": 71,
+   "mcnemar_p": 3.7214049829321057e-11
+  },
+  {
+   "a": "openai-decisions",
+   "b": "nimble",
+   "common": 884,
+   "a_only": 135,
+   "b_only": 82,
+   "mcnemar_p": 0.000391339376146156
+  },
+  {
+   "a": "openai-decisions",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 134,
+   "b_only": 90,
+   "mcnemar_p": 0.003965230765294302
+  },
+  {
+   "a": "d1",
+   "b": "kev",
+   "common": 884,
+   "a_only": 190,
+   "b_only": 59,
+   "mcnemar_p": 3.0683316796918875e-17
+  },
+  {
+   "a": "d1",
+   "b": "nimble",
+   "common": 884,
+   "a_only": 136,
+   "b_only": 55,
+   "mcnemar_p": 4.1923336042668954e-09
+  },
+  {
+   "a": "d1",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 143,
+   "b_only": 71,
+   "mcnemar_p": 9.687232374060888e-07
+  },
+  {
+   "a": "kev",
+   "b": "nimble",
+   "common": 884,
+   "a_only": 67,
+   "b_only": 117,
+   "mcnemar_p": 0.00028062150627415476
+  },
+  {
+   "a": "kev",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 72,
+   "b_only": 131,
+   "mcnemar_p": 4.1741384823470276e-05
+  },
+  {
+   "a": "nimble",
+   "b": "clef-flash",
+   "common": 884,
+   "a_only": 78,
+   "b_only": 87,
+   "mcnemar_p": 0.5335448936308476
+  }
+ ]
+}

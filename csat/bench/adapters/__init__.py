@@ -11,6 +11,7 @@ shim 계약 (모든 로컬 시스템 공통):
        413 -> {"error": "unsupported", "reason": str, "input_tokens": int | null}  # 몰래 자르지 않는다
 """
 import json
+import threading
 from typing import Mapping, Protocol
 import urllib.error
 import urllib.request
@@ -46,17 +47,24 @@ def check(probs, criteria):
 
 
 class JevAdapter:
-    name = 'jev-1.13.0'
+    """버전마다 이름을 고정해 부른다. 응답이 밝힌 모델·토큰·요청 ID는 response_metadata로 남긴다."""
+    versions = ('jev-1.13.0', 'jev-1.14.0')
     returns_probabilities = True
 
-    def __init__(self, timeout: float = 45):
-        self.timeout = timeout
+    def __init__(self, name: str = 'jev-1.13.0', timeout: float = 45):
+        self.name, self.timeout = name, timeout
+        self.local = threading.local()
+
+    def last_response_metadata(self):
+        return getattr(self.local, 'metadata', {})
 
     def choose(self, state, instructions, criteria):
         from typesafe_sdk import Choice, RetryPolicy, TypeSafeClient
         with TypeSafeClient(timeout=self.timeout, retry=RetryPolicy(max_retries=0)) as client:
             r = client.system_one(model=self.name, state=as_state(state),
                                   questions={'answer': Choice(instructions=instructions, criteria=dict(criteria))})
+        self.local.metadata = {'model': r.model, 'input_tokens': r.usage.input_tokens,
+                               'output_tokens': r.usage.output_tokens, 'request_id': r.request_id}
         return check(dict(r.answers['answer'].probabilities), criteria)
 
 
@@ -194,10 +202,13 @@ def get(name: str):
         return LocalClefAdapter(name, SHIMS[name])
     if name in ('clef-api', 'clef-flash-api'):
         raise ValueError('Paid Cloudflare API execution is disabled for this benchmark; use local clef/clef-flash')
-    if name == JevAdapter.name:
-        return JevAdapter()
+    if name in JevAdapter.versions:
+        return JevAdapter(name)
     if name == LiquidAdapter.name:
         return LiquidAdapter()
+    if name == 'openai-decisions':
+        from .openai_decisions import OpenAIDecisionsAdapter
+        return OpenAIDecisionsAdapter()
     if name in OLLAMA:
         return OllamaAdapter(name, *OLLAMA[name])
     return ShimAdapter(name, SHIMS[name])
